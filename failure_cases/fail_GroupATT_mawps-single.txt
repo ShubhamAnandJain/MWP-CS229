@@ -1,0 +1,2845 @@
+Question: Luke was helping the cafeteria workers pick up lunch trays , but he could only <UNK> NUM_0 trays at a time . If he had to pick up NUM_1 trays from one table and NUM_2 trays from another , how many <UNK> will he make ? 
+Test output (16.0*(4.0-20.0))
+Target ((20.0+16.0)/4.0)
+Val Acc False
+Equation Acc False
+Question: Henry was helping the cafeteria workers pick up lunch trays , but he could only <UNK> NUM_0 trays at a time . If he had to pick up NUM_1 trays from one table and NUM_2 trays from another , how many <UNK> will he make ? 
+Test output (9.0*(29.0-52.0))
+Target ((29.0+52.0)/9.0)
+Val Acc False
+Equation Acc False
+Question: A waiter at <UNK> <UNK> <UNK> ' restaurant had NUM_0 customers to <UNK> on . During the lunch <UNK> he added another NUM_1 customers . If NUM_2 of the customers did n't <UNK> him a tip , how many customers did <UNK> a tip ? <PAD> 
+Test output ((29.0+20.0)+34.0)
+Target ((29.0+20.0)-34.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output ((136.01+139.38)+112.46)
+Target ((136.01+139.38)+112.46)
+Val Acc True
+Equation Acc True
+Question: <UNK> was trying to <UNK> his game collection . He bought NUM_0 games from a friend and bought NUM_1 more at a garage sale . If NUM_2 of the games did n't work , how many good games did he end up with ? <PAD> <PAD> 
+Test output (11.0*(22.0+19.0))
+Target ((11.0+22.0)-19.0)
+Val Acc False
+Equation Acc False
+Question: There are NUM_0 students trying out for the school 's trivia <UNK> . If NUM_1 of them did n't get picked for the team and the rest were put into NUM_2 groups , how many students would be in each group ? <PAD> <PAD> <PAD> <PAD> 
+Test output (4.0*(64.0-36.0))
+Target ((64.0-36.0)/4.0)
+Val Acc False
+Equation Acc False
+Question: There are NUM_0 students trying out for the school 's trivia <UNK> . If NUM_1 of them did n't get picked for the team and the rest were put into NUM_2 groups , how many students would be in each group ? <PAD> <PAD> <PAD> <PAD> 
+Test output (8.0*(65.0-17.0))
+Target ((65.0-17.0)/8.0)
+Val Acc False
+Equation Acc False
+Question: <UNK> and his <UNK> placed colored blocks on a <UNK> during a science <UNK> . The yellow <UNK> weighed NUM_0 pounds and the green <UNK> weighed NUM_1 pounds . How much more did the yellow <UNK> weigh than the green <UNK> ? <PAD> <PAD> <PAD> <PAD> 
+Test output (0.6+0.4)
+Target (0.6-0.4)
+Val Acc False
+Equation Acc False
+Question: <UNK> saved <UNK> on the <UNK> for his last <UNK> . He was <UNK> by one of the <UNK> that they fill NUM_0 <UNK> of <UNK> per day . How many <UNK> of <UNK> would be filled in NUM_1 days ? <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (324.0+9.0)
+Target (324.0*9.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (7.0-2.0)
+Target (7.0-2.0)
+Val Acc True
+Equation Acc True
+Question: While playing a trivia game , <UNK> <UNK> NUM_0 <UNK> <UNK> in the first half and NUM_1 <UNK> <UNK> in the second half . If each <UNK> was <UNK> NUM_2 points , what was his <UNK> score ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (6.0*(4.0+3.0))
+Target (3.0*(6.0+4.0))
+Val Acc False
+Equation Acc False
+Question: At the fair Kaleb bought NUM_0 tickets . After <UNK> the <UNK> wheel he had NUM_1 tickets left . If each ticket cost NUM_2 dollars , how much money did Kaleb spend <UNK> the <UNK> wheel ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output ((6.0+3.0)-9.0)
+Target (9.0*(6.0-3.0))
+Val Acc False
+Equation Acc False
+Question: While shopping for music online , Janet bought NUM_0 country albums and NUM_1 pop albums . Each album came with a lyric sheet and had NUM_2 songs . How many songs did Janet buy total ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (9.0*(6.0-2.0))
+Target (9.0*(6.0+2.0))
+Val Acc False
+Equation Acc False
+Question: Each chocolate bar in a box cost $ NUM_1 . If a box had NUM_0 bars total and Zoe sold all but NUM_1 bars , how much money would she have made ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (13.0*(13.0+6.0))
+Target (6.0*(13.0-6.0))
+Val Acc False
+Equation Acc False
+Question: At a company <UNK> NUM_0 <UNK> and NUM_1 employees decided to start a game of <UNK> . If they split into NUM_2 <UNK> how many people would be on each team ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (23.0*(7.0-6.0))
+Target ((23.0+7.0)/6.0)
+Val Acc False
+Equation Acc False
+Question: The school is <UNK> a field trip . There are NUM_0 students and NUM_1 seats on each school bus . How many buses are needed to take the trip ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (180.0*60.0)
+Target (180.0/60.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output ((19.0+39.0)+25.0)
+Target ((19.0+39.0)+25.0)
+Val Acc True
+Equation Acc True
+Question: <UNK> made cookies . She used NUM_0 of a cup of flour and NUM_1 of a cup of sugar . How much more flour than sugar did <UNK> use ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (0.625+0.25)
+Target (0.625-0.25)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (15.0*12.0)
+Target (15.0*12.0)
+Val Acc True
+Equation Acc True
+Question: Sam had NUM_0 pennies and NUM_1 nickels in his bank . His dad gave him NUM_2 nickels and NUM_3 quarters . How many nickels does he have now ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (49.0+39.0)
+Target (24.0+39.0)
+Val Acc False
+Equation Acc False
+Question: Maria has NUM_0 boxes of eggs . Each box holds NUM_1 eggs and there are NUM_2 boxes in a case . How many eggs does Maria have ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (3.0*(7.0+8.0))
+Target (3.0*7.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (156.0+187.0)
+Target (156.0+187.0)
+Val Acc True
+Equation Acc True
+Question: Jessica had NUM_0 quarters in her bank . Her sister borrowed NUM_1 of her quarters . How many quarters does Jessica have now ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (8.0+3.0)
+Target (8.0-3.0)
+Val Acc False
+Equation Acc False
+Question: <UNK> has NUM_0 oranges <UNK> in boxes . If there are NUM_1 boxes , how many oranges must go in each box ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (42.0*7.0)
+Target (42.0/7.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (7.0*4.0)
+Target (7.0*4.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (2.0+5.0)
+Target (2.0+5.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (323.0+175.0)
+Target (323.0+175.0)
+Val Acc True
+Equation Acc True
+Question: Sam grew NUM_0 watermelons , but the <UNK> ate NUM_1 watermelons . How many watermelons does Sam have ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (4.0+3.0)
+Target (4.0-3.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (139.0+113.0)
+Target (139.0+113.0)
+Val Acc True
+Equation Acc True
+Question: There are NUM_0 eggs in a box . <UNK> takes NUM_1 eggs . How many are left ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (47.0+5.0)
+Target (47.0-5.0)
+Val Acc False
+Equation Acc False
+Question: There are NUM_0 birds and NUM_1 <UNK> . How many more birds are there than <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (6.0+3.0)
+Target (6.0-3.0)
+Val Acc False
+Equation Acc False
+Question: <UNK> strolled NUM_0 kilometers at NUM_1 kilometers per hour . How long did <UNK> <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (20.0*2.0)
+Target (20.0/2.0)
+Val Acc False
+Equation Acc False
+Question: Heather went to the <UNK> fair last <UNK> . When she got there , she had to walk NUM_0 mile from the car to the <UNK> . Then she walked NUM_0 mile to the <UNK> rides and NUM_1 mile from the <UNK> rides back to the car . How many miles did Heather walk in all ? 
+Test output (0.3333333333333333+0.08333333333333333)
+Target ((0.3333333333333333+0.3333333333333333)+0.08333333333333333)
+Val Acc False
+Equation Acc False
+Question: Jerry is at the library helping put away books . There are NUM_0 book to put away total but a <UNK> takes NUM_1 of them and leaves Jerry with the rest . If he can fit NUM_2 books on a shelf , how many shelves will he need ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (3.0*(34.0-7.0))
+Target ((34.0-7.0)/3.0)
+Val Acc False
+Equation Acc False
+Question: Jerry was helping the cafeteria workers pick up lunch trays , but he could only <UNK> NUM_0 trays at a time . If he had to pick up NUM_1 trays from one table and NUM_2 trays from another , how many <UNK> will he make ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (7.0*(8.0-9.0))
+Target ((9.0+7.0)/8.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (6.0+3.12)
+Target (6.0+3.12)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((0.16666666666666666+0.16666666666666666)+0.08333333333333333)
+Target ((0.16666666666666666+0.16666666666666666)+0.08333333333333333)
+Val Acc True
+Equation Acc True
+Question: Olivia uploaded NUM_0 pictures from her phone and NUM_1 from her camera to facebook . If she sorted the pics into NUM_2 different albums with the same amount of pics in each album , how many pictures were in each of the albums ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (8.0*(5.0-35.0))
+Target ((5.0+35.0)/8.0)
+Val Acc False
+Equation Acc False
+Question: Robin uploaded NUM_0 pictures from her phone and NUM_1 from her camera to facebook . If she sorted the pics into NUM_2 different albums with the same amount of pics in each album , how many pictures were in each of the albums ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (9.0*(31.0-5.0))
+Target ((31.0+5.0)/9.0)
+Val Acc False
+Equation Acc False
+Question: Bianca was <UNK> vegetables in her garden . She started with NUM_0 seeds and <UNK> NUM_1 of them in the big garden and in each of her small gardens put NUM_2 seeds each . How many small gardens did Bianca have ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (2.0*(52.0-40.0))
+Target ((52.0-40.0)/2.0)
+Val Acc False
+Equation Acc False
+Question: There are NUM_0 students trying out for the school 's trivia <UNK> . If NUM_1 of them did n't get picked for the team and the rest were put into NUM_2 groups , how many students would be in each group ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (2.0*(25.0-15.0))
+Target ((25.0-15.0)/2.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (0.375+0.5)
+Target (0.375+0.5)
+Val Acc True
+Equation Acc True
+Question: <UNK> <UNK> the <UNK> <UNK> Company . This morning , her employees used NUM_0 eggs to bake <UNK> pies . If her employees used a total of NUM_1 eggs today , how many eggs did they use in the afternoon ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (816.0+1339.0)
+Target (1339.0-816.0)
+Val Acc False
+Equation Acc False
+Question: The cafeteria had NUM_0 apples . For lunch they <UNK> out NUM_1 to students and decided to use the rest to make pies . If each pie takes NUM_1 apples , how many pies could they make ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output ((50.0-50.0)*5.0)
+Target ((50.0-5.0)/5.0)
+Val Acc False
+Equation Acc False
+Question: While playing a trivia game , Mike <UNK> NUM_1 <UNK> <UNK> in the first half and NUM_0 <UNK> <UNK> in the second half . If each <UNK> was <UNK> NUM_1 points , what was his <UNK> score ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (5.0*(5.0+3.0))
+Target (3.0*(3.0+5.0))
+Val Acc False
+Equation Acc False
+Question: 
+Test output ((34.0+44.0)-14.0)
+Target ((34.0+44.0)-14.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((33.0+32.0)-4.0)
+Target ((33.0+32.0)-4.0)
+Val Acc True
+Equation Acc True
+Question: Tim got NUM_0 nickels and NUM_1 dimes for <UNK> <UNK> , and in his tip jar found NUM_2 dimes and NUM_3 <UNK> . How much money did Tim get ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (3.0*7.0)
+Target ((((3.0*<UNK>)+(13.0*<UNK>))+(7.0*<UNK>))+(9.0*0.5))
+Val Acc False
+Equation Acc False
+Question: A restaurant served NUM_0 <UNK> dogs during lunch and NUM_1 during dinner today . It served NUM_2 of them yesterday . How many <UNK> dogs were served today ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output ((9.0+2.0)+5.0)
+Target (9.0+2.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output ((14.0+45.0)-8.0)
+Target ((14.0+45.0)-8.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((4.0+9.0)+3.0)
+Target ((4.0+9.0)+3.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((38.0+25.0)-45.0)
+Target ((38.0+25.0)-45.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (58.0-19.0)
+Target (58.0-19.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (16.0+21.0)
+Target (16.0+21.0)
+Val Acc True
+Equation Acc True
+Question: Fred had NUM_0 dimes in his bank . His sister borrowed NUM_1 of his dimes . How many dimes does Fred have now ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (7.0+3.0)
+Target (7.0-3.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (3884.0+2871.0)
+Target (3884.0+2871.0)
+Val Acc True
+Equation Acc True
+Question: <UNK> ran NUM_0 of a mile and walked NUM_1 of a mile . How much farther did <UNK> run than walk ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (0.6+0.4)
+Target (0.6-0.4)
+Val Acc False
+Equation Acc False
+Question: Ashley sold NUM_0 boxes of <UNK> . How many cases of NUM_0 boxes , plus extra boxes does Ashley need ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (12.0*NUM_1)
+Target (12.0/12.0)
+Val Acc False
+Equation Acc False
+Question: There are NUM_0 <UNK> in a tree with NUM_1 <UNK> . How many more <UNK> are there than <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (4.0+2.0)
+Target (4.0-2.0)
+Val Acc False
+Equation Acc False
+Question: Dan picked NUM_0 limes and gave Sara NUM_1 of the limes . How many limes does Dan have now ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (9.0+4.0)
+Target (9.0-4.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (77.0+2.0)
+Target (77.0+2.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (6.0+9.0)
+Target (6.0+9.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (6.0+9.0)
+Target (6.0+9.0)
+Val Acc True
+Equation Acc True
+Question: <UNK> starts with NUM_0 blocks . She loses NUM_1 . How many blocks does <UNK> end with ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (42.0+25.0)
+Target (42.0-25.0)
+Val Acc False
+Equation Acc False
+Question: Kaleb had NUM_0 pieces of clothing to wash . He put NUM_1 of them in one <UNK> , but decided to split the rest into NUM_2 equal loads . How many pieces of clothing could go in each of the small loads ? 
+Test output (5.0*(39.0-19.0))
+Target ((39.0-19.0)/5.0)
+Val Acc False
+Equation Acc False
+Question: A toy store had NUM_1 <UNK> stuffed bears in stock when they got another <UNK> with NUM_0 bears in it . The put the bears onto shelves with NUM_1 on each shelf . How many shelves did they use ? <PAD> <PAD> <PAD> 
+Test output (18.0*(18.0+6.0))
+Target ((6.0+18.0)/6.0)
+Val Acc False
+Equation Acc False
+Question: Joan bought toy cars for $ NUM_0 , a <UNK> for $ NUM_1 , and got toy <UNK> for $ NUM_2 . She spent $ NUM_3 on <UNK> . In total , how much did Joan spend on toys ? <PAD> <PAD> <PAD> 
+Test output (14.88+5.86)
+Target ((14.88+4.88)+5.86)
+Val Acc False
+Equation Acc False
+Question: <UNK> was organizing his baseball cards in a binder with NUM_0 on each page . If he had NUM_1 new cards and NUM_2 old cards to put in the binder , how many pages would he use ? <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (3.0*(8.0-10.0))
+Target ((8.0+10.0)/3.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (1346.0+6444.0)
+Target (1346.0+6444.0)
+Val Acc True
+Equation Acc True
+Question: A <UNK> was selling magic card decks for NUM_1 dollars each . If he started with NUM_0 decks and by the end of the day he had NUM_1 left , how much money did he earn ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (14.0*(14.0+5.0))
+Target (5.0*(14.0-5.0))
+Val Acc False
+Equation Acc False
+Question: <UNK> has NUM_0 candy bars . He wants to put them into NUM_1 bags so there are the same number of candy bars in each bag . How many candy bars should go in each bag ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (15.0*5.0)
+Target (15.0/5.0)
+Val Acc False
+Equation Acc False
+Question: A <UNK> cut NUM_0 of an inch off a <UNK> and NUM_1 of an inch off a <UNK> of <UNK> . How much more did the <UNK> cut off the <UNK> than the <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (0.75+0.5)
+Target (0.75-0.5)
+Val Acc False
+Equation Acc False
+Question: 
+Test output ((4.0+10.0)-3.0)
+Target ((4.0+10.0)-3.0)
+Val Acc True
+Equation Acc True
+Question: The <UNK> of a <UNK> <UNK> <UNK> this year is NUM_0 <UNK> dollars , which is NUM_1 of what <UNK> <UNK> was last year . <UNK> the <UNK> of the <UNK> last year . <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (16.0+0.8)
+Target (<UNK>/0.8)
+Val Acc False
+Equation Acc False
+Question: A <UNK> cut NUM_0 inch off a <UNK> and NUM_1 inch off a <UNK> of <UNK> . How much more did the <UNK> cut off the <UNK> than the <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (0.75+0.5)
+Target (0.75-0.5)
+Val Acc False
+Equation Acc False
+Question: At a <UNK> <UNK> , <UNK> got <UNK> NUM_0 pie before time was called <UNK> Frank finished <UNK> NUM_1 pie . How much more pie did <UNK> eat than Frank ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (0.6666666666666666+0.3333333333333333)
+Target (0.6666666666666666-0.3333333333333333)
+Val Acc False
+Equation Acc False
+Question: Wendy uploaded NUM_0 pictures to <UNK> . She put NUM_1 pics into one album and put the rest into NUM_2 different albums . How many pictures were in each album ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (9.0*(45.0-27.0))
+Target ((45.0-27.0)/9.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output ((38.0+28.0)-20.0)
+Target ((38.0+28.0)-20.0)
+Val Acc True
+Equation Acc True
+Question: Mrs. <UNK> had NUM_0 <UNK> . Mrs. <UNK> gave some to her students . Now she has NUM_1 . How many <UNK> did Mrs. <UNK> give to her students ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (58.0+16.0)
+Target (58.0-16.0)
+Val Acc False
+Equation Acc False
+Question: Kimberly has NUM_0 Skittles . She buys NUM_1 more . Later , Kimberly buys NUM_2 oranges at the store . How many Skittles does Kimberly have in all ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (5.0+18.0)
+Target (5.0+7.0)
+Val Acc False
+Equation Acc False
+Question: Mark 's father gave him $ NUM_0 . Mark bought NUM_1 books , each of which cost $ NUM_2 . How much money does Mark have left ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output ((85.0+10.0)+5.0)
+Target (85.0-(10.0*5.0))
+Val Acc False
+Equation Acc False
+Question: 
+Test output ((36.0+18.0)-26.0)
+Target ((36.0+18.0)-26.0)
+Val Acc True
+Equation Acc True
+Question: <UNK> <UNK> NUM_0 pencils from a jar . There were originally NUM_1 pencils in the jar . How many pencils are left in the jar ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (4.0+87.0)
+Target (87.0-4.0)
+Val Acc False
+Equation Acc False
+Question: <UNK> wants to split a collection of peanuts into groups of NUM_0 . <UNK> has NUM_1 peanuts . How many groups will be <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (8.0+64.0)
+Target (64.0/8.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (41.0+30.0)
+Target (41.0+30.0)
+Val Acc True
+Equation Acc True
+Question: There are NUM_0 boys and some girls on the <UNK> . There are NUM_1 children altogether . How many girls are on the <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (40.0+117.0)
+Target (117.0-40.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (98.0-93.0)
+Target (98.0-93.0)
+Val Acc True
+Equation Acc True
+Question: Sam got NUM_0 pennies for <UNK> clothes , and NUM_1 quarters for mowing lawns . How much money does Sam have ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (9.0+7.0)
+Target ((9.0*0.01)+(7.0*<UNK>))
+Val Acc False
+Equation Acc False
+Question: <UNK> had NUM_0 toy cars . If he gets NUM_1 more cars , how many cars will he have then ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (50.0*(50.0+12.0))
+Target (50.0+12.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (26.0+3.0)
+Target (26.0+3.0)
+Val Acc True
+Equation Acc True
+Question: There are NUM_0 leaves . There are NUM_1 <UNK> on each <UNK> . How many <UNK> are there in all ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (84.0+139.0)
+Target (84.0*139.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (27.0+4.0)
+Target (27.0+4.0)
+Val Acc True
+Equation Acc True
+Question: A restaurant sold NUM_0 <UNK> last week . How many <UNK> on <UNK> were sold each day ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (63.0*NUM_1)
+Target (63.0/<UNK>)
+Val Acc False
+Equation Acc False
+Question: If <UNK> <UNK> NUM_0 kilometers at NUM_1 kilometers per hour , how long was <UNK> <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (80.0*10.0)
+Target (80.0/10.0)
+Val Acc False
+Equation Acc False
+Question: There are NUM_0 <UNK> . Each <UNK> has NUM_1 fish . How many fish are there ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (261.0+23.0)
+Target (261.0*23.0)
+Val Acc False
+Equation Acc False
+Question: Tim has NUM_0 dozen <UNK> balls . How many <UNK> balls does he have ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (13.0+NUM_1)
+Target (13.0*12.0)
+Val Acc False
+Equation Acc False
+Question: Emily was playing a trivia game . In the first round she scored NUM_0 points and in the second round she scored NUM_1 points . In the last round she lost NUM_2 points . How many points did she have at the end of the game ? 
+Test output (16.0*(33.0+48.0))
+Target ((16.0+33.0)-48.0)
+Val Acc False
+Equation Acc False
+Question: For Halloween Janet and her sister combined the candy they received . Janet had NUM_0 pieces of candy <UNK> her sister had NUM_1 . If they ate NUM_2 pieces the first night , how many pieces do they have left ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (4.0*(34.0-33.0))
+Target ((34.0+33.0)-4.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (12170.0+54912.0)
+Target (12170.0+54912.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (7.0*(13.0-9.0))
+Target (7.0*(13.0-9.0))
+Val Acc True
+Equation Acc True
+Question: The cafeteria had NUM_0 apples . For lunch they <UNK> out NUM_1 to students and decided to use the rest to make pies . If each pie takes NUM_2 apples , how many pies could they make ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output ((75.0-19.0)*8.0)
+Target ((75.0-19.0)/8.0)
+Val Acc False
+Equation Acc False
+Question: Roger was putting his <UNK> change into piles . He had NUM_0 piles of quarters and NUM_0 piles of dimes . If each pile had NUM_1 coins in it , how many coins did he have total ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (3.0*(3.0+7.0))
+Target (7.0*(3.0+3.0))
+Val Acc False
+Equation Acc False
+Question: <UNK> had to wash NUM_0 short sleeve shirts and NUM_1 long sleeve shirts before school . If he had only washed NUM_2 of them by the time school started , how many did he not wash ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (29.0*(9.0-21.0))
+Target ((9.0+21.0)-29.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (8.0*(11.0-4.0))
+Target (8.0*(11.0-4.0))
+Val Acc True
+Equation Acc True
+Question: Jason went to NUM_0 football games this month . He went to NUM_1 games last month , and plans to go to NUM_2 games next month . How many games will he <UNK> in all ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (11.0+16.0)
+Target ((11.0+17.0)+16.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (8.0*(15.0-6.0))
+Target (8.0*(15.0-6.0))
+Val Acc True
+Equation Acc True
+Question: Faye had NUM_0 math problems and NUM_1 science problems for homework . If she finished NUM_2 of the problems at school , how many problems did she have to do for homework ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output ((46.0+40.0)-9.0)
+Target ((46.0+9.0)-40.0)
+Val Acc False
+Equation Acc False
+Question: Last year , <UNK> <UNK> in <UNK> County <UNK> NUM_0 eggs . This year , <UNK> same <UNK> <UNK> NUM_1 eggs . How many more eggs did the <UNK> <UNK> this year ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (1416.0+4636.0)
+Target (4636.0-1416.0)
+Val Acc False
+Equation Acc False
+Question: <UNK> bought NUM_0 boxes of chocolate candy and gave NUM_1 to his little brother . If each box has NUM_2 pieces inside it , how many pieces did <UNK> still have ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (7.0*(3.0-4.0))
+Target (4.0*(7.0-3.0))
+Val Acc False
+Equation Acc False
+Question: 
+Test output ((40.0+44.0)-65.0)
+Target ((40.0+44.0)-65.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (2.0*9.0)
+Target (2.0*9.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (28.0+27.0)
+Target (28.0+27.0)
+Val Acc True
+Equation Acc True
+Question: A pet store has NUM_0 <UNK> cages . If each cage has NUM_1 <UNK> and NUM_2 <UNK> in it , how many birds does the pet store have total ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (4.0*(8.0-2.0))
+Target (4.0*(8.0+2.0))
+Val Acc False
+Equation Acc False
+Question: 
+Test output ((46.0+39.0)-27.0)
+Target ((46.0+39.0)-27.0)
+Val Acc True
+Equation Acc True
+Question: Tim found NUM_0 seashells and NUM_1 <UNK> on the beach . He gave NUM_2 of the seashells to Sara . How many seashells does Tim now have ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (679.0+172.0)
+Target (679.0-172.0)
+Val Acc False
+Equation Acc False
+Question: Sally found NUM_0 seashells , Tom found NUM_1 seashells , and Jessica found NUM_2 seashells on the beach . How many seashells did they find together ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (9.0+5.0)
+Target ((9.0+7.0)+5.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (0.375+0.25)
+Target (0.375+0.25)
+Val Acc True
+Equation Acc True
+Question: <UNK> had NUM_0 packages of cupcakes . There are NUM_1 cupcakes in each package . She ate NUM_2 cupcakes . How many are left ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (5.0*(3.0-4.0))
+Target (3.0*4.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (8.0-4.0)
+Target (8.0-4.0)
+Val Acc True
+Equation Acc True
+Question: There are NUM_0 bananas in <UNK> 's <UNK> collection . If the bananas are <UNK> into NUM_1 groups , how big is each group ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (36.0*6.0)
+Target (36.0/6.0)
+Val Acc False
+Equation Acc False
+Question: Henry wants to split a collection of crayons into groups of NUM_0 . Henry has NUM_1 crayons . How many groups will be <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (6.0*42.0)
+Target (42.0/6.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (27.0*18.0)
+Target (27.0*18.0)
+Val Acc True
+Equation Acc True
+Question: Mrs. Hilt has NUM_0 cents . A pencil costs NUM_1 cents . How many pencils can she buy with the money she has ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (50.0*5.0)
+Target (50.0/5.0)
+Val Acc False
+Equation Acc False
+Question: Sandy has NUM_0 dozen books . Fred has NUM_1 times more books than Sandy . How many books does Fred have ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (8.0+5.0)
+Target ((8.0*12.0)*5.0)
+Val Acc False
+Equation Acc False
+Question: <UNK> has NUM_0 boxes of pencils . Each box holds NUM_1 pencils . How many pencils does <UNK> have ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (3.0-9.0)
+Target (3.0*9.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (5256.0+2987.0)
+Target (5256.0+2987.0)
+Val Acc True
+Equation Acc True
+Question: There are NUM_0 <UNK> . Each <UNK> has NUM_1 fish . How many fish are there ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (261.0+23.0)
+Target (261.0*23.0)
+Val Acc False
+Equation Acc False
+Question: Nancy has NUM_0 <UNK> dollars <UNK> . How much money does she have ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (9.0+NUM_1)
+Target (9.0*<UNK>)
+Val Acc False
+Equation Acc False
+Question: During a school <UNK> , Jonah <UNK> the <UNK> bar . He served NUM_1 of a <UNK> of <UNK> during the first <UNK> , NUM_0 of a <UNK> during the second , and NUM_1 of a <UNK> during the <UNK> . How many <UNK> of <UNK> did Jonah <UNK> in all ? 
+Test output ((0.4166666666666667+0.4166666666666667)+0.25)
+Target ((0.25+0.4166666666666667)+0.25)
+Val Acc False
+Equation Acc False
+Question: <UNK> and the <UNK> <UNK> brought a bag of NUM_0 <UNK> as they <UNK> every <UNK> <UNK> to the <UNK> <UNK> . If they left exactly NUM_1 <UNK> in every <UNK> they <UNK> , how many <UNK> did <UNK> and the <UNK> <UNK> <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (140.0+7.0)
+Target (140.0/7.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (6.0*(6.0+2.0))
+Target (6.0*(6.0+2.0))
+Val Acc True
+Equation Acc True
+Question: While <UNK> <UNK> at her <UNK> shop , Kelly <UNK> that she had NUM_0 box of <UNK> <UNK> yesterday , but the <UNK> is now down to NUM_1 box . How much more <UNK> <UNK> did Kelly have yesterday ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (0.4+0.3)
+Target (0.4-0.3)
+Val Acc False
+Equation Acc False
+Question: Paige picked NUM_0 flowers for her friend ’ s wedding . She was making bouquets with NUM_1 flowers in each one . If NUM_2 of the flowers <UNK> before the wedding , how many bouquets could she still make ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (18.0*(53.0-7.0))
+Target ((53.0-18.0)/7.0)
+Val Acc False
+Equation Acc False
+Question: In fourth grade there were NUM_0 students at the start of the year . During the year NUM_1 students left and NUM_2 new students came to school . How many students were in fourth grade at the end ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output ((10.0+4.0)-42.0)
+Target ((10.0+42.0)-4.0)
+Val Acc False
+Equation Acc False
+Question: At the fair there were NUM_0 people in line for the bumper cars . If NUM_1 of them got <UNK> of waiting and left and NUM_2 more got in line , how many people would be in line ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (8.0*(7.0-4.0))
+Target ((7.0+8.0)-4.0)
+Val Acc False
+Equation Acc False
+Question: While playing a trivia game , Frank <UNK> NUM_1 <UNK> <UNK> in the first half and NUM_0 <UNK> <UNK> in the second half . If each <UNK> was <UNK> NUM_1 points , what was his <UNK> score ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (2.0*(2.0+3.0))
+Target (3.0*(3.0+2.0))
+Val Acc False
+Equation Acc False
+Question: <UNK> and her mom were picking carrots from their garden . <UNK> picked NUM_0 and her mother picked NUM_1 . If only NUM_2 of the carrots were good , how many bad carrots did they have ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output ((29.0+38.0)-16.0)
+Target ((29.0+16.0)-38.0)
+Val Acc False
+Equation Acc False
+Question: At the fair Adam bought NUM_0 tickets . After <UNK> the <UNK> wheel he had NUM_1 tickets left . If each ticket cost NUM_2 dollars , how much money did Adam spend <UNK> the <UNK> wheel ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output ((10.0+3.0)-9.0)
+Target (9.0*(10.0-3.0))
+Val Acc False
+Equation Acc False
+Question: Nancy had NUM_0 files on her <UNK> . She deleted NUM_1 of them and put the rest into folders with NUM_2 files in each one . How many folders did Nancy end up with ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output ((80.0-31.0)-7.0)
+Target ((80.0-31.0)/7.0)
+Val Acc False
+Equation Acc False
+Question: A company <UNK> NUM_0 people to a <UNK> , but NUM_1 of them did n't show up . If the tables they had <UNK> NUM_2 people each , how many tables do they need ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (5.0*(47.0-7.0))
+Target ((47.0-7.0)/5.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (36.0+11.0)
+Target (36.0+11.0)
+Val Acc True
+Equation Acc True
+Question: Sally had NUM_0 baseball cards , and NUM_1 were <UNK> . Sara bought NUM_2 of Sally 's baseball cards . How many baseball cards does Sally have now ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (39.0+24.0)
+Target (39.0-24.0)
+Val Acc False
+Equation Acc False
+Question: Dan had NUM_0 baseball cards , and NUM_1 were <UNK> . Sam bought NUM_2 of Dan 's baseball cards . How many baseball cards does Dan have now ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (97.0+8.0)
+Target (97.0-15.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (2.0*6.0)
+Target (2.0*6.0)
+Val Acc True
+Equation Acc True
+Question: <UNK> bought NUM_0 pounds of fruit for a class party . The class ate NUM_1 pounds of the fruit . How much fruit is ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (3.42+2.2)
+Target (3.42-2.2)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (3.0*2.5)
+Target (3.0*2.5)
+Val Acc True
+Equation Acc True
+Question: Mrs. Hilt saw a <UNK> . NUM_0 students rode the <UNK> every NUM_1 minutes . How many students rode the <UNK> in NUM_2 minutes ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (7.0+5.0)
+Target (7.0*(15.0/5.0))
+Val Acc False
+Equation Acc False
+Question: There are NUM_0 stickers on a page . If you have NUM_1 pages of stickers , how many stickers do you have ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (10.0+22.0)
+Target (10.0*22.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (20.0*5.0)
+Target (20.0*5.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (22.0+47.0)
+Target (22.0+47.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (7.0+9.0)
+Target (7.0+9.0)
+Val Acc True
+Equation Acc True
+Question: <UNK> is <UNK> NUM_0 friends to a party . She has NUM_0 cookies . How many cookies will each friend get ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (5.0*NUM_1)
+Target (5.0/5.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (53.0+16.0)
+Target (53.0+16.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (28.0+35.0)
+Target (28.0+35.0)
+Val Acc True
+Equation Acc True
+Question: <UNK> ordered NUM_0 pizzas . Each pizza has NUM_1 slices . How many slices of pizza are there altogether ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (21.0+8.0)
+Target (21.0*8.0)
+Val Acc False
+Equation Acc False
+Question: Sara grew NUM_0 pumpkins , but the <UNK> ate NUM_1 pumpkins . How many pumpkins does Sara have left ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (43.0+23.0)
+Target (43.0-23.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (6.0+3.0)
+Target (6.0+3.0)
+Val Acc True
+Equation Acc True
+Question: Ralph starts with NUM_0 peanuts . He loses NUM_1 . How many peanuts does Ralph end with ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (74.0+59.0)
+Target (74.0-59.0)
+Val Acc False
+Equation Acc False
+Question: If <UNK> strolled NUM_0 miles at NUM_1 miles per hour , how long was <UNK> <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (14.0*2.0)
+Target (14.0/2.0)
+Val Acc False
+Equation Acc False
+Question: Nancy has saved NUM_0 cents from selling <UNK> . How many dollars does Nancy have ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (4900.0-NUM_1)
+Target (4900.0/<UNK>)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (10.2+8.6)
+Target (10.2+8.6)
+Val Acc True
+Equation Acc True
+Question: There are NUM_0 orchid bushes currently in the park . Park workers will plant NUM_1 orchid bushes today and NUM_2 orchid bushes <UNK> . It took NUM_3 workers to finish the work . How many orchid bushes will the park have when the workers are finished ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (47.0+25.0)
+Target ((47.0+37.0)+25.0)
+Val Acc False
+Equation Acc False
+Question: Sarah was <UNK> vegetables in her garden . She started with NUM_0 seeds and <UNK> NUM_1 of them in the big garden and in each of her small gardens put NUM_2 seeds each . How many small gardens did Sarah have ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (3.0*(21.0-12.0))
+Target ((21.0-12.0)/3.0)
+Val Acc False
+Equation Acc False
+Question: Sarah had NUM_0 homework problems . She finished NUM_1 of them but still had NUM_2 pages of problems to do . If each page has the same number of problems on it , how many problems are on each page ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (60.0-20.0)
+Target ((60.0-20.0)/5.0)
+Val Acc False
+Equation Acc False
+Question: <UNK> has NUM_0 <UNK> dollars in his bank account . <UNK> month he <UNK> NUM_1 <UNK> dollars . He does not <UNK> money to the account . How much money will <UNK> have in his account after NUM_2 <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (25.0+1.0)
+Target (<UNK>-(<UNK>*8.0))
+Val Acc False
+Equation Acc False
+Question: <UNK> recorded the <UNK> every day during a <UNK> . He recorded NUM_0 centimeter on <UNK> , NUM_0 centimeter on <UNK> , and NUM_1 centimeter on Friday . How many total centimeters of <UNK> did <UNK> <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (0.3333333333333333+0.2222222222222222)
+Target ((0.3333333333333333+0.3333333333333333)+0.2222222222222222)
+Val Acc False
+Equation Acc False
+Question: A treasure <UNK> <UNK> a <UNK> treasure <UNK> filled with a total of NUM_0 <UNK> . NUM_1 of the <UNK> were <UNK> , and the rest were <UNK> . How many of the <UNK> were <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (5155.0+45.0)
+Target (5155.0-45.0)
+Val Acc False
+Equation Acc False
+Question: While on vacation , Haley took NUM_0 pictures at the zoo and NUM_1 at the museum . If she later deleted NUM_2 of the pictures , how many pictures from her vacation did she still have ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output ((50.0+38.0)-8.0)
+Target ((50.0+8.0)-38.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (37.0+20.0)
+Target (37.0+20.0)
+Val Acc True
+Equation Acc True
+Question: Megan 's class is going on a field trip to the zoo . If each <UNK> can hold NUM_1 people and there are NUM_0 students and NUM_1 adults going , how many <UNK> will they need ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (25.0*(25.0+5.0))
+Target ((5.0+25.0)/5.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (9.0*(11.0-3.0))
+Target (9.0*(11.0-3.0))
+Val Acc True
+Equation Acc True
+Question: <UNK> <UNK> $ NUM_0 per hour . She worked NUM_1 hours on Friday , NUM_2 hours on Saturday , and NUM_3 hours on Sunday . How much money did <UNK> earn in all ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (13.0+9.0)
+Target (13.0*((9.0+10.0)+3.0))
+Val Acc False
+Equation Acc False
+Question: The school cafeteria ordered NUM_0 red apples and NUM_1 green apples for students lunches . But , if only NUM_2 students wanted fruit , how many extra did the cafeteria end up with ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output ((25.0+10.0)-17.0)
+Target ((25.0+17.0)-10.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (4.0+6.0)
+Target (4.0+6.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (0.25+0.375)
+Target (0.25+0.375)
+Val Acc True
+Equation Acc True
+Question: Isabel uploaded NUM_0 pictures to <UNK> . She put NUM_1 pics into one album and put the rest into NUM_2 different albums . How many pictures were in each album ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (5.0*(25.0-10.0))
+Target ((25.0-10.0)/5.0)
+Val Acc False
+Equation Acc False
+Question: A restaurant served NUM_0 slices of pie during lunch and NUM_1 during dinner today . It served NUM_2 of them yesterday . How many slices of pie were served today ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output ((7.0+5.0)+8.0)
+Target (7.0+5.0)
+Val Acc False
+Equation Acc False
+Question: Lemon <UNK> come in packages of NUM_0 . <UNK> ate NUM_1 Lemon <UNK> . How many <UNK> boxes did he eat and how many Lemon <UNK> does he have left ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (6.0*(6.0+54.0))
+Target (54.0/6.0)
+Val Acc False
+Equation Acc False
+Question: There were NUM_0 friends playing a video game online when NUM_1 players <UNK> . If each player left had NUM_1 lives , how many lives did they have total ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (8.0*(8.0+3.0))
+Target (3.0*(8.0-3.0))
+Val Acc False
+Equation Acc False
+Question: A teacher had NUM_0 worksheets to grade . If she graded NUM_1 , but then another NUM_2 were <UNK> in , how many worksheets would she have to grade ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (46.0*(7.0-2.0))
+Target ((7.0+46.0)-2.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (303.0*28.0)
+Target (303.0*28.0)
+Val Acc True
+Equation Acc True
+Question: <UNK> wants to split a collection of bottle caps into groups of NUM_0 . <UNK> has NUM_1 bottle caps . How many groups will be <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (2.0+12.0)
+Target (12.0/2.0)
+Val Acc False
+Equation Acc False
+Question: I have a pet <UNK> <UNK> . Each year he <UNK> NUM_0 pounds . He is NUM_1 <UNK> old . How many pounds does he weigh ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (11.0+8.0)
+Target (11.0*8.0)
+Val Acc False
+Equation Acc False
+Question: <UNK> class is having a pizza party . You buy NUM_0 pizzas . Each pizza has NUM_1 slices . How many slices is that altogether ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (5.0+4.0)
+Target (5.0*4.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (9.0+3.0)
+Target (9.0+3.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (2.0+4.0)
+Target (2.0+4.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (12.0+8.0)
+Target (12.0+8.0)
+Val Acc True
+Equation Acc True
+Question: Sandy has NUM_0 books , Benny has NUM_1 books , and Tim has NUM_2 books . How many books do they have together ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (10.0+24.0)
+Target ((10.0+24.0)+33.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (7.0+2.0)
+Target (7.0+2.0)
+Val Acc True
+Equation Acc True
+Question: Joan 's cat had NUM_0 kittens . She gave NUM_1 to her friends . How many kittens does she have now ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (8.0+2.0)
+Target (8.0-2.0)
+Val Acc False
+Equation Acc False
+Question: <UNK> baked NUM_0 <UNK> . How many more <UNK> does <UNK> have to bake to have NUM_1 <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (35.0+83.0)
+Target (83.0-35.0)
+Val Acc False
+Equation Acc False
+Question: Sara has saved NUM_0 quarters from <UNK> cars . How many cents does Sara have ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (11.0+NUM_1)
+Target (11.0*<UNK>)
+Val Acc False
+Equation Acc False
+Question: A <UNK> put <UNK> <UNK> into the fridge on <UNK> night . She <UNK> that the restaurant had NUM_1 <UNK> filled with <UNK> , NUM_0 <UNK> filled with <UNK> , and NUM_1 <UNK> filled with peaches . How many <UNK> <UNK> did the restaurant have in all ? 
+Test output (0.75+0.08333333333333333)
+Target ((0.08333333333333333+0.75)+0.08333333333333333)
+Val Acc False
+Equation Acc False
+Question: For his car , Mike spent $ NUM_0 on <UNK> and $ NUM_1 on new <UNK> . Mike wanted NUM_2 <UNK> 's for $ NUM_3 but decided not to . In total , how much did Mike spend on car <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output ((118.54+106.33)+3.0)
+Target (118.54+106.33)
+Val Acc False
+Equation Acc False
+Question: Emily was playing a video game and had NUM_0 lives . In a hard part of the game she lost NUM_1 lives . If she got NUM_2 more lives in the next level , how many lives would she have ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (24.0*(42.0-25.0))
+Target ((42.0+24.0)-25.0)
+Val Acc False
+Equation Acc False
+Question: Bianca and her friends were recycling paper for their class . For every NUM_1 pounds they recycled they earned one <UNK> . If Bianca recycled NUM_0 pounds and her friends recycled NUM_1 pounds , how many points did they earn ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (24.0*(24.0+3.0))
+Target ((3.0+24.0)/3.0)
+Val Acc False
+Equation Acc False
+Question: Joyce has NUM_0 bananas that must be put away in boxes . Fred comes to <UNK> and <UNK> NUM_1 cookies to share with Joyce . If there are NUM_2 boxes , how many bananas must go in each box ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (40.0*10.0)
+Target (40.0/10.0)
+Val Acc False
+Equation Acc False
+Question: <UNK> was <UNK> some of her old <UNK> clothes . She found NUM_0 boxes of clothing and inside each box there were NUM_1 <UNK> and NUM_2 <UNK> . How many pieces of <UNK> clothing did <UNK> have total ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output ((4.0+2.0)+6.0)
+Target (4.0*(2.0+6.0))
+Val Acc False
+Equation Acc False
+Question: <UNK> was <UNK> some of her old <UNK> clothes . She found NUM_0 boxes of clothing and inside each box there were NUM_0 <UNK> and NUM_1 <UNK> . How many pieces of <UNK> clothing did <UNK> have total ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (3.0+4.0)
+Target (3.0*(3.0+4.0))
+Val Acc False
+Equation Acc False
+Question: Rachel was <UNK> some of her old <UNK> clothes . She found NUM_0 boxes of clothing and inside each box there were NUM_1 <UNK> and NUM_2 <UNK> . How many pieces of <UNK> clothing did Rachel have total ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output ((7.0+3.0)+4.0)
+Target (7.0*(3.0+4.0))
+Val Acc False
+Equation Acc False
+Question: 
+Test output (11.76+14.54)
+Target (11.76+14.54)
+Val Acc True
+Equation Acc True
+Question: Vanessa had NUM_0 music files and NUM_1 video files on her flash drive . If she deleted NUM_2 of the files , how many files were still on her flash drive ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (30.0*(16.0-48.0))
+Target ((16.0+48.0)-30.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (64535.0+522.0)
+Target (64535.0+522.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (14507.0+213.0)
+Target (14507.0+213.0)
+Val Acc True
+Equation Acc True
+Question: At the schools book fair Victor bought NUM_0 <UNK> books and NUM_1 mystery books . If NUM_2 of the books were used , how many new books did he buy ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (16.0*(32.0-37.0))
+Target ((32.0+37.0)-16.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (0.16666666666666666+0.3333333333333333)
+Target (0.16666666666666666+0.3333333333333333)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (679.0+998.0)
+Target (679.0+998.0)
+Val Acc True
+Equation Acc True
+Question: Kimberly has NUM_0 Skittles . She buys NUM_1 more . Later , Kimberly buys NUM_2 oranges at the store . How many Skittles does Kimberly have in all ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (5.0+18.0)
+Target (5.0+7.0)
+Val Acc False
+Equation Acc False
+Question: In NUM_0 week , <UNK> 's family <UNK> NUM_1 carton of <UNK> <UNK> and NUM_2 carton of <UNK> <UNK> . How much <UNK> did they <UNK> in all ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (1.0+0.5)
+Target (0.5+0.1)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (0.16666666666666666+0.6666666666666666)
+Target (0.16666666666666666+0.6666666666666666)
+Val Acc True
+Equation Acc True
+Question: Joan has NUM_0 green and NUM_1 red marbles . Fred took NUM_2 of Joan 's green marbles . How many green marbles does Joan now have ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (47.0+24.0)
+Target (47.0-24.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (38.0+10.0)
+Target (38.0+10.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (9.0+3.0)
+Target (9.0+3.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (5.2+4.23)
+Target (5.2+4.23)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (35.0-18.0)
+Target (35.0-18.0)
+Val Acc True
+Equation Acc True
+Question: <UNK> had NUM_0 <UNK> and <UNK> had NUM_1 <UNK> . If they put their <UNK> together , how many would they have ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (1209.0*(1209.0+2186.0))
+Target (1209.0+2186.0)
+Val Acc False
+Equation Acc False
+Question: <UNK> bought NUM_0 ounces of sugar , and she <UNK> NUM_1 ounces of it on the <UNK> . How much is ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (9.8+5.2)
+Target (9.8-5.2)
+Val Acc False
+Equation Acc False
+Question: <UNK> starts with NUM_0 marbles . He shares NUM_1 with <UNK> . How many marbles does <UNK> end with ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (62.0+33.0)
+Target (62.0-33.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (2.0+6.0)
+Target (2.0+6.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (9.0-2.0)
+Target (9.0-2.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (8.0-2.0)
+Target (8.0-2.0)
+Val Acc True
+Equation Acc True
+Question: <UNK> starts with NUM_0 Skittles . She shares NUM_1 with <UNK> . How many Skittles does <UNK> end with ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (76.0+72.0)
+Target (76.0-72.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (7.0+47.0)
+Target (7.0+47.0)
+Val Acc True
+Equation Acc True
+Question: <UNK> the <UNK> of <UNK> , <UNK> , NUM_0 and <UNK> . <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (4.0+NUM_1)
+Target (((<UNK>*<UNK>)*4.0)*<UNK>)
+Val Acc False
+Equation Acc False
+Question: Dave was helping the cafeteria workers pick up lunch trays , but he could only <UNK> NUM_0 trays at a time . If he had to pick up NUM_1 trays from one table and NUM_2 trays from another , how many <UNK> will he make ? 
+Test output (55.0*(9.0-17.0))
+Target ((17.0+55.0)/9.0)
+Val Acc False
+Equation Acc False
+Question: Luke was trying to <UNK> his game collection . He bought NUM_0 games from a friend and bought NUM_0 more at a garage sale . If NUM_0 of the games did n't work , how many good games did he end up with ? <PAD> <PAD> 
+Test output (2.0*(2.0+NUM_1))
+Target ((2.0+2.0)-2.0)
+Val Acc False
+Equation Acc False
+Question: While playing at the arcade , <UNK> won NUM_0 tickets playing <UNK> a <UNK> ' and NUM_1 tickets playing <UNK> ball ' . If he was trying to buy candy that cost NUM_2 tickets a piece , how many could he buy ? <PAD> <PAD> <PAD> 
+Test output (9.0*(26.0-19.0))
+Target ((26.0+19.0)/9.0)
+Val Acc False
+Equation Acc False
+Question: While playing at the arcade , Edward won NUM_0 tickets playing <UNK> a <UNK> ' and NUM_1 tickets playing <UNK> ball ' . If he was trying to buy candy that cost NUM_2 tickets a piece , how many could he buy ? <PAD> <PAD> <PAD> 
+Test output (4.0*(3.0-5.0))
+Target ((3.0+5.0)/4.0)
+Val Acc False
+Equation Acc False
+Question: A <UNK> <UNK> NUM_0 <UNK> from <UNK> to <UNK> <UNK> and NUM_1 <UNK> from <UNK> <UNK> to <UNK> <UNK> . Then it <UNK> NUM_1 <UNK> from <UNK> <UNK> back to <UNK> . How many <UNK> did the <UNK> <UNK> in all ? <PAD> <PAD> <PAD> <PAD> 
+Test output (0.5+0.1)
+Target ((0.5+0.1)+0.1)
+Val Acc False
+Equation Acc False
+Question: Gwen was organizing her book case making sure each of the shelves had exactly NUM_0 books on it . If she had NUM_1 shelves of mystery books and NUM_2 shelves of picture books , how many books did she have total ? <PAD> <PAD> <PAD> <PAD> 
+Test output (4.0*(5.0-3.0))
+Target (4.0*(5.0+3.0))
+Val Acc False
+Equation Acc False
+Question: Mrs. Hilt measured the <UNK> from her desk to the water <UNK> . It was NUM_0 feet . How many feet will Mrs. Hilt walk on her <UNK> to the <UNK> if she goes to the water <UNK> NUM_1 times today ? <PAD> <PAD> <PAD> <PAD> 
+Test output (30.0-4.0)
+Target (30.0*4.0)
+Val Acc False
+Equation Acc False
+Question: <UNK> found an orange caterpillar and a green caterpillar in her <UNK> . The green caterpillar was NUM_0 inches long and the orange caterpillar was NUM_1 inches long . How much longer was the green caterpillar than the orange caterpillar ? <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (3.0+1.1666666666666667)
+Target (3.0-1.1666666666666667)
+Val Acc False
+Equation Acc False
+Question: Luke was selling his old games . He started out with NUM_0 but sold NUM_1 of them . He <UNK> the rest up putting NUM_2 games into each box . How many boxes did he have to use ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (2.0*(57.0-39.0))
+Target ((57.0-39.0)/2.0)
+Val Acc False
+Equation Acc False
+Question: Joan spent $ NUM_0 on shorts and $ NUM_1 on a jacket , and $ NUM_2 on a <UNK> . She went to NUM_3 <UNK> . In total , how much money did Joan spend on clothing ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (15.0+12.51)
+Target ((15.0+14.82)+12.51)
+Val Acc False
+Equation Acc False
+Question: Emily bought NUM_0 new chairs and NUM_1 new tables for her house . If she spent NUM_2 minutes on each piece <UNK> putting it together , how many minutes did it take her to finish ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (8.0*(4.0-2.0))
+Target (8.0*(4.0+2.0))
+Val Acc False
+Equation Acc False
+Question: Mike <UNK> NUM_0 friends to a birthday party , but NUM_1 could n't come . If he wanted to buy <UNK> cupcakes so each person could have exactly NUM_2 , how many should he buy ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (13.0*(7.0-4.0))
+Target (4.0*(13.0-7.0))
+Val Acc False
+Equation Acc False
+Question: For Halloween Faye scored NUM_0 pieces of candy . She ate NUM_1 pieces the first night and then her sister gave her NUM_2 more pieces . How many pieces of candy does Faye have now ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output ((47.0+25.0)-40.0)
+Target ((47.0+40.0)-25.0)
+Val Acc False
+Equation Acc False
+Question: Joan 's <UNK> school played NUM_0 baseball games this year , NUM_1 of the games were played at night . She <UNK> NUM_2 games . How many baseball games did Joan <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output ((864.0+128.0)+395.0)
+Target (864.0-395.0)
+Val Acc False
+Equation Acc False
+Question: The <UNK> <UNK> <UNK> used a <UNK> to <UNK> NUM_0 books . Now the library has a total of NUM_1 books . How many books did the library have before the <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (2647.0+8582.0)
+Target (8582.0-2647.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (0.2+0.7)
+Target (0.2+0.7)
+Val Acc True
+Equation Acc True
+Question: At a pizza party , <UNK> and his friends <UNK> NUM_0 bottles of <UNK> <UNK> and NUM_0 bottles of <UNK> . How much <UNK> did they <UNK> in all ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (2.6666666666666665+NUM_1)
+Target (2.6666666666666665+2.6666666666666665)
+Val Acc False
+Equation Acc False
+Question: <UNK> picked NUM_2 pumpkins . The first <UNK> weighed NUM_0 pounds , and the second <UNK> weighed NUM_1 pounds . How much did the NUM_2 pumpkins weigh all together ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output ((4.0+8.7)+2.0)
+Target (4.0+8.7)
+Val Acc False
+Equation Acc False
+Question: Tim had NUM_0 quarters and NUM_1 nickels in his bank . His dad gave him NUM_2 nickels and NUM_3 pennies . How many nickels does Tim have now ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (7.0+3.0)
+Target (9.0+3.0)
+Val Acc False
+Equation Acc False
+Question: Sara goes <UNK> with Melanie . Sara <UNK> NUM_0 <UNK> . Melanie <UNK> NUM_1 times as many <UNK> as Sara . How many <UNK> did Melanie <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (5.0+2.0)
+Target (5.0*2.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (33.0+23.0)
+Target (33.0+23.0)
+Val Acc True
+Equation Acc True
+Question: If there are NUM_0 bottle caps in a box and <UNK> <UNK> NUM_0 more bottle caps inside , how many bottle caps are in the box ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (7.0+NUM_1)
+Target (7.0+7.0)
+Val Acc False
+Equation Acc False
+Question: A <UNK> can hold NUM_0 flowers . If you had NUM_1 <UNK> and NUM_2 roses , how many <UNK> would you need to hold the flowers ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (47.0*(6.0-7.0))
+Target ((7.0+47.0)/6.0)
+Val Acc False
+Equation Acc False
+Question: Mary had NUM_0 dimes and NUM_1 pennies in her bank . Her dad borrowed NUM_2 pennies from Mary . How many pennies does she have now ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (21.0+18.0)
+Target (38.0-18.0)
+Val Acc False
+Equation Acc False
+Question: A restaurant made NUM_0 <UNK> and NUM_1 <UNK> dogs to serve during lunch . <UNK> NUM_2 <UNK> were <UNK> served . How many <UNK> were over ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (9.0+4.0)
+Target (9.0-3.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (183.0+593.0)
+Target (183.0+593.0)
+Val Acc True
+Equation Acc True
+Question: NUM_0 students were sitting at each table in the <UNK> . There are NUM_1 tables . How many students were sitting in the <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (6.0+34.0)
+Target (6.0*34.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (9.0+7.0)
+Target (9.0+7.0)
+Val Acc True
+Equation Acc True
+Question: Mary had NUM_0 potatoes in the garden . The <UNK> ate NUM_1 of the potatoes . How many potatoes does Mary now have ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (8.0+3.0)
+Target (8.0-3.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (8.0-4.0)
+Target (8.0-4.0)
+Val Acc True
+Equation Acc True
+Question: <UNK> <UNK> NUM_0 dollars per hour . He worked NUM_1 hours and <UNK> NUM_2 dollars in <UNK> what is his <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (5.6-22.5)
+Target ((22.5*5.6)+42.25)
+Val Acc False
+Equation Acc False
+Question: Tim had NUM_0 cents . He paid NUM_1 cents for a candy bar . How much change will he get ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (50.0*45.0)
+Target (50.0-45.0)
+Val Acc False
+Equation Acc False
+Question: Jerry had NUM_0 pieces of clothing to wash . He put NUM_1 of them in one <UNK> , but decided to split the rest into NUM_2 equal loads . How many pieces of clothing could go in each of the small loads ? 
+Test output (5.0*(60.0-40.0))
+Target ((60.0-40.0)/5.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (2479.0+6085.0)
+Target (2479.0+6085.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (2479.0+6085.0)
+Target (2479.0+6085.0)
+Val Acc True
+Equation Acc True
+Question: <UNK> found two <UNK> in the yard and measured them with a <UNK> . One <UNK> was NUM_0 of an inch long . The other <UNK> was NUM_1 of an inch long . How much longer was the longer <UNK> ? <PAD> <PAD> 
+Test output (0.8+0.1)
+Target (0.8-0.1)
+Val Acc False
+Equation Acc False
+Question: Karen added NUM_0 of a cup of <UNK> to a <UNK> of trail mix . Later , she added NUM_0 of a cup of <UNK> . How many cups of <UNK> did Karen put in the trail mix in all ? <PAD> <PAD> 
+Test output (0.25+NUM_1)
+Target (0.25+0.25)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (5.0*(4.0+3.0))
+Target (5.0*(4.0+3.0))
+Val Acc True
+Equation Acc True
+Question: While making <UNK> for a bake sale , Victor used NUM_0 of a <UNK> of <UNK> sugar as <UNK> as NUM_1 of a <UNK> of white sugar . How much more <UNK> sugar did Victor use ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (0.625+0.25)
+Target (0.625-0.25)
+Val Acc False
+Equation Acc False
+Question: At the <UNK> store , NUM_0 the <UNK> are <UNK> NUM_2 <UNK> and NUM_1 the <UNK> are <UNK> NUM_3 <UNK> . What fraction of the <UNK> are either <UNK> NUM_2 <UNK> or NUM_3 <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output ((0.25+0.5)+2.0)
+Target (0.25+0.5)
+Val Acc False
+Equation Acc False
+Question: <UNK> 's Vegetarian Restaurant bought NUM_0 of a pound of green peppers and NUM_0 of a pound of red peppers . How many pounds of peppers did <UNK> 's Vegetarian Restaurant buy in all ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (0.3333333333333333+NUM_1)
+Target (0.3333333333333333+0.3333333333333333)
+Val Acc False
+Equation Acc False
+Question: <UNK> made NUM_0 dollars mowing lawns over the summer . If he spent NUM_1 dollars buying new mower blades , how many NUM_2 dollar games could he buy with the money he had left ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (9.0*(104.0-41.0))
+Target ((104.0-41.0)/9.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (9.0*(12.0-8.0))
+Target (9.0*(12.0-8.0))
+Val Acc True
+Equation Acc True
+Question: 
+Test output (0.16666666666666666+0.5)
+Target (0.16666666666666666+0.5)
+Val Acc True
+Equation Acc True
+Question: The <UNK> measured on a <UNK> <UNK> <UNK> with the <UNK> <UNK> . If NUM_0 <UNK> <UNK> NUM_1 kilometers , how many kilometers are <UNK> by NUM_2 <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (1.0+25.0)
+Target (25.0*7.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output ((4.0+47.0)-2.0)
+Target ((4.0+47.0)-2.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((30.0+16.0)-38.0)
+Target ((30.0+16.0)-38.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (12.0+54.0)
+Target (12.0+54.0)
+Val Acc True
+Equation Acc True
+Question: Sally found NUM_0 seashells , Tom found NUM_1 seashells , and Jessica found NUM_2 seashells on the beach . How many seashells did they find together ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (9.0+5.0)
+Target ((9.0+7.0)+5.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (179.0+38.0)
+Target (179.0+38.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (10.0+8.0)
+Target (10.0+8.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (0.14+0.38)
+Target (0.14+0.38)
+Val Acc True
+Equation Acc True
+Question: <UNK> has NUM_0 candies <UNK> in boxes . If there are NUM_0 boxes , how many candies must go in each box ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (3.0*NUM_1)
+Target (3.0/3.0)
+Val Acc False
+Equation Acc False
+Question: Sally had NUM_0 quarters in her bank . She spent NUM_1 of her quarters . How many quarters does she have now ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (760.0+418.0)
+Target (760.0-418.0)
+Val Acc False
+Equation Acc False
+Question: Mrs. Hilt bought NUM_0 pizzas for $ NUM_1 each . What was the total amount she paid for the <UNK> pizzas ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (3.0+8.0)
+Target (3.0*8.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (113.0+129.0)
+Target (113.0+129.0)
+Val Acc True
+Equation Acc True
+Question: There are NUM_0 students making NUM_1 <UNK> each for the school <UNK> . How many <UNK> will they make all together ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (124.0+3.0)
+Target (124.0*3.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (105.0+698.0)
+Target (105.0+698.0)
+Val Acc True
+Equation Acc True
+Question: Dan has $ NUM_0 . He bought a candy bar for $ NUM_1 . How much money is left ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (3.0+1.0)
+Target (3.0-1.0)
+Val Acc False
+Equation Acc False
+Question: Sean has NUM_0 whistles . He has NUM_1 more whistles that Charles . How many whistles does Charles have ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (45.0+32.0)
+Target (45.0-32.0)
+Val Acc False
+Equation Acc False
+Question: Each child has NUM_0 candies . If there are NUM_1 children , how many candies are there in total ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (2.0+9.0)
+Target (2.0*9.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (31.0+19.0)
+Target (31.0+19.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (3.0*7.0)
+Target (3.0*7.0)
+Val Acc True
+Equation Acc True
+Question: A <UNK> has NUM_0 <UNK> . How many <UNK> do NUM_1 bees have ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (6.0+2.0)
+Target (6.0*2.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (6522.0+5165.0)
+Target (6522.0+5165.0)
+Val Acc True
+Equation Acc True
+Question: <UNK> <UNK> two dogs . Each day , one dog <UNK> NUM_0 of a <UNK> of dog food and the other dog <UNK> NUM_0 of a <UNK> . <UNK> , how much dog food do the two dogs eat each day ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (0.125+NUM_1)
+Target (0.125+0.125)
+Val Acc False
+Equation Acc False
+Question: Zoe and her friends were recycling paper for their class . For every NUM_0 pounds they recycled they earned one <UNK> . If Zoe recycled NUM_1 pounds and her friends recycled NUM_2 pounds , how many points did they earn ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (23.0*(8.0-25.0))
+Target ((25.0+23.0)/8.0)
+Val Acc False
+Equation Acc False
+Question: In fourth grade there were NUM_0 students at the start of the year . During the year NUM_1 students left and NUM_2 new students came to school . How many students were in fourth grade at the end ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output ((33.0+18.0)-14.0)
+Target ((33.0+14.0)-18.0)
+Val Acc False
+Equation Acc False
+Question: Kaleb was selling his old games . He started out with NUM_0 but sold NUM_1 of them . He <UNK> the rest up putting NUM_2 games into each box . How many boxes did he have to use ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (5.0*(76.0-46.0))
+Target ((76.0-46.0)/5.0)
+Val Acc False
+Equation Acc False
+Question: <UNK> <UNK> bought a new <UNK> for her <UNK> table . The old <UNK> was NUM_0 foot tall and the new <UNK> is NUM_1 feet tall . How much taller is the new <UNK> than the old <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (1.0+2.3333333333333335)
+Target (2.3333333333333335-1.0)
+Val Acc False
+Equation Acc False
+Question: The cafeteria had NUM_0 apples . For lunch they <UNK> out NUM_1 to students and decided to use the rest to make pies . If each pie takes NUM_2 apples , how many pies could they make ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output ((47.0-27.0)*4.0)
+Target ((47.0-27.0)/4.0)
+Val Acc False
+Equation Acc False
+Question: A <UNK> needed to paint NUM_0 rooms in a building . Each room takes NUM_1 hours to paint . If he already painted NUM_2 rooms , how much longer will he take to paint the rest ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (6.0*(5.0-2.0))
+Target (5.0*(6.0-2.0))
+Val Acc False
+Equation Acc False
+Question: 
+Test output (0.2+0.4)
+Target (0.2+0.4)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (0.75+0.25)
+Target (0.75+0.25)
+Val Acc True
+Equation Acc True
+Question: Wendy bought NUM_0 new chairs and NUM_0 new tables for her house . If she spent NUM_1 minutes on each piece <UNK> putting it together , how many minutes did it take her to finish ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (4.0*(4.0+6.0))
+Target (6.0*(4.0+4.0))
+Val Acc False
+Equation Acc False
+Question: 
+Test output (5.0*(8.0-6.0))
+Target (5.0*(8.0-6.0))
+Val Acc True
+Equation Acc True
+Question: A <UNK> <UNK> NUM_0 dollars for a car . The <UNK> wants to make a <UNK> that is NUM_1 <UNK> of the selling <UNK> . For how much should the <UNK> sell the car ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (6000.0+25.0)
+Target 0
+Val Acc False
+Equation Acc False
+Question: 
+Test output (4.0*(17.0-9.0))
+Target (4.0*(17.0-9.0))
+Val Acc True
+Equation Acc True
+Question: There were NUM_0 friends playing a video game online when NUM_1 more players joined the game . If each player had NUM_2 lives , how many lives did they have total ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (8.0*(5.0-2.0))
+Target (8.0*(5.0+2.0))
+Val Acc False
+Equation Acc False
+Question: While playing a video game , Paul scored NUM_0 points . He and his <UNK> together have a total of NUM_1 points . How many points does Paul 's <UNK> have ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output ((3103.0+3103.0)+5816.0)
+Target (5816.0-3103.0)
+Val Acc False
+Equation Acc False
+Question: Nancy uploaded NUM_0 pictures to <UNK> . She put NUM_1 pics into one album and put the rest into NUM_2 different albums . How many pictures were in each album ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (2.0*(41.0-37.0))
+Target ((41.0-37.0)/2.0)
+Val Acc False
+Equation Acc False
+Question: A teacher had NUM_0 worksheets to grade . If she graded NUM_1 , but then another NUM_2 were <UNK> in , how many worksheets would she have to grade ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (18.0*(6.0-4.0))
+Target ((6.0+18.0)-4.0)
+Val Acc False
+Equation Acc False
+Question: <UNK> had NUM_0 pounds of <UNK> in her bucket . She added some <UNK> and now has NUM_1 pounds of <UNK> . How many pounds did she <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (5.0+28.0)
+Target (28.0-5.0)
+Val Acc False
+Equation Acc False
+Question: Frank had saved up NUM_0 dollars . If he received another NUM_1 dollars for his allowance , how many NUM_2 dollar toys could he buy ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (8.0*(3.0-37.0))
+Target ((3.0+37.0)/8.0)
+Val Acc False
+Equation Acc False
+Question: Mary had NUM_0 potatoes in the garden . The <UNK> ate NUM_1 of the potatoes . How many potatoes does Mary now have ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (8.0+3.0)
+Target (8.0-3.0)
+Val Acc False
+Equation Acc False
+Question: Mrs. <UNK> has NUM_0 cats . Mrs. <UNK> has NUM_1 cats . How many more cats does Mrs. <UNK> have than Mrs. <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (11.0+24.0)
+Target (24.0-11.0)
+Val Acc False
+Equation Acc False
+Question: Joan had NUM_0 dimes in her bank . She spent NUM_1 of her dimes . How many dimes does she have now ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (5.0+2.0)
+Target (5.0-2.0)
+Val Acc False
+Equation Acc False
+Question: <UNK> scored NUM_0 points in the football game . <UNK> scored NUM_1 points . How many more points did <UNK> score ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (42.0+21.0)
+Target (42.0-21.0)
+Val Acc False
+Equation Acc False
+Question: <UNK> starts with NUM_0 bottle caps . She shares NUM_1 with Nancy . How many bottle caps does <UNK> end with ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (51.0+36.0)
+Target (51.0-36.0)
+Val Acc False
+Equation Acc False
+Question: Mrs. Hilt read NUM_0 books . Each book had NUM_1 <UNK> in it . How many <UNK> did Mrs. Hilt read ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (4.0+17.0)
+Target (4.0*17.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (42.0+17.0)
+Target (42.0+17.0)
+Val Acc True
+Equation Acc True
+Question: Sally bought NUM_0 dozen eggs from the grocery store to bake some cakes . How many eggs did Sally buy ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (4.0+NUM_1)
+Target (4.0*12.0)
+Val Acc False
+Equation Acc False
+Question: <UNK> has NUM_0 <UNK> . <UNK> has NUM_1 more <UNK> than <UNK> . How many <UNK> does <UNK> have ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (813.0+125.0)
+Target (813.0-125.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (7.0+55.0)
+Target (7.0+55.0)
+Val Acc True
+Equation Acc True
+Question: <UNK> ran NUM_0 mile and walked NUM_1 mile . How much farther did <UNK> run than walk ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (0.7+0.6)
+Target (0.7-0.6)
+Val Acc False
+Equation Acc False
+Question: There are NUM_0 oranges . NUM_0 oranges more are added . How many are there total ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (8.0+NUM_1)
+Target (8.0+8.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output ((0.3+0.1)+0.4)
+Target ((0.3+0.1)+0.4)
+Val Acc True
+Equation Acc True
+Question: <UNK> 's <UNK> Company purchased pieces of <UNK> from a <UNK> . The <UNK> of the pieces they purchased were NUM_0 of a ton , NUM_0 of a ton , and NUM_1 of a ton . How many tons of <UNK> did <UNK> 's <UNK> Company <UNK> in all ? <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (0.3333333333333333+0.08333333333333333)
+Target ((0.3333333333333333+0.3333333333333333)+0.08333333333333333)
+Val Acc False
+Equation Acc False
+Question: Victor was helping the cafeteria workers pick up lunch trays , but he could only <UNK> NUM_0 trays at a time . If he had to pick up NUM_1 trays from one table and NUM_2 trays from another , how many <UNK> will he make ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (5.0*(7.0-23.0))
+Target ((23.0+5.0)/7.0)
+Val Acc False
+Equation Acc False
+Question: At the beach , Janet and her sister both <UNK> <UNK> and then measured their <UNK> . Janet 's sandcastle was NUM_0 feet tall and her sister 's was NUM_1 feet tall . How much taller was Janet 's sandcastle than her sister 's ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (3.6666666666666665+2.3333333333333335)
+Target (3.6666666666666665-2.3333333333333335)
+Val Acc False
+Equation Acc False
+Question: A waiter at <UNK> <UNK> <UNK> ' restaurant had NUM_0 customers to <UNK> on . During the lunch <UNK> he added another NUM_1 customers . If NUM_1 of the customers did n't <UNK> him a tip , how many customers did <UNK> a tip ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (26.0+27.0)
+Target ((26.0+27.0)-27.0)
+Val Acc False
+Equation Acc False
+Question: <UNK> bought NUM_1 packs of red <UNK> balls , NUM_0 packs of yellow <UNK> balls , and NUM_1 packs of green <UNK> balls . There were NUM_2 <UNK> balls in each package . How many <UNK> balls did <UNK> buy in all ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output ((8.0+4.0)+10.0)
+Target (((4.0+8.0)+4.0)*10.0)
+Val Acc False
+Equation Acc False
+Question: Haley and her friends were recycling paper for their class . For every NUM_0 pounds they recycled they earned one <UNK> . If Haley recycled NUM_1 pounds and her friends recycled NUM_2 pounds , how many points did they earn ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (16.0*(3.0-11.0))
+Target ((11.0+16.0)/3.0)
+Val Acc False
+Equation Acc False
+Question: Zoe was <UNK> some of her old <UNK> clothes . She found NUM_0 boxes of clothing and inside each box there were NUM_1 <UNK> and NUM_2 <UNK> . How many pieces of <UNK> clothing did Zoe have total ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output ((8.0+4.0)+6.0)
+Target (8.0*(4.0+6.0))
+Val Acc False
+Equation Acc False
+Question: Vanessa and her mom were picking carrots from their garden . Vanessa picked NUM_0 and her mother picked NUM_1 . If only NUM_2 of the carrots were good , how many bad carrots did they have ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output ((17.0+24.0)-14.0)
+Target ((17.0+14.0)-24.0)
+Val Acc False
+Equation Acc False
+Question: A new building needed NUM_0 <UNK> . The <UNK> had already <UNK> NUM_1 of them . If it takes NUM_1 hours to install each <UNK> , how long will it take him to install the rest ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (9.0*(9.0+6.0))
+Target (6.0*(9.0-6.0))
+Val Acc False
+Equation Acc False
+Question: <UNK> <UNK> NUM_0 friends to a birthday party , but NUM_1 could n't come . If he wanted to buy <UNK> cupcakes so each person could have exactly NUM_2 , how many should he buy ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (9.0*(4.0-8.0))
+Target (8.0*(9.0-4.0))
+Val Acc False
+Equation Acc False
+Question: Bianca 's team won their <UNK> game and scored NUM_0 points total . If Bianca scored NUM_1 of the points and <UNK> <UNK> scored NUM_2 points each , how many players were on her team ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (6.0*(75.0-45.0))
+Target ((75.0-45.0)/6.0)
+Val Acc False
+Equation Acc False
+Question: A company <UNK> NUM_0 people to a <UNK> , but NUM_1 of them did n't show up . If the tables they had <UNK> NUM_2 people each , how many tables do they need ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (3.0*(18.0-12.0))
+Target ((18.0-12.0)/3.0)
+Val Acc False
+Equation Acc False
+Question: A farmer started the day with NUM_0 <UNK> of seeds . After <UNK> the morning <UNK> seeds , she now has NUM_1 <UNK> . How many <UNK> of seeds did the farmer <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (8.75+6.0)
+Target (8.75-6.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (8.0*(16.0-7.0))
+Target (8.0*(16.0-7.0))
+Val Acc True
+Equation Acc True
+Question: The first <UNK> of a <UNK> <UNK> costs NUM_0 cents and each <UNK> <UNK> NUM_1 cents . What is the cost of a NUM_2 <UNK> <UNK> <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (24.0+13.0)
+Target (24.0+(13.0*5.0))
+Val Acc False
+Equation Acc False
+Question: 
+Test output (2.0+99.0)
+Target (2.0+99.0)
+Val Acc True
+Equation Acc True
+Question: Isabel bought NUM_0 pieces of paper . She used NUM_1 pieces of the paper . How many pieces of paper does she have left ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (900.0*(900.0+156.0))
+Target (900.0-156.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (49.0+25.0)
+Target (49.0+25.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (0.2+0.4)
+Target (0.2+0.4)
+Val Acc True
+Equation Acc True
+Question: <UNK> has NUM_0 blocks <UNK> in boxes . If there are NUM_1 boxes , how many blocks must go in each box ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (16.0*8.0)
+Target (16.0/8.0)
+Val Acc False
+Equation Acc False
+Question: Mrs. Hilt read NUM_0 books . Each book had NUM_1 <UNK> in it . How many <UNK> did Mrs. Hilt read ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (4.0+17.0)
+Target (4.0*17.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (23.0+28.0)
+Target (23.0+28.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (18.0+47.0)
+Target (18.0+47.0)
+Val Acc True
+Equation Acc True
+Question: There are NUM_0 <UNK> . Each <UNK> has NUM_1 flowers in it . How many flowers are there in all ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (544.0+32.0)
+Target (544.0*32.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (82.0+3.0)
+Target (82.0+3.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (4.0+79.0)
+Target (4.0+79.0)
+Val Acc True
+Equation Acc True
+Question: Sam grew NUM_0 watermelons , but the <UNK> ate NUM_1 watermelons . How many watermelons does Sam have left ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (4.0+3.0)
+Target (4.0-3.0)
+Val Acc False
+Equation Acc False
+Question: <UNK> has NUM_0 blocks . He <UNK> NUM_1 blocks to <UNK> a <UNK> . How many blocks are left ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (78.0+19.0)
+Target (78.0-19.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (39.0+25.0)
+Target (39.0+25.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (6.0+9.0)
+Target (6.0+9.0)
+Val Acc True
+Equation Acc True
+Question: <UNK> strolled NUM_0 kilometers at NUM_1 kilometers per hour . How long did <UNK> <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (20.0*2.0)
+Target (20.0/2.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (49952.0+918.0)
+Target (49952.0+918.0)
+Val Acc True
+Equation Acc True
+Question: John was organizing his baseball cards in a binder with NUM_0 on each page . If he had NUM_1 new cards and NUM_2 old cards to put in the binder , how many pages would he use ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (3.0*(8.0-16.0))
+Target ((8.0+16.0)/3.0)
+Val Acc False
+Equation Acc False
+Question: <UNK> ’ s family went on vacation . Her mom drove the car at NUM_0 <UNK> . They <UNK> at a <UNK> after <UNK> for NUM_1 hours . How far was the <UNK> from their home ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (60.0+5.0)
+Target (60.0*5.0)
+Val Acc False
+Equation Acc False
+Question: Paul got a box of NUM_0 crayons for his birthday . At the end of the school year , he only had NUM_1 left . How many crayons had been lost or <UNK> away ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (479.0*134.0)
+Target (479.0-134.0)
+Val Acc False
+Equation Acc False
+Question: A pet store had NUM_0 puppies . In one day they sold NUM_1 of them and put the rest into cages with NUM_2 in each cage . How many cages did they use ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output ((81.0-41.0)*8.0)
+Target ((81.0-41.0)/8.0)
+Val Acc False
+Equation Acc False
+Question: <UNK> jogged for NUM_0 of an hour , <UNK> for NUM_1 of an hour , and rode her <UNK> for NUM_2 of an hour . How long did she <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (0.6+0.5)
+Target ((0.6+0.5)+0.75)
+Val Acc False
+Equation Acc False
+Question: A <UNK> <UNK> that <UNK> <UNK> for NUM_0 dollars is on sale for NUM_1 <UNK> off the <UNK> <UNK> . What is the sale <UNK> , in dollars ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (135.0+25.0)
+Target 0
+Val Acc False
+Equation Acc False
+Question: 
+Test output ((34.0+48.0)-3.0)
+Target ((34.0+48.0)-3.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((5.0+34.0)-3.0)
+Target ((5.0+34.0)-3.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (55.0*36.0)
+Target (55.0*36.0)
+Val Acc True
+Equation Acc True
+Question: Each child has NUM_0 oranges . If there are NUM_1 children , how many oranges are there in total ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (3.0+4.0)
+Target (3.0*4.0)
+Val Acc False
+Equation Acc False
+Question: You have <UNK> NUM_0 <UNK> . How many more <UNK> do you need to <UNK> to have NUM_1 <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (7.0+11.0)
+Target (11.0-7.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (0.9-0.5)
+Target (0.9-0.5)
+Val Acc True
+Equation Acc True
+Question: Adam bought NUM_0 packages of cat food and NUM_1 packages of dog food . Each package of cat food <UNK> NUM_2 cans , and each package of dog food <UNK> NUM_3 cans . How many more cans of cat food than dog food did Adam buy ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (9.0-7.0)
+Target ((9.0*10.0)-(7.0*5.0))
+Val Acc False
+Equation Acc False
+Question: <UNK> 's science class weighed <UNK> <UNK> for an <UNK> . They found that the orange <UNK> weighed NUM_0 <UNK> , the <UNK> <UNK> weighed NUM_1 <UNK> , and the white <UNK> weighed NUM_2 <UNK> . What was the total <UNK> of the <UNK> <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output ((0.08333333333333333*0.3333333333333333)+0.4166666666666667)
+Target ((0.08333333333333333+0.3333333333333333)+0.4166666666666667)
+Val Acc False
+Equation Acc False
+Question: In one week , an <UNK> <UNK> <UNK> NUM_0 miles on Tuesday and NUM_1 miles on <UNK> . If the <UNK> <UNK> the same number of miles NUM_2 <UNK> in a <UNK> , how many miles does the <UNK> <UNK> in all ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (1134.0+1475.0)
+Target (3.0*(1134.0+1475.0))
+Val Acc False
+Equation Acc False
+Question: 
+Test output (4.0*(3.0+5.0))
+Target (4.0*(3.0+5.0))
+Val Acc True
+Equation Acc True
+Question: 
+Test output (8.0*(12.0-4.0))
+Target (8.0*(12.0-4.0))
+Val Acc True
+Equation Acc True
+Question: 
+Test output (7.0*(2.0+8.0))
+Target (7.0*(2.0+8.0))
+Val Acc True
+Equation Acc True
+Question: The <UNK> of a <UNK> <UNK> <UNK> this year is NUM_0 dollars , which is NUM_1 of what <UNK> <UNK> was last year . How much is the <UNK> of the <UNK> last year ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (16000.0+0.8)
+Target (16000.0/0.8)
+Val Acc False
+Equation Acc False
+Question: 
+Test output ((4.0+29.0)-24.0)
+Target ((4.0+29.0)-24.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((66.0+15.0)/9.0)
+Target ((66.0+15.0)/9.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (33.0+44.0)
+Target (33.0+44.0)
+Val Acc True
+Equation Acc True
+Question: There are NUM_1 erasers in a box . <UNK> has NUM_0 erasers in a bag . Mark takes NUM_1 erasers out of the box . How many erasers are left in the box ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (17.0-97.0)
+Target (97.0-97.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (0.41-0.33)
+Target (0.41-0.33)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (54.0/6.0)
+Target (54.0/6.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (9.0*(2.0+6.0))
+Target (9.0*(2.0+6.0))
+Val Acc True
+Equation Acc True
+Question: 
+Test output (9.0/3.0)
+Target (9.0/3.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (61921.0+49500.0)
+Target (61921.0+49500.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (15.0+33.0)
+Target (15.0+33.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((5.0+58.0)/7.0)
+Target ((5.0+58.0)/7.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((30.0+28.0)-9.0)
+Target ((30.0+28.0)-9.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (81.0/9.0)
+Target (81.0/9.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (35.0-17.0)
+Target (35.0-17.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (356.0-112.0)
+Target (356.0-112.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (3409.0-145.0)
+Target (3409.0-145.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (676.0-224.0)
+Target (676.0-224.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (0.1+0.4)
+Target (0.1+0.4)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (7.0-5.0)
+Target (7.0-5.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (22.0+15.0)
+Target (22.0+15.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (91.0+88.0)
+Target (91.0+88.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (6.0+3.0)
+Target (6.0+3.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (96.0-45.0)
+Target (96.0-45.0)
+Val Acc True
+Equation Acc True
+Question: A number is NUM_0 <UNK> than the <UNK> of NUM_1 and NUM_2 . What is the number ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (30.0-29.0)
+Target ((30.0+29.0)-14.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output ((149.16+9.98)+4.14)
+Target ((149.16+9.98)+4.14)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((2.0+13.0)/3.0)
+Target ((2.0+13.0)/3.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (9792.0-3513.0)
+Target (9792.0-3513.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((41.0-29.0)/4.0)
+Target ((41.0-29.0)/4.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((12.0+15.0)-10.0)
+Target ((12.0+15.0)-10.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((40.0+21.0)-25.0)
+Target ((40.0+21.0)-25.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((8.0+43.0)-42.0)
+Target ((8.0+43.0)-42.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (3.0*(2.0+2.0))
+Target (3.0*(2.0+2.0))
+Val Acc True
+Equation Acc True
+Question: 
+Test output (5.0*(8.0-5.0))
+Target (5.0*(8.0-5.0))
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((42.0+39.0)-22.0)
+Target ((42.0+39.0)-22.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((28.0+8.0)-25.0)
+Target ((28.0+8.0)-25.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((11.0+10.0)-5.0)
+Target ((11.0+10.0)-5.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (14.0+29.0)
+Target (14.0+29.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (15.0*12.0)
+Target (15.0*12.0)
+Val Acc True
+Equation Acc True
+Question: Tom was at the beach for NUM_0 days and found NUM_1 seashells every day . How many seashells did Tom find during the beach trip ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (5.0/7.0)
+Target (5.0*7.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (72.0/9.0)
+Target (72.0/9.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (72.0/9.0)
+Target (72.0/9.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((4.0+5.0)+9.0)
+Target ((4.0+5.0)+9.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (1.125+2.125)
+Target (1.125+2.125)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (79.0-63.0)
+Target (79.0-63.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (5.0+62.0)
+Target (5.0+62.0)
+Val Acc True
+Equation Acc True
+Question: Heather weighs NUM_0 pounds . Emily weighs NUM_1 pounds . <UNK> weighs NUM_2 pounds . How much heavier is Heather than Emily ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (87.0-8.0)
+Target (87.0-9.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (0.875-0.75)
+Target (0.875-0.75)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (2.0+9.0)
+Target (2.0+9.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (30.0-8.0)
+Target (30.0-8.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (4.0+8.0)
+Target (4.0+8.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (99.0*2.0)
+Target (99.0*2.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (58.0+37.0)
+Target (58.0+37.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (8.0*3.0)
+Target (8.0*3.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (15.0+3.0)
+Target (15.0+3.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (5.0*3.0)
+Target (5.0*3.0)
+Val Acc True
+Equation Acc True
+Question: What is NUM_0 <UNK> of NUM_1 ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output 0
+Target ((80.0*0.01)*40.0)
+Val Acc False
+Equation Acc False
+Question: <UNK> wants to buy a <UNK> <UNK> that costs $ NUM_0 , a <UNK> game that costs $ NUM_1 , and a playground ball that costs $ NUM_2 . He has saved $ NUM_3 from his allowance , and his <UNK> gave him $ NUM_4 . How much more money does <UNK> need to buy the <UNK> <UNK> , the game , and the ball ? 
+Test output ((7.0+12.0)+4.0)
+Target (((7.0+12.0)+4.0)-(6.0+13.0))
+Val Acc False
+Equation Acc False
+Question: 
+Test output (6359.0+3485.0)
+Target (6359.0+3485.0)
+Val Acc True
+Equation Acc True
+Question: <UNK> bought NUM_0 <UNK> of ice cream and NUM_1 <UNK> of <UNK> . Each carton of ice cream cost $ NUM_2 and each carton of <UNK> cost $ NUM_3 . How much more did <UNK> spend on ice cream than on <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output -
+Target ((20.0*6.0)-(2.0*1.0))
+Val Acc False
+Equation Acc False
+Question: 
+Test output (6359.0+3485.0)
+Target (6359.0+3485.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (42.0-13.0)
+Target (42.0-13.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (6.0*(6.0+2.0))
+Target (6.0*(6.0+2.0))
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((66.0-10.0)/8.0)
+Target ((66.0-10.0)/8.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (88.0/8.0)
+Target (88.0/8.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((39.0+47.0)-20.0)
+Target ((39.0+47.0)-20.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (5.0*(10.0-6.0))
+Target (5.0*(10.0-6.0))
+Val Acc True
+Equation Acc True
+Question: Mrs. Hilt wants to make a <UNK> <UNK> her garden . She needs NUM_0 <UNK> to complete the <UNK> . She has NUM_1 <UNK> . How many more <UNK> does she need to complete the <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (125.0/64.0)
+Target (125.0-64.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (7.0*(12.0-5.0))
+Target (7.0*(12.0-5.0))
+Val Acc True
+Equation Acc True
+Question: 
+Test output (14.28+4.74)
+Target (14.28+4.74)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (9.0*(11.0-8.0))
+Target (9.0*(11.0-8.0))
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((13.0-7.0)/2.0)
+Target ((13.0-7.0)/2.0)
+Val Acc True
+Equation Acc True
+Question: <UNK> car gets NUM_0 miles per gallon of gas . If <UNK> ’ s house is NUM_1 miles away , how many gallons of gas would it take to get to her house ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (20.0/100.0)
+Target (100.0/20.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (2.0+4.0)
+Target (2.0+4.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((78.0-30.0)/8.0)
+Target ((78.0-30.0)/8.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((13.0+17.0)-15.0)
+Target ((13.0+17.0)-15.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (8.0-4.0)
+Target (8.0-4.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (212.0+68.0)
+Target (212.0+68.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (40.0-22.0)
+Target (40.0-22.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (45.0+11.0)
+Target (45.0+11.0)
+Val Acc True
+Equation Acc True
+Question: Frank worked NUM_0 hours on the first NUM_1 days of the week . How many hours did he work in all ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (8.0+4.0)
+Target (8.0*4.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (9306.0/99.0)
+Target (9306.0/99.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (2.0+1.0)
+Target (2.0+1.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (13.0+12.0)
+Target (13.0+12.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (3.0+76.0)
+Target (3.0+76.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (9.0-2.0)
+Target (9.0-2.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (142.0-78.0)
+Target (142.0-78.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (40.0/8.0)
+Target (40.0/8.0)
+Val Acc True
+Equation Acc True
+Question: Sally <UNK> NUM_0 dozen birds in a tree . How many birds did Sally <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (1.0*<UNK>)
+Target (1.0*12.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output ((0.1111111111111111+0.1111111111111111)+0.6666666666666666)
+Target ((0.1111111111111111+0.1111111111111111)+0.6666666666666666)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (((20.0+12.0)+20.0)-(5.0+8.0))
+Target ((((20.0+12.0)+20.0)-5.0)-8.0)
+Val Acc True
+Equation Acc False
+Question: The number of <UNK> the first week was NUM_0 . The number of <UNK> in the fourth week was NUM_1 . <UNK> the <UNK> <UNK> of change in number of <UNK> from the first week to the fourth week , in <UNK> per week . <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (<UNK>/79.0)
+Target ((79.0-15.0)/(<UNK>-<UNK>))
+Val Acc False
+Equation Acc False
+Question: 
+Test output ((17.0-5.0)/3.0)
+Target ((17.0-5.0)/3.0)
+Val Acc True
+Equation Acc True
+Question: There are NUM_0 short bushes and NUM_1 tall trees currently in the park . Park workers had to cut down NUM_2 short bushes that were <UNK> . How many short bushes will the park have when the workers are finished ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (6.0+2.0)
+Target (6.0-2.0)
+Val Acc False
+Equation Acc False
+Question: There were NUM_0 <UNK> of <UNK> in the <UNK> . Tim <UNK> <UNK> in the <UNK> today . There are now NUM_1 <UNK> of <UNK> in the <UNK> . How many <UNK> did he store in the <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (28.0+54.0)
+Target (54.0-28.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output ((3.0+9.0)/3.0)
+Target ((3.0+9.0)/3.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (4.0*(7.0-2.0))
+Target (4.0*(7.0-2.0))
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((71.0-43.0)/7.0)
+Target ((71.0-43.0)/7.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((23.0+21.0)-7.0)
+Target ((23.0+21.0)-7.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (0.625-0.5)
+Target (0.625-0.5)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((48.0+42.0)-45.0)
+Target ((48.0+42.0)-45.0)
+Val Acc True
+Equation Acc True
+Question: <UNK> <UNK> a <UNK> <UNK> <UNK> . If the <UNK> car is NUM_0 inches long and the <UNK> is NUM_1 to NUM_2 , how many inches would the <UNK> <UNK> be ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (((7.0*1.0)+18.0)/(NUM_3+NUM_4))
+Target (7.0*18.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output ((48.0+38.0)-19.0)
+Target ((48.0+38.0)-19.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (8.0+6.0)
+Target (8.0+6.0)
+Val Acc True
+Equation Acc True
+Question: <UNK> has NUM_0 packs of crayons . Each <UNK> has NUM_1 crayons in it . She <UNK> has NUM_2 extra crayons . How many crayons does <UNK> have altogether ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (4.0+10.0)
+Target (4.0*10.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output ((83.0-47.0)/4.0)
+Target ((83.0-47.0)/4.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (5.36+5.1)
+Target (5.36+5.1)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((12.0-8.0)/2.0)
+Target ((12.0-8.0)/2.0)
+Val Acc True
+Equation Acc True
+Question: When Joan was <UNK> by the <UNK> , she received NUM_0 each of quarters , <UNK> , and dimes . How much money did the <UNK> leave Joan ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (14.0*((NUM_1*.)+<UNK>))
+Target (14.0*((<UNK>+<UNK>)+<UNK>))
+Val Acc False
+Equation Acc False
+Question: 
+Test output (860.0-367.0)
+Target (860.0-367.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (14240.0/8.0)
+Target (14240.0/8.0)
+Val Acc True
+Equation Acc True
+Question: Jason has NUM_0 books and he has read NUM_1 of them . Mary has NUM_2 books . How many books do they have together ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (18.0+9.0)
+Target (18.0+42.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (47.0-25.0)
+Target (47.0-25.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (127.0-88.0)
+Target (127.0-88.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (64.0-14.0)
+Target (64.0-14.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (12.5*8.0)
+Target (12.5*8.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (8.0*45.0)
+Target (8.0*45.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (45.0+11.0)
+Target (45.0+11.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (34.0+37.0)
+Target (34.0+37.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (20.0/4.0)
+Target (20.0/4.0)
+Val Acc True
+Equation Acc True
+Question: If NUM_0 of NUM_1 <UNK> are cats . How many are cats ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (0.5-8.0)
+Target (0.5*8.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output ((0.5+0.1)+0.1)
+Target ((0.5+0.1)+0.1)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((33.0+9.0)/6.0)
+Target ((33.0+9.0)/6.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (9.0*(6.0+2.0))
+Target (9.0*(6.0+2.0))
+Val Acc True
+Equation Acc True
+Question: <UNK> <UNK> at the <UNK> , they went to the ticket <UNK> and <UNK> how much each ticket cost . If each ticket costs NUM_0 dollars and they bought NUM_1 tickets , how much money did they spend on tickets ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output ((44.0*7.0)*7.0)
+Target (44.0*7.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (112.0+105.0)
+Target (112.0+105.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (8.0*(7.0-2.0))
+Target (8.0*(7.0-2.0))
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((11.0+8.0)-9.0)
+Target ((11.0+8.0)-9.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (25.0+73.0)
+Target (25.0+73.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (8.0*(4.0-2.0))
+Target (8.0*(4.0-2.0))
+Val Acc True
+Equation Acc True
+Question: 
+Test output (9.0*(15.0-8.0))
+Target (9.0*(15.0-8.0))
+Val Acc True
+Equation Acc True
+Question: 
+Test output (7.0*(3.0+2.0))
+Target (7.0*(3.0+2.0))
+Val Acc True
+Equation Acc True
+Question: 
+Test output (0.75-0.5)
+Target (0.75-0.5)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((17.0+55.0)/8.0)
+Target ((17.0+55.0)/8.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (20.0*3.0)
+Target (20.0*3.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((13.0+41.0)/9.0)
+Target ((13.0+41.0)/9.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((36.0+32.0)+35.0)
+Target ((36.0+32.0)+35.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (3.0+2.0)
+Target (3.0+2.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (45.0/5.0)
+Target (45.0/5.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (61921.0+49500.0)
+Target (61921.0+49500.0)
+Val Acc True
+Equation Acc True
+Question: There were a total of NUM_0 soccer games during the NUM_1 month season . If the games are equally divided , how many soccer games are <UNK> a month ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (27.0+3.0)
+Target (27.0/3.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output ((3.0+3.0)/3.0)
+Target ((3.0+3.0)/3.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((19.0+10.0)-5.0)
+Target ((19.0+10.0)-5.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (46.0-5.0)
+Target (46.0-5.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (86.0-36.0)
+Target (86.0-36.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (0.36-0.05)
+Target (0.36-0.05)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (84.0/12.0)
+Target (84.0/12.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (12.0/12.0)
+Target (12.0/12.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (139.0+113.0)
+Target (139.0+113.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (7.0+8.0)
+Target (7.0+8.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (19.833333333333332-9.166666666666666)
+Target (19.833333333333332-9.166666666666666)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (90.0/<UNK>)
+Target (90.0/<UNK>)
+Val Acc True
+Equation Acc True
+Question: What is NUM_0 <UNK> of NUM_1 ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output ((395.0*0.01)*791.0)
+Target 0
+Val Acc False
+Equation Acc False
+Question: 
+Test output (2.3333333333333335-1.0)
+Target (2.3333333333333335-1.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (4.0*(2.0+3.0))
+Target (4.0*(2.0+3.0))
+Val Acc True
+Equation Acc True
+Question: 
+Test output (6.0+5.0)
+Target (6.0+5.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (2.0+7.0)
+Target (2.0+7.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (2.0*(14.0-7.0))
+Target (2.0*(14.0-7.0))
+Val Acc True
+Equation Acc True
+Question: 
+Test output (304.0-276.0)
+Target (304.0-276.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((33.0+23.0)-21.0)
+Target ((33.0+23.0)-21.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (5.0*5.0)
+Target (5.0*5.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((11.08+14.33)+9.31)
+Target ((11.08+14.33)+9.31)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (13.0+38.0)
+Target (13.0+38.0)
+Val Acc True
+Equation Acc True
+Question: John can read NUM_0 books a day . John <UNK> every Monday and Tuesday . How many books would John read in NUM_1 <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (4.0*6.0)
+Target ((4.0+4.0)*6.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (31.0*11.0)
+Target (31.0*11.0)
+Val Acc True
+Equation Acc True
+Question: <UNK> NUM_0 to a <UNK> . <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output 0
+Target (0.176*<UNK>)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (41.5-38.5)
+Target (41.5-38.5)
+Val Acc True
+Equation Acc True
+Question: There are NUM_0 walnut trees currently in the park . Park workers will plant walnut trees today . When the workers are finished there will be NUM_1 walnut trees in the park . How many walnut trees did the workers plant today ? 
+Test output (22.0+55.0)
+Target (55.0-22.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (6.0+9.0)
+Target (6.0+9.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (9.0*(13.0-4.0))
+Target (9.0*(13.0-4.0))
+Val Acc True
+Equation Acc True
+Question: 
+Test output (8.75-6.0)
+Target (8.75-6.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((44.0-12.0)/8.0)
+Target ((44.0-12.0)/8.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (3.0*(9.0-3.0))
+Target (3.0*(9.0-3.0))
+Val Acc True
+Equation Acc True
+Question: 
+Test output (4.0*(8.0-3.0))
+Target (4.0*(8.0-3.0))
+Val Acc True
+Equation Acc True
+Question: 
+Test output (3.25+0.25)
+Target (3.25+0.25)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((12.0+19.0)-8.0)
+Target ((12.0+19.0)-8.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (75.0/3.0)
+Target (75.0/3.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((25.0+30.0)-21.0)
+Target ((25.0+30.0)-21.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (7.0*(7.0+2.0))
+Target (7.0*(7.0+2.0))
+Val Acc True
+Equation Acc True
+Question: 
+Test output (81.0/9.0)
+Target (81.0/9.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output ((28.0+4.0)/4.0)
+Target ((28.0+4.0)/4.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (14.0+6.0)
+Target (14.0+6.0)
+Val Acc True
+Equation Acc True
+Question: Sandy sold lemonade in her <UNK> . She got NUM_0 <UNK> on Saturday and NUM_1 <UNK> on Sunday . What amount of money did Sandy <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (17.0+6.0)
+Target ((17.0*0.5)+(6.0*0.5))
+Val Acc False
+Equation Acc False
+Question: 
+Test output (344.0-136.0)
+Target (344.0-136.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (36.0/6.0)
+Target (36.0/6.0)
+Val Acc True
+Equation Acc True
+Question: A <UNK> box holds NUM_0 cups of <UNK> . Each <UNK> is NUM_1 cups . How many <UNK> are in the <UNK> box ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (18.0*2.0)
+Target (18.0/2.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (34.0*4.0)
+Target (34.0*4.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (709.0-221.0)
+Target (709.0-221.0)
+Val Acc True
+Equation Acc True
+Question: Jane buys an apple for $ NUM_0 and <UNK> with a $ NUM_1 bill . How much change will she get ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (0.75-5.0)
+Target (5.0-0.75)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (12.0/12.0)
+Target (12.0/12.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (18.0+41.0)
+Target (18.0+41.0)
+Val Acc True
+Equation Acc True
+Question: I walk NUM_0 mile every NUM_1 minutes . I walked NUM_2 miles . How many minutes did it take <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (1.0/15.0)
+Target (15.0*3.0)
+Val Acc False
+Equation Acc False
+Question: 
+Test output (63.0+50.0)
+Target (63.0+50.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (639.0-504.0)
+Target (639.0-504.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (69.0-51.0)
+Target (69.0-51.0)
+Val Acc True
+Equation Acc True
+Question: 
+Test output (39.0-2.0)
+Target (39.0-2.0)
+Val Acc True
+Equation Acc True
+Question: <UNK> <UNK> NUM_0 miles every day . How many miles will <UNK> run in NUM_1 <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (2.0*3.0)
+Target (2.0*(3.0*<UNK>))
+Val Acc False
+Equation Acc False
+Question: Lisa <UNK> NUM_0 DVDs for $ NUM_1 . How much did each <UNK> cost to <UNK> ? <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> 
+Test output (4.0/4.8)
+Target (4.8/4.0)
+Val Acc False
+Equation Acc False
