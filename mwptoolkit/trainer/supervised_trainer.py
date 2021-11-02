@@ -185,7 +185,7 @@ class SupervisedTrainer(AbstractTrainer):
             self.output_result.append(result)
         
         for i in range(batch_size):
-            if(val_ac == True):
+            if(val_acc[i] == True):
               continue
             print("Question:", lst_questions[i])
             #print("Test output Polish", test_out[i])
