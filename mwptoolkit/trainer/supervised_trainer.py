@@ -394,6 +394,7 @@ class GTSTrainer(AbstractTrainer):
         """
         super().__init__(config, model, dataloader, evaluator)
         self._build_optimizer()
+        self.print_debug = config["test_question_output"]
 
     def _build_optimizer(self):
         # optimizer
@@ -549,16 +550,17 @@ class GTSTrainer(AbstractTrainer):
             }
             self.output_result.append(result)
         
-        for i in range(batch_size):
-            if(val_acc[i] == False):
-              continue
-            print("Question:", act_questions[i])
-            #print("Test output Polish", test_out[i])
-            #print("Target Polish", target[i])
-            print("Test output", polish_to_infix(test_out[i]))
-            print("Target", polish_to_infix(target[i]))
-            print("Val Acc", val_acc[i])
-            print("Equation Acc", equ_acc[i])
+        if self.print_debug:
+            for i in range(batch_size):
+                if(val_acc[i] == False):
+                  continue
+                print("Question:", act_questions[i])
+                #print("Test output Polish", test_out[i])
+                #print("Target Polish", target[i])
+                print("Test output", polish_to_infix(test_out[i]))
+                print("Target", polish_to_infix(target[i]))
+                print("Val Acc", val_acc[i])
+                print("Equation Acc", equ_acc[i])
         return val_acc, equ_acc
 
     def _train_epoch(self):
