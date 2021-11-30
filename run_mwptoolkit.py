@@ -17,6 +17,7 @@ if __name__ == '__main__':
     parser.add_argument('--model', '-m', type=str, default='GTS', help='name of models')
     parser.add_argument('--dataset', '-d', type=str, default='math23k', help='name of datasets')
     parser.add_argument('--task_type', '-t', type=str, default='single_equation', help='name of tasks')
+    parser.add_argument('--test_question_output', '-o', type=bool, default=False, help='True prints question output for testing')
 
     args, _ = parser.parse_known_args()
     config_dict = {}

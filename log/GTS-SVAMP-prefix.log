@@ -1,0 +1,832 @@
+Sun 28 Nov 2021 15:30:28 INFO random_seed=2021
+use_gpu=True
+max_output_len=30
+gpu_id=0
+test_step=5
+load_best_config=False
+supervising_mode=fully_supervised
+rebuild=False
+validset_divide=True
+shuffle=False
+root=/home/shubham/FINAL CS229 PROJECT/MWP-CS229
+model_config_path=/home/shubham/FINAL CS229 PROJECT/MWP-CS229/mwptoolkit/config/../properties/model/GTS.json
+best_config_path=/home/shubham/FINAL CS229 PROJECT/MWP-CS229/mwptoolkit/config/../properties/best_config/GTS_SVAMP.json
+dataset_config_path=/home/shubham/FINAL CS229 PROJECT/MWP-CS229/mwptoolkit/config/../properties/dataset/SVAMP.json
+dataset_path=dataset/SVAMP
+min_word_keep=5
+min_generate_keep=5
+mask_symbol=NUM
+single=True
+linear=True
+language=en
+train_batch_size=32
+test_batch_size=1
+source_equation_fix=infix
+embedding_size=128
+hidden_size=512
+learning_rate=0.001
+embedding_learning_rate=0.001
+rnn_cell_type=gru
+num_layers=2
+weight_decay=1e-05
+epoch_nums=80
+dropout_ratio=0.5
+step_size=20
+beam_size=5
+share_vocab=False
+symbol_for_tree=True
+equation_fix=prefix
+model=GTS
+dataset=SVAMP
+task_type=single_equation
+k_fold=5
+checkpoint_path=checkpoint/GTS-SVAMP-prefix.pth
+trained_model_path=trained_model/GTS-SVAMP-prefix.pth
+log_path=log/GTS-SVAMP-prefix.log
+device=cuda
+map_location=cuda
+gpu_nums=1
+
+
+Sun 28 Nov 2021 15:30:28 INFO start training with 5 fold cross validation.
+Sun 28 Nov 2021 15:30:32 INFO fold 0
+Sun 28 Nov 2021 15:30:32 INFO start training...
+Sun 28 Nov 2021 15:30:38 INFO epoch [  1] avr loss [1.33097295] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:34:34 INFO random_seed=2021
+use_gpu=True
+max_output_len=30
+gpu_id=0
+test_step=5
+load_best_config=False
+supervising_mode=fully_supervised
+rebuild=False
+validset_divide=True
+shuffle=False
+root=/home/shubham/FINAL CS229 PROJECT/MWP-CS229
+model_config_path=/home/shubham/FINAL CS229 PROJECT/MWP-CS229/mwptoolkit/config/../properties/model/GTS.json
+best_config_path=/home/shubham/FINAL CS229 PROJECT/MWP-CS229/mwptoolkit/config/../properties/best_config/GTS_SVAMP.json
+dataset_config_path=/home/shubham/FINAL CS229 PROJECT/MWP-CS229/mwptoolkit/config/../properties/dataset/SVAMP.json
+dataset_path=dataset/SVAMP
+min_word_keep=5
+min_generate_keep=5
+mask_symbol=NUM
+single=True
+linear=True
+language=en
+train_batch_size=32
+test_batch_size=1
+source_equation_fix=infix
+embedding_size=128
+hidden_size=512
+learning_rate=0.001
+embedding_learning_rate=0.001
+rnn_cell_type=gru
+num_layers=2
+weight_decay=1e-05
+epoch_nums=80
+dropout_ratio=0.5
+step_size=20
+beam_size=5
+share_vocab=False
+symbol_for_tree=True
+equation_fix=prefix
+model=GTS
+dataset=SVAMP
+task_type=single_equation
+k_fold=5
+checkpoint_path=checkpoint/GTS-SVAMP-prefix.pth
+trained_model_path=trained_model/GTS-SVAMP-prefix.pth
+log_path=log/GTS-SVAMP-prefix.log
+device=cuda
+map_location=cuda
+gpu_nums=1
+
+
+Sun 28 Nov 2021 15:34:34 INFO start training with 5 fold cross validation.
+Sun 28 Nov 2021 15:34:36 INFO fold 0
+Sun 28 Nov 2021 15:34:36 INFO start training...
+Sun 28 Nov 2021 15:34:42 INFO epoch [  1] avr loss [1.33097295] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:34:48 INFO ---------- test total [200] | test equ acc [0.025] | test value acc [0.025] | test time 0h 0m 6s
+Sun 28 Nov 2021 15:34:54 INFO epoch [  2] avr loss [1.11821629] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:35:00 INFO epoch [  3] avr loss [1.03123297] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:35:06 INFO epoch [  4] avr loss [0.95516333] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:35:12 INFO epoch [  5] avr loss [0.92745639] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:35:18 INFO epoch [  6] avr loss [0.85704640] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:35:27 INFO ---------- test total [200] | test equ acc [0.160] | test value acc [0.170] | test time 0h 0m 8s
+Sun 28 Nov 2021 15:35:33 INFO epoch [  7] avr loss [0.82131610] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:35:40 INFO epoch [  8] avr loss [0.77629334] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:35:46 INFO epoch [  9] avr loss [0.73166895] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:35:52 INFO epoch [ 10] avr loss [0.68899042] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:35:58 INFO epoch [ 11] avr loss [0.65810950] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:36:06 INFO ---------- test total [200] | test equ acc [0.220] | test value acc [0.235] | test time 0h 0m 8s
+Sun 28 Nov 2021 15:36:13 INFO epoch [ 12] avr loss [0.61211412] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:36:19 INFO epoch [ 13] avr loss [0.59227600] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:36:25 INFO epoch [ 14] avr loss [0.55157208] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:36:32 INFO epoch [ 15] avr loss [0.51050341] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:36:38 INFO epoch [ 16] avr loss [0.49277625] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:36:47 INFO ---------- test total [200] | test equ acc [0.245] | test value acc [0.250] | test time 0h 0m 9s
+Sun 28 Nov 2021 15:36:54 INFO epoch [ 17] avr loss [0.45476501] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:37:00 INFO epoch [ 18] avr loss [0.43604028] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:37:06 INFO epoch [ 19] avr loss [0.41848713] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:37:11 INFO epoch [ 20] avr loss [0.39484481] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:37:18 INFO epoch [ 21] avr loss [0.36254942] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:37:27 INFO ---------- test total [200] | test equ acc [0.255] | test value acc [0.275] | test time 0h 0m 9s
+Sun 28 Nov 2021 15:37:33 INFO epoch [ 22] avr loss [0.33021497] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:37:40 INFO epoch [ 23] avr loss [0.29432569] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:37:46 INFO epoch [ 24] avr loss [0.27783761] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:37:53 INFO epoch [ 25] avr loss [0.26662126] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:37:59 INFO epoch [ 26] avr loss [0.25558679] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:38:11 INFO ---------- test total [200] | test equ acc [0.230] | test value acc [0.250] | test time 0h 0m 12s
+Sun 28 Nov 2021 15:38:18 INFO epoch [ 27] avr loss [0.24604011] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:38:24 INFO epoch [ 28] avr loss [0.25904764] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:38:30 INFO epoch [ 29] avr loss [0.23167988] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:38:36 INFO epoch [ 30] avr loss [0.20829350] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:38:42 INFO epoch [ 31] avr loss [0.22282831] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:38:52 INFO ---------- test total [200] | test equ acc [0.225] | test value acc [0.235] | test time 0h 0m 9s
+Sun 28 Nov 2021 15:38:58 INFO epoch [ 32] avr loss [0.22048045] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:39:05 INFO epoch [ 33] avr loss [0.20344390] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:39:11 INFO epoch [ 34] avr loss [0.19277876] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:39:18 INFO epoch [ 35] avr loss [0.20084414] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:39:24 INFO epoch [ 36] avr loss [0.16725054] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:39:34 INFO ---------- test total [200] | test equ acc [0.240] | test value acc [0.260] | test time 0h 0m 9s
+Sun 28 Nov 2021 15:39:40 INFO epoch [ 37] avr loss [0.16698656] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:39:46 INFO epoch [ 38] avr loss [0.18897059] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:39:52 INFO epoch [ 39] avr loss [0.18113117] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:39:59 INFO epoch [ 40] avr loss [0.17104509] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:40:05 INFO epoch [ 41] avr loss [0.15074576] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:40:15 INFO ---------- test total [200] | test equ acc [0.230] | test value acc [0.245] | test time 0h 0m 9s
+Sun 28 Nov 2021 15:40:22 INFO epoch [ 42] avr loss [0.14878061] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:40:28 INFO epoch [ 43] avr loss [0.14934353] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:40:35 INFO epoch [ 44] avr loss [0.13374032] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:40:42 INFO epoch [ 45] avr loss [0.13378030] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:40:49 INFO epoch [ 46] avr loss [0.13617246] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:40:59 INFO ---------- test total [200] | test equ acc [0.220] | test value acc [0.240] | test time 0h 0m 10s
+Sun 28 Nov 2021 15:41:06 INFO epoch [ 47] avr loss [0.12853385] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:41:12 INFO epoch [ 48] avr loss [0.12448540] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:41:19 INFO epoch [ 49] avr loss [0.12180591] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:41:26 INFO epoch [ 50] avr loss [0.12163374] | train time 0h 0m 7s
+Sun 28 Nov 2021 15:41:32 INFO epoch [ 51] avr loss [0.12324287] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:41:42 INFO ---------- test total [200] | test equ acc [0.240] | test value acc [0.260] | test time 0h 0m 9s
+Sun 28 Nov 2021 15:41:48 INFO epoch [ 52] avr loss [0.13015069] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:41:55 INFO epoch [ 53] avr loss [0.11383849] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:42:01 INFO epoch [ 54] avr loss [0.11607101] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:42:07 INFO epoch [ 55] avr loss [0.11284045] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:42:14 INFO epoch [ 56] avr loss [0.11517607] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:42:23 INFO ---------- test total [200] | test equ acc [0.230] | test value acc [0.255] | test time 0h 0m 9s
+Sun 28 Nov 2021 15:42:29 INFO epoch [ 57] avr loss [0.11675473] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:42:35 INFO epoch [ 58] avr loss [0.12099247] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:42:42 INFO epoch [ 59] avr loss [0.10672413] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:42:48 INFO epoch [ 60] avr loss [0.11244342] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:42:54 INFO epoch [ 61] avr loss [0.10729176] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:43:04 INFO ---------- test total [200] | test equ acc [0.220] | test value acc [0.240] | test time 0h 0m 9s
+Sun 28 Nov 2021 15:43:10 INFO epoch [ 62] avr loss [0.09227352] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:43:16 INFO epoch [ 63] avr loss [0.09694642] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:43:22 INFO epoch [ 64] avr loss [0.09364883] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:43:29 INFO epoch [ 65] avr loss [0.09666816] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:43:36 INFO epoch [ 66] avr loss [0.09786211] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:43:47 INFO ---------- test total [200] | test equ acc [0.230] | test value acc [0.255] | test time 0h 0m 11s
+Sun 28 Nov 2021 15:43:53 INFO epoch [ 67] avr loss [0.10558761] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:44:00 INFO epoch [ 68] avr loss [0.08643888] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:44:06 INFO epoch [ 69] avr loss [0.09572367] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:44:13 INFO epoch [ 70] avr loss [0.08802834] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:44:19 INFO epoch [ 71] avr loss [0.09719683] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:44:29 INFO ---------- test total [200] | test equ acc [0.240] | test value acc [0.265] | test time 0h 0m 10s
+Sun 28 Nov 2021 15:44:35 INFO epoch [ 72] avr loss [0.09278725] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:44:42 INFO epoch [ 73] avr loss [0.09054562] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:44:48 INFO epoch [ 74] avr loss [0.08820499] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:44:54 INFO epoch [ 75] avr loss [0.08287112] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:45:00 INFO epoch [ 76] avr loss [0.08111684] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:45:09 INFO ---------- test total [200] | test equ acc [0.215] | test value acc [0.235] | test time 0h 0m 8s
+Sun 28 Nov 2021 15:45:16 INFO epoch [ 77] avr loss [0.08325547] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:45:25 INFO ---------- test total [200] | test equ acc [0.220] | test value acc [0.240] | test time 0h 0m 8s
+Sun 28 Nov 2021 15:45:31 INFO epoch [ 78] avr loss [0.08624040] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:45:40 INFO ---------- test total [200] | test equ acc [0.230] | test value acc [0.250] | test time 0h 0m 9s
+Sun 28 Nov 2021 15:45:46 INFO epoch [ 79] avr loss [0.08314899] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:45:56 INFO ---------- test total [200] | test equ acc [0.235] | test value acc [0.255] | test time 0h 0m 9s
+Sun 28 Nov 2021 15:46:02 INFO epoch [ 80] avr loss [0.07604929] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:46:12 INFO ---------- test total [200] | test equ acc [0.240] | test value acc [0.260] | test time 0h 0m 9s
+Sun 28 Nov 2021 15:46:12 INFO training finished.
+                            best valid result: equation accuracy [0.000] | value accuracy [0.000]
+                            best test result : equation accuracy [0.255] | value accuracy [0.275]
+Sun 28 Nov 2021 15:46:13 INFO fold 1
+Sun 28 Nov 2021 15:46:13 INFO start training...
+Sun 28 Nov 2021 15:46:19 INFO epoch [  1] avr loss [1.34514888] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:46:29 INFO ---------- test total [200] | test equ acc [0.020] | test value acc [0.025] | test time 0h 0m 10s
+Sun 28 Nov 2021 15:46:36 INFO epoch [  2] avr loss [1.09797450] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:46:43 INFO epoch [  3] avr loss [1.03181509] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:46:49 INFO epoch [  4] avr loss [0.97903742] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:46:56 INFO epoch [  5] avr loss [0.92309116] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:47:02 INFO epoch [  6] avr loss [0.85039981] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:47:11 INFO ---------- test total [200] | test equ acc [0.210] | test value acc [0.220] | test time 0h 0m 9s
+Sun 28 Nov 2021 15:47:19 INFO epoch [  7] avr loss [0.79747240] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:47:26 INFO epoch [  8] avr loss [0.78375673] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:47:35 INFO epoch [  9] avr loss [0.72997301] | train time 0h 0m 8s
+Sun 28 Nov 2021 15:47:45 INFO epoch [ 10] avr loss [0.69599476] | train time 0h 0m 9s
+Sun 28 Nov 2021 15:47:54 INFO epoch [ 11] avr loss [0.69913783] | train time 0h 0m 7s
+Sun 28 Nov 2021 15:48:08 INFO ---------- test total [200] | test equ acc [0.215] | test value acc [0.235] | test time 0h 0m 13s
+Sun 28 Nov 2021 15:48:16 INFO epoch [ 12] avr loss [0.64066862] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:48:23 INFO epoch [ 13] avr loss [0.56754021] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:48:29 INFO epoch [ 14] avr loss [0.55234944] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:48:36 INFO epoch [ 15] avr loss [0.54512683] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:48:42 INFO epoch [ 16] avr loss [0.51128567] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:48:52 INFO ---------- test total [200] | test equ acc [0.270] | test value acc [0.290] | test time 0h 0m 9s
+Sun 28 Nov 2021 15:48:59 INFO epoch [ 17] avr loss [0.48750691] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:49:06 INFO epoch [ 18] avr loss [0.44973160] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:49:13 INFO epoch [ 19] avr loss [0.41155630] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:49:20 INFO epoch [ 20] avr loss [0.38196276] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:49:27 INFO epoch [ 21] avr loss [0.34312386] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:49:41 INFO ---------- test total [200] | test equ acc [0.245] | test value acc [0.265] | test time 0h 0m 13s
+Sun 28 Nov 2021 15:49:47 INFO epoch [ 22] avr loss [0.31585103] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:49:54 INFO epoch [ 23] avr loss [0.29246451] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:50:01 INFO epoch [ 24] avr loss [0.28173375] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:50:07 INFO epoch [ 25] avr loss [0.26497329] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:50:15 INFO epoch [ 26] avr loss [0.26154979] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:50:27 INFO ---------- test total [200] | test equ acc [0.270] | test value acc [0.305] | test time 0h 0m 11s
+Sun 28 Nov 2021 15:50:34 INFO epoch [ 27] avr loss [0.23835489] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:50:41 INFO epoch [ 28] avr loss [0.25284937] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:50:48 INFO epoch [ 29] avr loss [0.23779670] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:50:55 INFO epoch [ 30] avr loss [0.22457021] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:51:02 INFO epoch [ 31] avr loss [0.21040645] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:51:14 INFO ---------- test total [200] | test equ acc [0.275] | test value acc [0.305] | test time 0h 0m 11s
+Sun 28 Nov 2021 15:51:21 INFO epoch [ 32] avr loss [0.20637813] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:51:28 INFO epoch [ 33] avr loss [0.21187662] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:51:35 INFO epoch [ 34] avr loss [0.19155301] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:51:42 INFO epoch [ 35] avr loss [0.18031977] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:51:50 INFO epoch [ 36] avr loss [0.17380172] | train time 0h 0m 7s
+Sun 28 Nov 2021 15:52:04 INFO ---------- test total [200] | test equ acc [0.240] | test value acc [0.265] | test time 0h 0m 14s
+Sun 28 Nov 2021 15:52:12 INFO epoch [ 37] avr loss [0.16519192] | train time 0h 0m 7s
+Sun 28 Nov 2021 15:52:19 INFO epoch [ 38] avr loss [0.17423149] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:52:25 INFO epoch [ 39] avr loss [0.17060978] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:52:32 INFO epoch [ 40] avr loss [0.16421195] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:52:38 INFO epoch [ 41] avr loss [0.14627800] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:52:48 INFO ---------- test total [200] | test equ acc [0.225] | test value acc [0.250] | test time 0h 0m 10s
+Sun 28 Nov 2021 15:52:54 INFO epoch [ 42] avr loss [0.15138223] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:53:00 INFO epoch [ 43] avr loss [0.13719997] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:53:07 INFO epoch [ 44] avr loss [0.12097041] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:53:13 INFO epoch [ 45] avr loss [0.11818762] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:53:20 INFO epoch [ 46] avr loss [0.11809179] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:53:32 INFO ---------- test total [200] | test equ acc [0.215] | test value acc [0.240] | test time 0h 0m 12s
+Sun 28 Nov 2021 15:53:38 INFO epoch [ 47] avr loss [0.12078837] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:53:45 INFO epoch [ 48] avr loss [0.11872364] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:53:51 INFO epoch [ 49] avr loss [0.11577457] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:53:57 INFO epoch [ 50] avr loss [0.11119855] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:54:04 INFO epoch [ 51] avr loss [0.10923075] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:54:14 INFO ---------- test total [200] | test equ acc [0.225] | test value acc [0.250] | test time 0h 0m 10s
+Sun 28 Nov 2021 15:54:20 INFO epoch [ 52] avr loss [0.10463871] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:54:26 INFO epoch [ 53] avr loss [0.10577184] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:54:32 INFO epoch [ 54] avr loss [0.10609699] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:54:38 INFO epoch [ 55] avr loss [0.09884834] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:54:45 INFO epoch [ 56] avr loss [0.09737975] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:54:55 INFO ---------- test total [200] | test equ acc [0.255] | test value acc [0.275] | test time 0h 0m 10s
+Sun 28 Nov 2021 15:55:02 INFO epoch [ 57] avr loss [0.09760142] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:55:08 INFO epoch [ 58] avr loss [0.09013129] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:55:15 INFO epoch [ 59] avr loss [0.10543644] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:55:22 INFO epoch [ 60] avr loss [0.09702760] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:55:28 INFO epoch [ 61] avr loss [0.09298846] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:55:39 INFO ---------- test total [200] | test equ acc [0.245] | test value acc [0.270] | test time 0h 0m 11s
+Sun 28 Nov 2021 15:55:46 INFO epoch [ 62] avr loss [0.08136895] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:55:53 INFO epoch [ 63] avr loss [0.09020603] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:56:00 INFO epoch [ 64] avr loss [0.08904412] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:56:06 INFO epoch [ 65] avr loss [0.08104523] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:56:13 INFO epoch [ 66] avr loss [0.08030000] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:56:26 INFO ---------- test total [200] | test equ acc [0.230] | test value acc [0.260] | test time 0h 0m 12s
+Sun 28 Nov 2021 15:56:33 INFO epoch [ 67] avr loss [0.07999947] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:56:40 INFO epoch [ 68] avr loss [0.07630128] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:56:46 INFO epoch [ 69] avr loss [0.08091964] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:56:53 INFO epoch [ 70] avr loss [0.08175695] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:57:01 INFO epoch [ 71] avr loss [0.07706722] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:57:13 INFO ---------- test total [200] | test equ acc [0.235] | test value acc [0.260] | test time 0h 0m 12s
+Sun 28 Nov 2021 15:57:20 INFO epoch [ 72] avr loss [0.07851406] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:57:27 INFO epoch [ 73] avr loss [0.07630943] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:57:34 INFO epoch [ 74] avr loss [0.07634833] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:57:41 INFO epoch [ 75] avr loss [0.07173591] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:57:48 INFO epoch [ 76] avr loss [0.06791025] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:58:00 INFO ---------- test total [200] | test equ acc [0.225] | test value acc [0.260] | test time 0h 0m 12s
+Sun 28 Nov 2021 15:58:07 INFO epoch [ 77] avr loss [0.07812917] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:58:19 INFO ---------- test total [200] | test equ acc [0.235] | test value acc [0.265] | test time 0h 0m 12s
+Sun 28 Nov 2021 15:58:26 INFO epoch [ 78] avr loss [0.07275114] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:58:38 INFO ---------- test total [200] | test equ acc [0.220] | test value acc [0.255] | test time 0h 0m 12s
+Sun 28 Nov 2021 15:58:44 INFO epoch [ 79] avr loss [0.07619806] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:58:56 INFO ---------- test total [200] | test equ acc [0.230] | test value acc [0.265] | test time 0h 0m 11s
+Sun 28 Nov 2021 15:59:04 INFO epoch [ 80] avr loss [0.06928736] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:59:18 INFO ---------- test total [200] | test equ acc [0.225] | test value acc [0.255] | test time 0h 0m 13s
+Sun 28 Nov 2021 15:59:18 INFO training finished.
+                            best valid result: equation accuracy [0.000] | value accuracy [0.000]
+                            best test result : equation accuracy [0.275] | value accuracy [0.305]
+Sun 28 Nov 2021 15:59:19 INFO fold 2
+Sun 28 Nov 2021 15:59:19 INFO start training...
+Sun 28 Nov 2021 15:59:25 INFO epoch [  1] avr loss [1.34571223] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:59:36 INFO ---------- test total [200] | test equ acc [0.005] | test value acc [0.020] | test time 0h 0m 10s
+Sun 28 Nov 2021 15:59:42 INFO epoch [  2] avr loss [1.10694885] | train time 0h 0m 5s
+Sun 28 Nov 2021 15:59:49 INFO epoch [  3] avr loss [1.01695837] | train time 0h 0m 6s
+Sun 28 Nov 2021 15:59:55 INFO epoch [  4] avr loss [0.94559842] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:00:02 INFO epoch [  5] avr loss [0.90908667] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:00:08 INFO epoch [  6] avr loss [0.85869076] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:00:19 INFO ---------- test total [200] | test equ acc [0.270] | test value acc [0.290] | test time 0h 0m 10s
+Sun 28 Nov 2021 16:00:25 INFO epoch [  7] avr loss [0.80775338] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:00:31 INFO epoch [  8] avr loss [0.76334639] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:00:37 INFO epoch [  9] avr loss [0.71483702] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:00:44 INFO epoch [ 10] avr loss [0.69414300] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:00:50 INFO epoch [ 11] avr loss [0.65181545] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:01:00 INFO ---------- test total [200] | test equ acc [0.295] | test value acc [0.310] | test time 0h 0m 9s
+Sun 28 Nov 2021 16:01:06 INFO epoch [ 12] avr loss [0.63416288] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:01:13 INFO epoch [ 13] avr loss [0.61423085] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:01:19 INFO epoch [ 14] avr loss [0.57080274] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:01:26 INFO epoch [ 15] avr loss [0.52742308] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:01:32 INFO epoch [ 16] avr loss [0.49512561] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:01:44 INFO ---------- test total [200] | test equ acc [0.270] | test value acc [0.275] | test time 0h 0m 11s
+Sun 28 Nov 2021 16:01:50 INFO epoch [ 17] avr loss [0.47394977] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:01:57 INFO epoch [ 18] avr loss [0.43778659] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:02:04 INFO epoch [ 19] avr loss [0.43709573] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:02:10 INFO epoch [ 20] avr loss [0.38710920] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:02:18 INFO epoch [ 21] avr loss [0.35388932] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:02:32 INFO ---------- test total [200] | test equ acc [0.265] | test value acc [0.285] | test time 0h 0m 14s
+Sun 28 Nov 2021 16:02:39 INFO epoch [ 22] avr loss [0.32720339] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:02:46 INFO epoch [ 23] avr loss [0.30798044] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:02:53 INFO epoch [ 24] avr loss [0.29130021] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:03:00 INFO epoch [ 25] avr loss [0.27547937] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:03:06 INFO epoch [ 26] avr loss [0.27463526] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:03:18 INFO ---------- test total [200] | test equ acc [0.280] | test value acc [0.305] | test time 0h 0m 11s
+Sun 28 Nov 2021 16:03:25 INFO epoch [ 27] avr loss [0.26097705] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:03:31 INFO epoch [ 28] avr loss [0.25713575] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:03:38 INFO epoch [ 29] avr loss [0.24813079] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:03:45 INFO epoch [ 30] avr loss [0.23355141] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:03:52 INFO epoch [ 31] avr loss [0.23077965] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:04:04 INFO ---------- test total [200] | test equ acc [0.290] | test value acc [0.315] | test time 0h 0m 12s
+Sun 28 Nov 2021 16:04:12 INFO epoch [ 32] avr loss [0.21963038] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:04:19 INFO epoch [ 33] avr loss [0.21308673] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:04:26 INFO epoch [ 34] avr loss [0.20733455] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:04:33 INFO epoch [ 35] avr loss [0.22212327] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:04:40 INFO epoch [ 36] avr loss [0.20281940] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:04:53 INFO ---------- test total [200] | test equ acc [0.270] | test value acc [0.300] | test time 0h 0m 13s
+Sun 28 Nov 2021 16:04:59 INFO epoch [ 37] avr loss [0.19727423] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:05:06 INFO epoch [ 38] avr loss [0.18737063] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:05:13 INFO epoch [ 39] avr loss [0.18150362] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:05:20 INFO epoch [ 40] avr loss [0.17406988] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:05:27 INFO epoch [ 41] avr loss [0.16503118] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:05:41 INFO ---------- test total [200] | test equ acc [0.275] | test value acc [0.300] | test time 0h 0m 13s
+Sun 28 Nov 2021 16:05:48 INFO epoch [ 42] avr loss [0.15045479] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:05:54 INFO epoch [ 43] avr loss [0.15512382] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:06:02 INFO epoch [ 44] avr loss [0.14425233] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:06:09 INFO epoch [ 45] avr loss [0.14971003] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:06:16 INFO epoch [ 46] avr loss [0.13950588] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:06:32 INFO ---------- test total [200] | test equ acc [0.290] | test value acc [0.310] | test time 0h 0m 15s
+Sun 28 Nov 2021 16:06:38 INFO epoch [ 47] avr loss [0.13871457] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:06:46 INFO epoch [ 48] avr loss [0.13734758] | train time 0h 0m 7s
+Sun 28 Nov 2021 16:06:53 INFO epoch [ 49] avr loss [0.12860305] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:07:00 INFO epoch [ 50] avr loss [0.14196424] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:07:08 INFO epoch [ 51] avr loss [0.13362560] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:07:21 INFO ---------- test total [200] | test equ acc [0.270] | test value acc [0.300] | test time 0h 0m 13s
+Sun 28 Nov 2021 16:07:28 INFO epoch [ 52] avr loss [0.13343732] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:07:34 INFO epoch [ 53] avr loss [0.13238985] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:07:41 INFO epoch [ 54] avr loss [0.13222353] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:07:47 INFO epoch [ 55] avr loss [0.11905498] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:07:53 INFO epoch [ 56] avr loss [0.12844801] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:08:04 INFO ---------- test total [200] | test equ acc [0.275] | test value acc [0.290] | test time 0h 0m 10s
+Sun 28 Nov 2021 16:08:11 INFO epoch [ 57] avr loss [0.12246180] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:08:18 INFO epoch [ 58] avr loss [0.11960629] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:08:25 INFO epoch [ 59] avr loss [0.11595704] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:08:31 INFO epoch [ 60] avr loss [0.11588785] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:08:38 INFO epoch [ 61] avr loss [0.11827462] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:08:50 INFO ---------- test total [200] | test equ acc [0.280] | test value acc [0.300] | test time 0h 0m 11s
+Sun 28 Nov 2021 16:08:57 INFO epoch [ 62] avr loss [0.11353971] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:09:04 INFO epoch [ 63] avr loss [0.10516235] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:09:11 INFO epoch [ 64] avr loss [0.10354270] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:09:18 INFO epoch [ 65] avr loss [0.10196641] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:09:26 INFO epoch [ 66] avr loss [0.10950254] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:09:38 INFO ---------- test total [200] | test equ acc [0.290] | test value acc [0.305] | test time 0h 0m 12s
+Sun 28 Nov 2021 16:09:44 INFO epoch [ 67] avr loss [0.09898110] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:09:51 INFO epoch [ 68] avr loss [0.10857537] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:09:57 INFO epoch [ 69] avr loss [0.10134441] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:10:04 INFO epoch [ 70] avr loss [0.10553281] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:10:11 INFO epoch [ 71] avr loss [0.09720811] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:10:24 INFO ---------- test total [200] | test equ acc [0.275] | test value acc [0.295] | test time 0h 0m 13s
+Sun 28 Nov 2021 16:10:31 INFO epoch [ 72] avr loss [0.09949243] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:10:38 INFO epoch [ 73] avr loss [0.10246046] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:10:44 INFO epoch [ 74] avr loss [0.09451004] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:10:51 INFO epoch [ 75] avr loss [0.08806007] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:10:57 INFO epoch [ 76] avr loss [0.09587793] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:11:09 INFO ---------- test total [200] | test equ acc [0.280] | test value acc [0.300] | test time 0h 0m 11s
+Sun 28 Nov 2021 16:11:15 INFO epoch [ 77] avr loss [0.09084359] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:11:28 INFO ---------- test total [200] | test equ acc [0.285] | test value acc [0.305] | test time 0h 0m 12s
+Sun 28 Nov 2021 16:11:35 INFO epoch [ 78] avr loss [0.09857358] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:11:45 INFO ---------- test total [200] | test equ acc [0.275] | test value acc [0.295] | test time 0h 0m 10s
+Sun 28 Nov 2021 16:11:52 INFO epoch [ 79] avr loss [0.09867858] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:12:04 INFO ---------- test total [200] | test equ acc [0.285] | test value acc [0.305] | test time 0h 0m 12s
+Sun 28 Nov 2021 16:12:12 INFO epoch [ 80] avr loss [0.09161727] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:12:26 INFO ---------- test total [200] | test equ acc [0.280] | test value acc [0.300] | test time 0h 0m 13s
+Sun 28 Nov 2021 16:12:26 INFO training finished.
+                            best valid result: equation accuracy [0.000] | value accuracy [0.000]
+                            best test result : equation accuracy [0.290] | value accuracy [0.315]
+Sun 28 Nov 2021 16:12:27 INFO fold 3
+Sun 28 Nov 2021 16:12:27 INFO start training...
+Sun 28 Nov 2021 16:12:33 INFO epoch [  1] avr loss [1.32638410] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:12:43 INFO ---------- test total [200] | test equ acc [0.030] | test value acc [0.030] | test time 0h 0m 10s
+Sun 28 Nov 2021 16:12:50 INFO epoch [  2] avr loss [1.11630031] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:12:56 INFO epoch [  3] avr loss [1.02758779] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:13:02 INFO epoch [  4] avr loss [0.96036483] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:13:08 INFO epoch [  5] avr loss [0.93749372] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:13:15 INFO epoch [  6] avr loss [0.86908539] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:13:25 INFO ---------- test total [200] | test equ acc [0.220] | test value acc [0.220] | test time 0h 0m 10s
+Sun 28 Nov 2021 16:13:31 INFO epoch [  7] avr loss [0.81863757] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:13:37 INFO epoch [  8] avr loss [0.75659900] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:13:44 INFO epoch [  9] avr loss [0.72254250] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:13:50 INFO epoch [ 10] avr loss [0.70018437] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:13:57 INFO epoch [ 11] avr loss [0.65089143] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:14:06 INFO ---------- test total [200] | test equ acc [0.265] | test value acc [0.265] | test time 0h 0m 9s
+Sun 28 Nov 2021 16:14:12 INFO epoch [ 12] avr loss [0.60728504] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:14:19 INFO epoch [ 13] avr loss [0.56690485] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:14:25 INFO epoch [ 14] avr loss [0.56206664] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:14:32 INFO epoch [ 15] avr loss [0.52424748] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:14:38 INFO epoch [ 16] avr loss [0.50571282] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:14:48 INFO ---------- test total [200] | test equ acc [0.265] | test value acc [0.270] | test time 0h 0m 9s
+Sun 28 Nov 2021 16:14:54 INFO epoch [ 17] avr loss [0.47212860] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:15:01 INFO epoch [ 18] avr loss [0.47375265] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:15:07 INFO epoch [ 19] avr loss [0.42242000] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:15:15 INFO epoch [ 20] avr loss [0.41756594] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:15:21 INFO epoch [ 21] avr loss [0.36408607] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:15:31 INFO ---------- test total [200] | test equ acc [0.280] | test value acc [0.295] | test time 0h 0m 10s
+Sun 28 Nov 2021 16:15:38 INFO epoch [ 22] avr loss [0.32499862] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:15:45 INFO epoch [ 23] avr loss [0.30954622] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:15:51 INFO epoch [ 24] avr loss [0.29109413] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:15:58 INFO epoch [ 25] avr loss [0.27981948] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:16:05 INFO epoch [ 26] avr loss [0.25391167] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:16:15 INFO ---------- test total [200] | test equ acc [0.275] | test value acc [0.295] | test time 0h 0m 10s
+Sun 28 Nov 2021 16:16:22 INFO epoch [ 27] avr loss [0.23999296] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:16:28 INFO epoch [ 28] avr loss [0.23569788] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:16:34 INFO epoch [ 29] avr loss [0.22960503] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:16:41 INFO epoch [ 30] avr loss [0.21760032] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:16:47 INFO epoch [ 31] avr loss [0.21845944] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:16:58 INFO ---------- test total [200] | test equ acc [0.240] | test value acc [0.260] | test time 0h 0m 11s
+Sun 28 Nov 2021 16:17:04 INFO epoch [ 32] avr loss [0.21669041] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:17:11 INFO epoch [ 33] avr loss [0.20022377] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:17:18 INFO epoch [ 34] avr loss [0.20048840] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:17:25 INFO epoch [ 35] avr loss [0.18823397] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:17:31 INFO epoch [ 36] avr loss [0.19408952] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:17:43 INFO ---------- test total [200] | test equ acc [0.240] | test value acc [0.270] | test time 0h 0m 11s
+Sun 28 Nov 2021 16:17:49 INFO epoch [ 37] avr loss [0.19062691] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:17:55 INFO epoch [ 38] avr loss [0.18800620] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:18:02 INFO epoch [ 39] avr loss [0.18358334] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:18:09 INFO epoch [ 40] avr loss [0.17810486] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:18:15 INFO epoch [ 41] avr loss [0.19546316] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:18:27 INFO ---------- test total [200] | test equ acc [0.270] | test value acc [0.300] | test time 0h 0m 11s
+Sun 28 Nov 2021 16:18:34 INFO epoch [ 42] avr loss [0.17555511] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:18:41 INFO epoch [ 43] avr loss [0.14478472] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:18:48 INFO epoch [ 44] avr loss [0.13486125] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:18:55 INFO epoch [ 45] avr loss [0.12854292] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:19:02 INFO epoch [ 46] avr loss [0.13370694] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:19:14 INFO ---------- test total [200] | test equ acc [0.250] | test value acc [0.280] | test time 0h 0m 12s
+Sun 28 Nov 2021 16:19:21 INFO epoch [ 47] avr loss [0.12839798] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:19:27 INFO epoch [ 48] avr loss [0.11834374] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:19:34 INFO epoch [ 49] avr loss [0.11914135] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:19:40 INFO epoch [ 50] avr loss [0.11734279] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:19:47 INFO epoch [ 51] avr loss [0.11785259] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:19:57 INFO ---------- test total [200] | test equ acc [0.245] | test value acc [0.275] | test time 0h 0m 9s
+Sun 28 Nov 2021 16:20:03 INFO epoch [ 52] avr loss [0.11423175] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:20:09 INFO epoch [ 53] avr loss [0.11543334] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:20:16 INFO epoch [ 54] avr loss [0.11547584] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:20:22 INFO epoch [ 55] avr loss [0.10830198] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:20:28 INFO epoch [ 56] avr loss [0.10728550] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:20:40 INFO ---------- test total [200] | test equ acc [0.235] | test value acc [0.260] | test time 0h 0m 11s
+Sun 28 Nov 2021 16:20:47 INFO epoch [ 57] avr loss [0.10079089] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:20:53 INFO epoch [ 58] avr loss [0.11194418] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:21:00 INFO epoch [ 59] avr loss [0.10584907] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:21:06 INFO epoch [ 60] avr loss [0.10385729] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:21:12 INFO epoch [ 61] avr loss [0.08936301] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:21:21 INFO ---------- test total [200] | test equ acc [0.255] | test value acc [0.285] | test time 0h 0m 9s
+Sun 28 Nov 2021 16:21:28 INFO epoch [ 62] avr loss [0.09110010] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:21:34 INFO epoch [ 63] avr loss [0.08593698] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:21:41 INFO epoch [ 64] avr loss [0.08912579] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:21:47 INFO epoch [ 65] avr loss [0.08871459] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:21:53 INFO epoch [ 66] avr loss [0.08409790] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:22:03 INFO ---------- test total [200] | test equ acc [0.240] | test value acc [0.265] | test time 0h 0m 9s
+Sun 28 Nov 2021 16:22:09 INFO epoch [ 67] avr loss [0.08294488] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:22:15 INFO epoch [ 68] avr loss [0.09051840] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:22:22 INFO epoch [ 69] avr loss [0.09227816] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:22:29 INFO epoch [ 70] avr loss [0.08446770] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:22:36 INFO epoch [ 71] avr loss [0.08149143] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:22:50 INFO ---------- test total [200] | test equ acc [0.230] | test value acc [0.255] | test time 0h 0m 13s
+Sun 28 Nov 2021 16:22:58 INFO epoch [ 72] avr loss [0.08420872] | train time 0h 0m 7s
+Sun 28 Nov 2021 16:23:05 INFO epoch [ 73] avr loss [0.08817171] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:23:12 INFO epoch [ 74] avr loss [0.08290199] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:23:18 INFO epoch [ 75] avr loss [0.08272240] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:23:25 INFO epoch [ 76] avr loss [0.08107941] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:23:38 INFO ---------- test total [200] | test equ acc [0.260] | test value acc [0.285] | test time 0h 0m 12s
+Sun 28 Nov 2021 16:23:45 INFO epoch [ 77] avr loss [0.07288764] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:23:57 INFO ---------- test total [200] | test equ acc [0.255] | test value acc [0.280] | test time 0h 0m 12s
+Sun 28 Nov 2021 16:24:05 INFO epoch [ 78] avr loss [0.08231287] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:24:17 INFO ---------- test total [200] | test equ acc [0.260] | test value acc [0.290] | test time 0h 0m 12s
+Sun 28 Nov 2021 16:24:24 INFO epoch [ 79] avr loss [0.07599524] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:24:37 INFO ---------- test total [200] | test equ acc [0.255] | test value acc [0.285] | test time 0h 0m 13s
+Sun 28 Nov 2021 16:24:44 INFO epoch [ 80] avr loss [0.07590708] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:24:57 INFO ---------- test total [200] | test equ acc [0.265] | test value acc [0.295] | test time 0h 0m 12s
+Sun 28 Nov 2021 16:24:57 INFO training finished.
+                            best valid result: equation accuracy [0.000] | value accuracy [0.000]
+                            best test result : equation accuracy [0.270] | value accuracy [0.300]
+Sun 28 Nov 2021 16:24:59 INFO fold 4
+Sun 28 Nov 2021 16:24:59 INFO start training...
+Sun 28 Nov 2021 16:25:05 INFO epoch [  1] avr loss [1.33784755] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:25:15 INFO ---------- test total [200] | test equ acc [0.010] | test value acc [0.010] | test time 0h 0m 9s
+Sun 28 Nov 2021 16:25:22 INFO epoch [  2] avr loss [1.13542200] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:25:29 INFO epoch [  3] avr loss [1.04857630] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:25:36 INFO epoch [  4] avr loss [0.98189418] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:25:43 INFO epoch [  5] avr loss [0.93641460] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:25:50 INFO epoch [  6] avr loss [0.88166934] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:25:59 INFO ---------- test total [200] | test equ acc [0.270] | test value acc [0.280] | test time 0h 0m 9s
+Sun 28 Nov 2021 16:26:06 INFO epoch [  7] avr loss [0.81261376] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:26:13 INFO epoch [  8] avr loss [0.78731593] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:26:19 INFO epoch [  9] avr loss [0.74100401] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:26:26 INFO epoch [ 10] avr loss [0.70979893] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:26:33 INFO epoch [ 11] avr loss [0.66108324] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:26:44 INFO ---------- test total [200] | test equ acc [0.295] | test value acc [0.300] | test time 0h 0m 11s
+Sun 28 Nov 2021 16:26:51 INFO epoch [ 12] avr loss [0.62511475] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:26:57 INFO epoch [ 13] avr loss [0.61410039] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:27:04 INFO epoch [ 14] avr loss [0.56444034] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:27:11 INFO epoch [ 15] avr loss [0.56383697] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:27:18 INFO epoch [ 16] avr loss [0.53758781] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:27:29 INFO ---------- test total [200] | test equ acc [0.280] | test value acc [0.295] | test time 0h 0m 10s
+Sun 28 Nov 2021 16:27:36 INFO epoch [ 17] avr loss [0.48460475] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:27:43 INFO epoch [ 18] avr loss [0.44356959] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:27:49 INFO epoch [ 19] avr loss [0.44760556] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:27:57 INFO epoch [ 20] avr loss [0.44670662] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:28:04 INFO epoch [ 21] avr loss [0.36278246] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:28:16 INFO ---------- test total [200] | test equ acc [0.265] | test value acc [0.295] | test time 0h 0m 11s
+Sun 28 Nov 2021 16:28:23 INFO epoch [ 22] avr loss [0.34989519] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:28:29 INFO epoch [ 23] avr loss [0.31434126] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:28:36 INFO epoch [ 24] avr loss [0.30966835] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:28:42 INFO epoch [ 25] avr loss [0.30541051] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:28:49 INFO epoch [ 26] avr loss [0.27211428] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:29:03 INFO ---------- test total [200] | test equ acc [0.265] | test value acc [0.305] | test time 0h 0m 13s
+Sun 28 Nov 2021 16:29:11 INFO epoch [ 27] avr loss [0.26144602] | train time 0h 0m 7s
+Sun 28 Nov 2021 16:29:19 INFO epoch [ 28] avr loss [0.25075820] | train time 0h 0m 7s
+Sun 28 Nov 2021 16:29:27 INFO epoch [ 29] avr loss [0.25180020] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:29:35 INFO epoch [ 30] avr loss [0.25042471] | train time 0h 0m 7s
+Sun 28 Nov 2021 16:29:42 INFO epoch [ 31] avr loss [0.23091595] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:29:56 INFO ---------- test total [200] | test equ acc [0.255] | test value acc [0.280] | test time 0h 0m 13s
+Sun 28 Nov 2021 16:30:03 INFO epoch [ 32] avr loss [0.22146599] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:30:10 INFO epoch [ 33] avr loss [0.21465024] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:30:17 INFO epoch [ 34] avr loss [0.22493201] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:30:23 INFO epoch [ 35] avr loss [0.21551851] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:30:30 INFO epoch [ 36] avr loss [0.20234001] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:30:42 INFO ---------- test total [200] | test equ acc [0.245] | test value acc [0.265] | test time 0h 0m 11s
+Sun 28 Nov 2021 16:30:49 INFO epoch [ 37] avr loss [0.19784743] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:30:56 INFO epoch [ 38] avr loss [0.19029085] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:31:03 INFO epoch [ 39] avr loss [0.17043992] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:31:09 INFO epoch [ 40] avr loss [0.19066372] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:31:16 INFO epoch [ 41] avr loss [0.17285841] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:31:28 INFO ---------- test total [200] | test equ acc [0.245] | test value acc [0.265] | test time 0h 0m 12s
+Sun 28 Nov 2021 16:31:35 INFO epoch [ 42] avr loss [0.16012567] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:31:42 INFO epoch [ 43] avr loss [0.16246419] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:31:48 INFO epoch [ 44] avr loss [0.14106650] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:31:55 INFO epoch [ 45] avr loss [0.14205087] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:32:02 INFO epoch [ 46] avr loss [0.14399586] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:32:14 INFO ---------- test total [200] | test equ acc [0.250] | test value acc [0.270] | test time 0h 0m 11s
+Sun 28 Nov 2021 16:32:21 INFO epoch [ 47] avr loss [0.12822957] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:32:27 INFO epoch [ 48] avr loss [0.13480085] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:32:34 INFO epoch [ 49] avr loss [0.13276696] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:32:40 INFO epoch [ 50] avr loss [0.12777495] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:32:47 INFO epoch [ 51] avr loss [0.12775314] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:32:59 INFO ---------- test total [200] | test equ acc [0.265] | test value acc [0.280] | test time 0h 0m 11s
+Sun 28 Nov 2021 16:33:05 INFO epoch [ 52] avr loss [0.12914808] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:33:11 INFO epoch [ 53] avr loss [0.12352850] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:33:18 INFO epoch [ 54] avr loss [0.12571140] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:33:24 INFO epoch [ 55] avr loss [0.11940209] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:33:30 INFO epoch [ 56] avr loss [0.11259186] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:33:43 INFO ---------- test total [200] | test equ acc [0.290] | test value acc [0.305] | test time 0h 0m 12s
+Sun 28 Nov 2021 16:33:50 INFO epoch [ 57] avr loss [0.11982254] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:33:56 INFO epoch [ 58] avr loss [0.11776061] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:34:03 INFO epoch [ 59] avr loss [0.11525781] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:34:09 INFO epoch [ 60] avr loss [0.10568288] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:34:16 INFO epoch [ 61] avr loss [0.10959625] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:34:28 INFO ---------- test total [200] | test equ acc [0.290] | test value acc [0.315] | test time 0h 0m 12s
+Sun 28 Nov 2021 16:34:35 INFO epoch [ 62] avr loss [0.10250928] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:34:43 INFO epoch [ 63] avr loss [0.10419383] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:34:50 INFO epoch [ 64] avr loss [0.09894542] | train time 0h 0m 7s
+Sun 28 Nov 2021 16:34:58 INFO epoch [ 65] avr loss [0.09310534] | train time 0h 0m 7s
+Sun 28 Nov 2021 16:35:07 INFO epoch [ 66] avr loss [0.09955192] | train time 0h 0m 7s
+Sun 28 Nov 2021 16:35:24 INFO ---------- test total [200] | test equ acc [0.255] | test value acc [0.280] | test time 0h 0m 17s
+Sun 28 Nov 2021 16:35:32 INFO epoch [ 67] avr loss [0.09538743] | train time 0h 0m 7s
+Sun 28 Nov 2021 16:35:39 INFO epoch [ 68] avr loss [0.09936919] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:35:46 INFO epoch [ 69] avr loss [0.09529940] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:35:53 INFO epoch [ 70] avr loss [0.09045099] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:35:59 INFO epoch [ 71] avr loss [0.08816861] | train time 0h 0m 5s
+Sun 28 Nov 2021 16:36:12 INFO ---------- test total [200] | test equ acc [0.260] | test value acc [0.285] | test time 0h 0m 12s
+Sun 28 Nov 2021 16:36:20 INFO epoch [ 72] avr loss [0.09341495] | train time 0h 0m 7s
+Sun 28 Nov 2021 16:36:27 INFO epoch [ 73] avr loss [0.09911832] | train time 0h 0m 7s
+Sun 28 Nov 2021 16:36:35 INFO epoch [ 74] avr loss [0.08445281] | train time 0h 0m 7s
+Sun 28 Nov 2021 16:36:44 INFO epoch [ 75] avr loss [0.08498191] | train time 0h 0m 7s
+Sun 28 Nov 2021 16:36:52 INFO epoch [ 76] avr loss [0.07978056] | train time 0h 0m 7s
+Sun 28 Nov 2021 16:37:03 INFO ---------- test total [200] | test equ acc [0.265] | test value acc [0.290] | test time 0h 0m 11s
+Sun 28 Nov 2021 16:37:10 INFO epoch [ 77] avr loss [0.08550334] | train time 0h 0m 7s
+Sun 28 Nov 2021 16:37:23 INFO ---------- test total [200] | test equ acc [0.255] | test value acc [0.280] | test time 0h 0m 12s
+Sun 28 Nov 2021 16:37:31 INFO epoch [ 78] avr loss [0.08909503] | train time 0h 0m 7s
+Sun 28 Nov 2021 16:37:43 INFO ---------- test total [200] | test equ acc [0.260] | test value acc [0.285] | test time 0h 0m 12s
+Sun 28 Nov 2021 16:37:50 INFO epoch [ 79] avr loss [0.08497121] | train time 0h 0m 6s
+Sun 28 Nov 2021 16:38:04 INFO ---------- test total [200] | test equ acc [0.265] | test value acc [0.290] | test time 0h 0m 14s
+Sun 28 Nov 2021 16:38:12 INFO epoch [ 80] avr loss [0.08258439] | train time 0h 0m 7s
+Sun 28 Nov 2021 16:38:24 INFO ---------- test total [200] | test equ acc [0.260] | test value acc [0.285] | test time 0h 0m 11s
+Sun 28 Nov 2021 16:38:24 INFO training finished.
+                            best valid result: equation accuracy [0.000] | value accuracy [0.000]
+                            best test result : equation accuracy [0.290] | value accuracy [0.315]
+Sun 28 Nov 2021 16:38:24 INFO 5 fold cross validation finished.
+Sun 28 Nov 2021 16:38:24 INFO fold  2 : test equ accuracy [0.290] | test value accuracy [0.315]
+Sun 28 Nov 2021 16:38:24 INFO fold  4 : test equ accuracy [0.290] | test value accuracy [0.315]
+Sun 28 Nov 2021 16:38:24 INFO fold  1 : test equ accuracy [0.275] | test value accuracy [0.305]
+Sun 28 Nov 2021 16:38:24 INFO fold  3 : test equ accuracy [0.270] | test value accuracy [0.300]
+Sun 28 Nov 2021 16:38:24 INFO fold  0 : test equ accuracy [0.255] | test value accuracy [0.275]
+Sun 28 Nov 2021 16:38:24 INFO folds avr : test equ accuracy [0.276] | test value accuracy [0.302]
+Sun 28 Nov 2021 16:52:06 INFO random_seed=2021
+use_gpu=True
+max_output_len=30
+gpu_id=0
+test_step=5
+load_best_config=False
+supervising_mode=fully_supervised
+rebuild=False
+validset_divide=True
+shuffle=False
+root=/home/shubham/FINAL CS229 PROJECT/MWP-CS229
+model_config_path=/home/shubham/FINAL CS229 PROJECT/MWP-CS229/mwptoolkit/config/../properties/model/GTS.json
+best_config_path=/home/shubham/FINAL CS229 PROJECT/MWP-CS229/mwptoolkit/config/../properties/best_config/GTS_SVAMP.json
+dataset_config_path=/home/shubham/FINAL CS229 PROJECT/MWP-CS229/mwptoolkit/config/../properties/dataset/SVAMP.json
+dataset_path=dataset/SVAMP
+min_word_keep=5
+min_generate_keep=5
+mask_symbol=NUM
+single=True
+linear=True
+language=en
+train_batch_size=32
+test_batch_size=1
+source_equation_fix=infix
+embedding_size=128
+hidden_size=512
+learning_rate=0.001
+embedding_learning_rate=0.001
+rnn_cell_type=gru
+num_layers=2
+weight_decay=1e-05
+epoch_nums=80
+dropout_ratio=0.5
+step_size=20
+beam_size=5
+share_vocab=False
+symbol_for_tree=True
+equation_fix=prefix
+model=GTS
+dataset=SVAMP
+task_type=single_equation
+k_fold=5
+test_only=True
+checkpoint_path=checkpoint/GTS-SVAMP-prefix.pth
+trained_model_path=trained_model/GTS-SVAMP-prefix.pth
+log_path=log/GTS-SVAMP-prefix.log
+device=cuda
+map_location=cuda
+gpu_nums=1
+
+
+Sun 28 Nov 2021 16:52:06 INFO start training with 5 fold cross validation.
+Sun 28 Nov 2021 16:52:08 INFO fold 0
+Sun 28 Nov 2021 16:52:15 INFO test total [200] | test equ acc [0.255] | test value acc [0.275] | test time 0h 0m 6s
+Sun 28 Nov 2021 16:52:15 INFO fold 1
+Sun 28 Nov 2021 16:52:22 INFO test total [200] | test equ acc [0.275] | test value acc [0.305] | test time 0h 0m 6s
+Sun 28 Nov 2021 16:52:22 INFO fold 2
+Sun 28 Nov 2021 16:52:37 INFO random_seed=2021
+use_gpu=True
+max_output_len=30
+gpu_id=0
+test_step=5
+load_best_config=False
+supervising_mode=fully_supervised
+rebuild=False
+validset_divide=True
+shuffle=False
+root=/home/shubham/FINAL CS229 PROJECT/MWP-CS229
+model_config_path=/home/shubham/FINAL CS229 PROJECT/MWP-CS229/mwptoolkit/config/../properties/model/GTS.json
+best_config_path=/home/shubham/FINAL CS229 PROJECT/MWP-CS229/mwptoolkit/config/../properties/best_config/GTS_SVAMP.json
+dataset_config_path=/home/shubham/FINAL CS229 PROJECT/MWP-CS229/mwptoolkit/config/../properties/dataset/SVAMP.json
+dataset_path=dataset/SVAMP
+min_word_keep=5
+min_generate_keep=5
+mask_symbol=NUM
+single=True
+linear=True
+language=en
+train_batch_size=32
+test_batch_size=1
+source_equation_fix=infix
+embedding_size=128
+hidden_size=512
+learning_rate=0.001
+embedding_learning_rate=0.001
+rnn_cell_type=gru
+num_layers=2
+weight_decay=1e-05
+epoch_nums=80
+dropout_ratio=0.5
+step_size=20
+beam_size=5
+share_vocab=False
+symbol_for_tree=True
+equation_fix=prefix
+model=GTS
+dataset=SVAMP
+task_type=single_equation
+k_fold=5
+test_only=True
+checkpoint_path=checkpoint/GTS-SVAMP-prefix.pth
+trained_model_path=trained_model/GTS-SVAMP-prefix.pth
+log_path=log/GTS-SVAMP-prefix.log
+device=cuda
+map_location=cuda
+gpu_nums=1
+
+
+Sun 28 Nov 2021 16:52:37 INFO start training with 5 fold cross validation.
+Sun 28 Nov 2021 16:52:39 INFO fold 0
+Sun 28 Nov 2021 16:52:46 INFO test total [200] | test equ acc [0.255] | test value acc [0.275] | test time 0h 0m 7s
+Sun 28 Nov 2021 16:52:47 INFO fold 1
+Sun 28 Nov 2021 16:52:54 INFO test total [200] | test equ acc [0.275] | test value acc [0.305] | test time 0h 0m 7s
+Sun 28 Nov 2021 16:52:55 INFO fold 2
+Sun 28 Nov 2021 16:53:03 INFO test total [200] | test equ acc [0.290] | test value acc [0.315] | test time 0h 0m 8s
+Sun 28 Nov 2021 16:53:04 INFO fold 3
+Sun 28 Nov 2021 16:53:11 INFO test total [200] | test equ acc [0.270] | test value acc [0.300] | test time 0h 0m 7s
+Sun 28 Nov 2021 16:53:12 INFO fold 4
+Sun 28 Nov 2021 16:53:20 INFO test total [200] | test equ acc [0.290] | test value acc [0.315] | test time 0h 0m 7s
+Sun 28 Nov 2021 16:53:20 INFO 5 fold cross validation finished.
+Sun 28 Nov 2021 16:53:20 INFO fold  2 : test equ accuracy [0.290] | test value accuracy [0.315]
+Sun 28 Nov 2021 16:53:20 INFO fold  4 : test equ accuracy [0.290] | test value accuracy [0.315]
+Sun 28 Nov 2021 16:53:20 INFO fold  1 : test equ accuracy [0.275] | test value accuracy [0.305]
+Sun 28 Nov 2021 16:53:20 INFO fold  3 : test equ accuracy [0.270] | test value accuracy [0.300]
+Sun 28 Nov 2021 16:53:20 INFO fold  0 : test equ accuracy [0.255] | test value accuracy [0.275]
+Sun 28 Nov 2021 16:53:20 INFO folds avr : test equ accuracy [0.276] | test value accuracy [0.302]
+Sun 28 Nov 2021 16:53:34 INFO random_seed=2021
+use_gpu=True
+max_output_len=30
+gpu_id=0
+test_step=5
+load_best_config=False
+supervising_mode=fully_supervised
+rebuild=False
+validset_divide=True
+shuffle=False
+root=/home/shubham/FINAL CS229 PROJECT/MWP-CS229
+model_config_path=/home/shubham/FINAL CS229 PROJECT/MWP-CS229/mwptoolkit/config/../properties/model/GTS.json
+best_config_path=/home/shubham/FINAL CS229 PROJECT/MWP-CS229/mwptoolkit/config/../properties/best_config/GTS_SVAMP.json
+dataset_config_path=/home/shubham/FINAL CS229 PROJECT/MWP-CS229/mwptoolkit/config/../properties/dataset/SVAMP.json
+dataset_path=dataset/SVAMP
+min_word_keep=5
+min_generate_keep=5
+mask_symbol=NUM
+single=True
+linear=True
+language=en
+train_batch_size=32
+test_batch_size=1
+source_equation_fix=infix
+embedding_size=128
+hidden_size=512
+learning_rate=0.001
+embedding_learning_rate=0.001
+rnn_cell_type=gru
+num_layers=2
+weight_decay=1e-05
+epoch_nums=80
+dropout_ratio=0.5
+step_size=20
+beam_size=5
+share_vocab=False
+symbol_for_tree=True
+equation_fix=prefix
+model=GTS
+dataset=SVAMP
+task_type=single_equation
+k_fold=5
+test_only=True
+checkpoint_path=checkpoint/GTS-SVAMP-prefix.pth
+trained_model_path=trained_model/GTS-SVAMP-prefix.pth
+log_path=log/GTS-SVAMP-prefix.log
+device=cuda
+map_location=cuda
+gpu_nums=1
+
+
+Sun 28 Nov 2021 16:53:34 INFO start training with 5 fold cross validation.
+Sun 28 Nov 2021 16:53:36 INFO fold 0
+Sun 28 Nov 2021 16:53:44 INFO test total [200] | test equ acc [0.255] | test value acc [0.275] | test time 0h 0m 7s
+Sun 28 Nov 2021 16:53:44 INFO fold 1
+Sun 28 Nov 2021 16:53:51 INFO test total [200] | test equ acc [0.275] | test value acc [0.305] | test time 0h 0m 7s
+Sun 28 Nov 2021 16:53:52 INFO fold 2
+Sun 28 Nov 2021 16:54:00 INFO test total [200] | test equ acc [0.290] | test value acc [0.315] | test time 0h 0m 8s
+Sun 28 Nov 2021 16:54:01 INFO fold 3
+Sun 28 Nov 2021 16:54:08 INFO test total [200] | test equ acc [0.270] | test value acc [0.300] | test time 0h 0m 7s
+Sun 28 Nov 2021 16:54:09 INFO fold 4
+Sun 28 Nov 2021 16:54:17 INFO test total [200] | test equ acc [0.290] | test value acc [0.315] | test time 0h 0m 7s
+Sun 28 Nov 2021 16:54:17 INFO 5 fold cross validation finished.
+Sun 28 Nov 2021 16:54:17 INFO fold  2 : test equ accuracy [0.290] | test value accuracy [0.315]
+Sun 28 Nov 2021 16:54:17 INFO fold  4 : test equ accuracy [0.290] | test value accuracy [0.315]
+Sun 28 Nov 2021 16:54:17 INFO fold  1 : test equ accuracy [0.275] | test value accuracy [0.305]
+Sun 28 Nov 2021 16:54:17 INFO fold  3 : test equ accuracy [0.270] | test value accuracy [0.300]
+Sun 28 Nov 2021 16:54:17 INFO fold  0 : test equ accuracy [0.255] | test value accuracy [0.275]
+Sun 28 Nov 2021 16:54:17 INFO folds avr : test equ accuracy [0.276] | test value accuracy [0.302]

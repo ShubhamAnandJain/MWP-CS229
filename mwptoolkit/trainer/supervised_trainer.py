@@ -68,6 +68,7 @@ class SupervisedTrainer(AbstractTrainer):
         """
         super().__init__(config, model, dataloader, evaluator)
         self._build_optimizer()
+        self.print_debug = config["test_question_output"]
         if config["resume"]:
             self._load_checkpoint()
         #self._build_loss(config["symbol_size"], self.dataloader.dataset.out_symbol2idx[SpecialTokens.PAD_TOKEN])
@@ -158,6 +159,8 @@ class SupervisedTrainer(AbstractTrainer):
         equ_acc = []
         #Added by Shyamoli
         lst_questions = []
+        act_questions = []
+
         for idx in range(batch_size):
             if self.config["task_type"] == TaskType.SingleEquation:
                 val_ac, equ_ac, _, _ = self.evaluator.result(test_out[idx], target[idx])
@@ -170,6 +173,11 @@ class SupervisedTrainer(AbstractTrainer):
             
             # Added to print questions
             question_in_words = ''
+            act_question = ''
+            for g in questions[idx]:
+                act_question += (self.dataloader.dataset.in_idx2word[g] + " ")
+            act_questions.append(act_question)
+
             if(val_ac == False):
               for g in questions[idx]:
                 question_in_words += (self.dataloader.dataset.in_idx2word[g] + " ")
@@ -184,16 +192,15 @@ class SupervisedTrainer(AbstractTrainer):
             }
             self.output_result.append(result)
         
-        for i in range(batch_size):
-            if(val_acc[i] == True):
-              continue
-            print("Question:", lst_questions[i])
-            #print("Test output Polish", test_out[i])
-            #print("Target Polish", target[i])
-            print("Test output", polish_to_infix(test_out[i]))
-            print("Target", polish_to_infix(target[i]))
-            print("Val Acc", val_acc[i])
-            print("Equation Acc", equ_acc[i])
+        if self.print_debug == True:
+            for i in range(batch_size):
+                # if(val_acc[i] == True):
+                  # continue
+                print("Question:", act_questions[i])
+                print("Test output", polish_to_infix(test_out[i]))
+                print("Target", polish_to_infix(target[i]))
+                print("Val Acc", val_acc[i])
+                print("Equation Acc", equ_acc[i])
         return val_acc, equ_acc
 
     def _train_epoch(self):
@@ -475,11 +482,42 @@ class GTSTrainer(AbstractTrainer):
         return batch_loss
 
     def _eval_batch(self, batch):
-        test_out, target = self.model.model_test(batch)
+        questions, test_out, target = self.model.model_test(batch)
+
+        def polish_to_infix(equation):
+          final_eq = []
+          expressions = []
+
+          operators = ['+', '-', '*', '/']
+
+          for symbol in equation:
+            expressions.append(symbol)
+            
+            while(len(expressions)>=2):
+                n1 = expressions.pop()
+                n2 = expressions.pop()
+                if((n1 in operators) or (n2 in operators)):
+                    expressions.append(n2)
+                    expressions.append(n1)
+                    break
+                if(len(expressions)==0):
+                    return 0
+                op = expressions.pop()
+                feq = '(' + n2 + op + n1 + ')'
+                expressions.append(feq)
+
+          if(len(expressions)==0):
+            return 0
+
+          return expressions.pop()
 
         batch_size = len(test_out)
         val_acc = []
         equ_acc = []
+
+        lst_questions = []
+        act_questions = []
+
         for idx in range(batch_size):
             if self.config["task_type"] == TaskType.SingleEquation:
                 val_ac, equ_ac, _, _ = self.evaluator.result(test_out[idx], target[idx])
@@ -489,6 +527,18 @@ class GTSTrainer(AbstractTrainer):
                 raise NotImplementedError
             val_acc.append(val_ac)
             equ_acc.append(equ_ac)
+            
+            # Added to print questions
+            question_in_words = ''
+            act_question = ''
+            for g in questions[idx]:
+                act_question += (self.dataloader.dataset.in_idx2word[g] + " ")
+            act_questions.append(act_question)
+
+            if(val_ac == False):
+              for g in questions[idx]:
+                question_in_words += (self.dataloader.dataset.in_idx2word[g] + " ")
+            lst_questions.append(question_in_words)
             result={
                 'id':batch['id'][idx],
                 'prediction':' '.join(test_out[idx]),
@@ -498,6 +548,17 @@ class GTSTrainer(AbstractTrainer):
                 'equ acc':equ_ac
             }
             self.output_result.append(result)
+        
+        for i in range(batch_size):
+            if(val_acc[i] == False):
+              continue
+            print("Question:", act_questions[i])
+            #print("Test output Polish", test_out[i])
+            #print("Target Polish", target[i])
+            print("Test output", polish_to_infix(test_out[i]))
+            print("Target", polish_to_infix(target[i]))
+            print("Val Acc", val_acc[i])
+            print("Equation Acc", equ_acc[i])
         return val_acc, equ_acc
 
     def _train_epoch(self):

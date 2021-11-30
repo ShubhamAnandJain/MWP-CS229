@@ -140,7 +140,7 @@ class Graph2Tree(nn.Module):
 
         all_output = self.convert_idx2symbol(all_node_output, num_list[0], copy_list(nums_stack[0]))
         targets = self.convert_idx2symbol(target[0], num_list[0], copy_list(nums_stack[0]))
-        return all_output, targets
+        return seq, all_output, targets
 
     def train_tree(self, input_batch, input_length, target_batch, target_length, nums_stack_batch, num_size_batch, graph, generate_nums, num_pos, unk, num_start, english=False):
         # sequence mask for attention
@@ -653,7 +653,7 @@ class _Graph2Tree_(nn.Module):
         all_node_outputs = self.generate_node_(encoder_outputs, problem_output, padding_hidden, seq_mask, num_mask, num_pos, num_start)
         all_outputs = self.convert_idx2symbol(all_node_outputs, num_list[0], copy_list(nums_stack[0]))
         targets = self.convert_idx2symbol(target[0], num_list[0], copy_list(nums_stack[0]))
-        return all_outputs, targets
+        return seq, all_outputs, targets
 
     def generate_node(self,encoder_outputs,problem_output,target,target_length,\
                         num_pos,nums_stack,padding_hidden,seq_mask,num_mask,unk,num_start):

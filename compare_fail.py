@@ -1,7 +1,7 @@
 import os
 
-models = ['GroupATT', 'MathEN']
-dataset = 'mawps-single'
+models = ['GroupATT', 'MathEN', 'Graph2Tree']
+dataset = 'SVAMP'
 task_type = 'single_equation'
 equation_fix = 'prefix'
 folder = 'failure_cases'
@@ -15,7 +15,7 @@ for model_name in models:
 
 	script = "python3 run_mwptoolkit.py --model=" + model_name + " --dataset=" + dataset 
 	script = script + " --task_type=" + task_type + " --equation_fix=" + equation_fix 
-	script = script + " --k_fold=5 --test_step=5 --gpu_id=0 > "
+	script = script + " --k_fold=5 --test_step=5 --gpu_id=0 --test_only=True > "
 	file_save = folder + '/' + "fail_" + model_name + "_" + dataset + ".txt"
 
 	script = script + file_save

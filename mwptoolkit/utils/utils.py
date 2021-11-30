@@ -155,6 +155,7 @@ def get_trainer(config):
     """
     model_name = config["model"]
     sup_mode = config["supervising_mode"]
+
     if sup_mode == SupervisingMode.fully_supervised:
         if config['embedding']:
             try:
@@ -182,6 +183,7 @@ def get_trainer(config):
             )
 
     elif sup_mode in SupervisingMode.weakly_supervised:
+        print("OK2")
         try:
             return getattr(
                 importlib.import_module('mwptoolkit.trainer.weakly_supervised_trainer'),

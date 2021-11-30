@@ -42,12 +42,14 @@ def number_transfer(datas, dataset_name, task_type, mask_type, min_generate_keep
     elif dataset_name == DatasetName.hmwp:
         transfer = num_transfer_hmwp
     else:
-        if task_type == TaskType.SingleEquation:
-            transfer = number_transfer_single
-        elif task_type == TaskType.MultiEquation:
-            transfer = num_transfer_multi
-        else:
-            raise NotImplementedError
+        transfer = number_transfer_mawps_single
+    # else:
+    #     if task_type == TaskType.SingleEquation:
+    #         transfer = number_transfer_single
+    #     elif task_type == TaskType.MultiEquation:
+    #         transfer = num_transfer_multi
+    #     else:
+    #         raise NotImplementedError
     generate_nums = []
     generate_nums_dict = {}
     copy_nums = 0

@@ -1,0 +1,1910 @@
+Question: <SOS> Baker made NUM pastries and NUM cakes . If he sold NUM cakes and NUM pastries How many pastries would baker still have ? <EOS> 
+
+Test output (124.0-29.0)
+
+Target (56.0-29.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Jerry had NUM action figures and NUM books on a shelf in his room . Later he added NUM more action figures to the shelf . How many more action figures than books were on his shelf ? <EOS> 
+
+Test output ((5.0+7.0)-5.0)
+
+Target ((5.0+7.0)-9.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> A grocery store had NUM bottles of regular soda , NUM bottles of diet soda and NUM apples . How many more bottles than <UNK> did they have ? <EOS> 
+
+Test output ((72.0+32.0)-32.0)
+
+Target ((72.0+32.0)-78.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> NUM red peaches , NUM yellow peaches and NUM green peaches are in the basket . How many red and yellow peaches are in the basket ? <EOS> 
+
+Test output (18.0+17.0)
+
+Target (18.0+14.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> They decided to hold the party in their backyard . They have NUM sets of tables and each <UNK> has NUM chairs . If there are NUM people sitting on chairs How many chairs are left <UNK> ? <EOS> 
+
+Test output ((10.0*11.0)-6.0)
+
+Target ((10.0*6.0)-11.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> NUM birds and NUM storks were sitting on the fence . NUM more birds came to join them . How many birds are sitting on the fence ? <EOS> 
+
+Test output (46.0+6.0)
+
+Target (4.0+6.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Dave had NUM apps and NUM files on his phone . After deleting some apps and files he had NUM apps and NUM files left . How many files did he <UNK> ? <EOS> 
+
+Test output (17.0-7.0)
+
+Target (21.0-7.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> He then went to see the oranges being harvested . He found out that they harvested NUM sacks of oranges . How many sacks did they harvest per day if they harvested for a total of NUM days ? <EOS> 
+
+Test output (56.0/56.0)
+
+Target (56.0/14.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Jack received NUM emails and <UNK> NUM letters in the morning . He then received NUM emails and <UNK> NUM letters in the afternoon . How many emails did Jack receive in the day ? <EOS> 
+
+Test output (91.0+74.0)
+
+Target (6.0+2.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Last week Fred had NUM dollars and Jason had NUM dollars . Jason washed cars over the weekend and now has NUM dollars . How much money did Jason make <UNK> cars ? <EOS> 
+
+Test output (60.0-19.0)
+
+Target (33.0-19.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Danny collects bottle caps and wrappers . He found NUM bottle caps and NUM wrappers at the park . Now he has NUM bottle caps and NUM wrappers in his collection . How many bottle caps did danny have at first ? <EOS> 
+
+Test output (28.0-8.0)
+
+Target (28.0-22.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> The <UNK> <UNK> game at the carnival made NUM dollars in the first NUM days and NUM dollars in the <UNK> NUM days . How much did they make per day in the first NUM days at the carnival ? <EOS> 
+
+Test output (66.0/16.0)
+
+Target (120.0/20.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> The Ferris wheel in paradise park has NUM small seats and NUM large seats . Each small seat can hold NUM people and large seat can hold NUM people . How many people can <UNK> the Ferris wheel on large seats ? <EOS> 
+
+Test output (3.0*16.0)
+
+Target (7.0*12.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Randy has NUM blocks . He uses NUM blocks to build a house and NUM blocks to build a tower . How many more blocks did he use to build the tower than he did to build the house ? <EOS> 
+
+Test output (20.0-20.0)
+
+Target (50.0-20.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> There are NUM baskets of peaches . Each basket has NUM red peaches and NUM green peaches . How many green peaches are in the baskets altogether ? <EOS> 
+
+Test output (10.0*7.0)
+
+Target (2.0*7.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Last week Fred had NUM dollars and Jason had NUM dollars . They washed cars over the weekend and now Fred has NUM dollars and Jason has NUM dollars . How much money did Fred earn over the weekend ? <EOS> 
+
+Test output (40.0-16.0)
+
+Target (40.0-19.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Allan brought NUM balloons and NUM <UNK> while Jake brought NUM balloons and NUM <UNK> to the park . How many balloons did Allan and Jake have in the park ? <EOS> 
+
+Test output (20.0+59.0)
+
+Target (3.0+5.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Katie had NUM new games and NUM old games . Her friends had NUM new games and NUM old games . How many new games do they have together ? <EOS> 
+
+Test output (19.0+8.0)
+
+Target (84.0+8.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Jerry had NUM action figures and NUM books on a shelf in his room . Later he added NUM more action figures to the shelf . How many action figures were on his shelf in all ? <EOS> 
+
+Test output (22.0+6.0)
+
+Target (4.0+6.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Mary is baking a cake . The recipe calls for NUM cups of flour and NUM cups of sugar . She already put in NUM cups of sugar . How many more cups of sugar does she need to add ? <EOS> 
+
+Test output (12.0-2.0)
+
+Target (13.0-2.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Faye was placing her pencils and crayons into NUM rows with NUM pencils and NUM crayons in each row . How many crayons does she have ? <EOS> 
+
+Test output (36.0*7.0)
+
+Target (7.0*30.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Robin 's hair was NUM inches long . He cut off NUM inches . Then it <UNK> grew by NUM inches . How long is his hair now ? <EOS> 
+
+Test output ((16.0-12.0)+11.0)
+
+Target ((16.0-11.0)+12.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Jack received NUM emails in the morning , NUM emails in the afternoon and NUM emails in the evening . How many emails did Jack receive in the afternoon and evening ? <EOS> 
+
+Test output (4.0+5.0)
+
+Target (5.0+8.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> An industrial machine made NUM shirts yesterday and NUM shirts today . It can make NUM shirts a minute . How many minutes did the machine <UNK> today ? <EOS> 
+
+Test output (9.0/2.0)
+
+Target (8.0/2.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Last week Fred had NUM dollars and Jason had NUM dollars . Jason <UNK> <UNK> and now has NUM dollars . Fred washed cars over the weekend and now has NUM dollars . How much money did Jason earn by <UNK> <UNK> ? <EOS> 
+
+Test output (90.0-57.0)
+
+Target (57.0-31.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Emily is making <UNK> necklaces for her friends . She had NUM beads and she was <UNK> to make NUM necklaces . How many beads did each <UNK> need ? <EOS> 
+
+Test output (2.0/32.0)
+
+Target (32.0/2.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Lewis earns $ NUM every week during the NUM weeks of harvest . If he has to <UNK> $ NUM <UNK> every week How much money does he earn during harvest <UNK> ? <EOS> 
+
+Test output (49.0*233.0)
+
+Target (403.0*233.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Baker made NUM cakes and NUM pastries . If he sold NUM cakes and NUM pastries How many cakes would baker still have ? <EOS> 
+
+Test output (91.0-90.0)
+
+Target (149.0-10.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Baker made NUM pastries and NUM cakes . If he sold NUM cakes and NUM pastries How many cakes would baker still have ? <EOS> 
+
+Test output (167.0-44.0)
+
+Target (167.0-108.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Jerry had NUM action figures on a shelf in his room . Later he added NUM more action figures to the shelf and <UNK> some of the old ones . If there are NUM action figures on his shelf now How many action figures did he <UNK> from the shelf ? <EOS> 
+
+Test output ((6.0+4.0)-3.0)
+
+Target ((3.0+4.0)-6.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Because of the decision Sofia asked the students to suggest specific types of food . If NUM students suggested adding mashed potatoes NUM suggested adding bacon to the menu and NUM suggested adding tomatoes How many more students suggested bacon than those that suggested tomatoes ? <EOS> 
+
+Test output (228.0-23.0)
+
+Target (337.0-23.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> A book has NUM chapters . The first chapter is NUM pages long the second chapter is NUM pages long and the <UNK> chapter is NUM pages long . How many more pages does the second chapter have than the <UNK> chapter ? <EOS> 
+
+Test output (35.0-3.0)
+
+Target (18.0-3.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Julia played tag with NUM kids on wednesday . She had played with NUM kids on monday and NUM kids on tuesday . How many more kids did she play with on monday than on wednesday ? <EOS> 
+
+Test output (17.0-4.0)
+
+Target (6.0-4.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Randy has NUM blocks . He uses NUM blocks to build a tower and NUM blocks to build a house . How many more blocks did he use to build the house than he did to build the tower ? <EOS> 
+
+Test output (79.0-79.0)
+
+Target (82.0-79.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> There are NUM different movies and NUM different books in the ' crazy silly school ' series . If you read NUM of the books and watched NUM of the movies How many more books do you still have to read ? <EOS> 
+
+Test output (62.0-34.0)
+
+Target (19.0-4.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Jack received NUM emails in the morning , NUM emails in the afternoon and NUM emails in the evening . How many emails did Jack receive in the morning and evening ? <EOS> 
+
+Test output (3.0+4.0)
+
+Target (3.0+8.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> <UNK> his favorite , he <UNK> <UNK> on the <UNK> for his last stop . He was <UNK> by NUM of the <UNK> that they fill NUM drums of <UNK> per day and NUM drums of grapes per day . How many drums of grapes would be <UNK> in NUM days ? <EOS> 
+
+Test output (100.0*77.0)
+
+Target (221.0*77.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Dave had NUM apps on his phone . He added NUM new apps . After deleting some he had NUM left . How many more apps did he <UNK> than he added ? <EOS> 
+
+Test output (14.0-14.0)
+
+Target (15.0-14.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Rebecca wants to split a collection of eggs into groups of NUM . Rebecca has NUM bananas NUM eggs and NUM marbles . How many groups will be <UNK> ? <EOS> 
+
+Test output (99.0/3.0)
+
+Target (9.0/3.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Dave had NUM apps and NUM files on his phone . After deleting some apps and files he had NUM apps and NUM files left . How many apps did he <UNK> ? <EOS> 
+
+Test output (77.0-5.0)
+
+Target (16.0-5.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> In a school there are NUM girls and NUM boys . There are also NUM <UNK> How many pupils are there in that school ? <EOS> 
+
+Test output (318.0+36.0)
+
+Target (308.0+318.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Danny collects bottle caps and wrappers . He found NUM bottle caps and NUM wrappers at the park . Now he has NUM bottle caps and NUM wrappers in his collection . How many more bottle caps than wrappers did danny find at the park ? <EOS> 
+
+Test output (86.0-7.0)
+
+Target (30.0-14.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> The school is planning a field trip . The school has NUM classrooms . There are NUM students in the school with each <UNK> having the same number of students . If there are NUM seats on each school bus . How many <UNK> are <UNK> to take the trip ? <EOS> 
+
+Test output (87.0/2.0)
+
+Target (58.0/2.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Ed had NUM more marbles than Doug . Doug lost NUM of his marbles at the <UNK> . If Ed had NUM marbles How many marbles did Doug have initially ? <EOS> 
+
+Test output (27.0-3.0)
+
+Target (27.0-5.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Frank was reading through his favorite book . The book had NUM chapters , each with the same number of pages . It has a total of NUM pages . It took Frank NUM days to finish the book . How many pages are in each chapter ? <EOS> 
+
+Test output (607.0/3.0)
+
+Target (594.0/3.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Danny collects bottle caps and wrappers . He found NUM wrappers and NUM bottle caps at the park . Now he has NUM bottle caps and NUM wrappers in his collection . How many bottle caps did danny have at first ? <EOS> 
+
+Test output (61.0-29.0)
+
+Target (42.0-29.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> A grocery store had a total of NUM bottles of <UNK> NUM were bottles of regular soda and the rest were bottles of diet soda . They also had NUM <UNK> . How many bottles of diet soda did they have ? <EOS> 
+
+Test output (29.0-9.0)
+
+Target (17.0-9.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Baker made NUM cakes and NUM pastries . If he sold NUM cakes and NUM pastries How many pastries would baker still have ? <EOS> 
+
+Test output (148.0-7.0)
+
+Target (148.0-103.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Jake has NUM fewer peaches and NUM more apples than Steven . Steven has NUM peaches and NUM apples . How many more peaches than apples does Steven have ? <EOS> 
+
+Test output (17.0-6.0)
+
+Target (17.0-16.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> <UNK> has NUM nintendo games and NUM <UNK> games . How many nintendo games does she need to give away <UNK> that she will have NUM nintendo games left ? <EOS> 
+
+Test output (70.0-12.0)
+
+Target (20.0-12.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> After <UNK> they decided to go for a <UNK> . The <UNK> of the water is NUM <UNK> Ron 's <UNK> . Dean is NUM feet <UNK> than Ron . If Ron <UNK> at NUM feet How <UNK> was the water ? <EOS> 
+
+Test output (16.0*9.0)
+
+Target (13.0*16.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Danny collects bottle caps and wrappers . He found NUM bottle caps and NUM wrappers at the park . Now he has NUM wrappers and NUM bottle caps in his collection . How many more bottle caps than wrappers does danny have now ? <EOS> 
+
+Test output (58.0-11.0)
+
+Target (12.0-11.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> The Razorback shop makes $ NUM dollars off each t-shirt and $ NUM off each jersey . During the Arkansas and Texas tech game they sold NUM t-shirts and NUM <UNK> . How much money did they make from selling the <UNK> ? <EOS> 
+
+Test output (67.0*74.0)
+
+Target (165.0*156.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> The Razorback shop makes $ NUM dollars off each jersey and $ NUM off each t-shirt . During the Arkansas and Texas tech game they sold NUM t-shirts and NUM <UNK> . How much money did they make from selling the t-shirts ? <EOS> 
+
+Test output (5.0*20.0)
+
+Target (215.0*20.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Paco had NUM salty cookies and NUM sweet cookies . He ate NUM sweet cookies and NUM salty cookies . How many salty cookies did Paco have left ? <EOS> 
+
+Test output (17.0-9.0)
+
+Target (26.0-9.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Last week Fred had NUM dollars and Jason had NUM dollars . Fred washed cars over the weekend and now has NUM dollars . Jason <UNK> <UNK> and now has NUM dollars . How much money did Jason earn by <UNK> <UNK> ? <EOS> 
+
+Test output (112.0-49.0)
+
+Target (63.0-3.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Dan has $ NUM . He bought NUM candy bar for $ NUM each one costing the same amount of money . How much money is left ? <EOS> 
+
+Test output (99.0-3.0)
+
+Target (4.0-3.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Helen the hippo and her friends are preparing for thanksgiving at Helen 's house . Helen baked NUM chocolate chip cookies yesterday and NUM raisin cookies and NUM chocolate chip cookies this morning . How many chocolate chip cookies did Helen bake ? <EOS> 
+
+Test output (90.0+51.0)
+
+Target (90.0+484.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Frank was reading through his favorite book . The book had NUM pages equally <UNK> over NUM chapters . It took Frank NUM days to finish the book . How many pages are in each chapter ? <EOS> 
+
+Test output (555.0/220.0)
+
+Target (555.0/5.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Jake has NUM fewer peaches than Steven who has NUM more peaches than Jill . Steven has NUM peaches . How many more peaches does Jake have than Jill ? <EOS> 
+
+Test output (5.0-3.0)
+
+Target (8.0-3.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Jack received NUM emails in the afternoon , NUM emails in the morning and NUM emails in the evening . How many more emails did Jack receive in the morning than in the afternoon ? <EOS> 
+
+Test output (16.0-5.0)
+
+Target (5.0-3.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> The grasshopper and the frog had a jumping contest . The grasshopper jumped NUM inches and the frog jumped NUM inches . How much farther did the frog jump than the grasshopper ? <EOS> 
+
+Test output (9.0-12.0)
+
+Target (12.0-9.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> The ring toss game at the carnival made NUM dollars in the first NUM days and NUM dollars in the <UNK> NUM days . How much did they make per day in the <UNK> NUM days at the carnival ? <EOS> 
+
+Test output (325.0/114.0)
+
+Target (114.0/57.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> There are NUM different books and NUM different movies in the ' crazy silly school ' series . If you read NUM of the books and watched NUM of the movies How many more books do you still have to read ? <EOS> 
+
+Test output (56.0-12.0)
+
+Target (22.0-12.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Paul had NUM pens and NUM books . After selling some books and pens in a garage sale he had NUM books and NUM pens left . How many pens did he sell in the garage sale ? <EOS> 
+
+Test output (143.0-19.0)
+
+Target (42.0-19.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Paco had NUM cookies . He ate NUM of them . Then he bought NUM more cookies How many more cookies did he buy than those he ate ? <EOS> 
+
+Test output (13.0-2.0)
+
+Target (36.0-2.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> A grocery store had NUM bottles of diet soda , NUM bottles of regular soda and NUM apples . How many more bottles of regular soda than diet soda did they have ? <EOS> 
+
+Test output (83.0-12.0)
+
+Target (83.0-54.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> There were NUM roses and NUM orchids in the vase . Jessica cut some more roses and orchids from her flower garden . There are now NUM roses and NUM orchids in the vase . How many roses did she cut ? <EOS> 
+
+Test output (96.0-15.0)
+
+Target (17.0-15.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> There are NUM different movies and NUM different books in the ' crazy silly school ' series . If you read NUM of the books and watched NUM of the movies How many more movies do you still have to <UNK> ? <EOS> 
+
+Test output (21.0-4.0)
+
+Target (8.0-4.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Ed had NUM more marbles than Doug . Ed lost NUM of his marbles at the <UNK> . If Ed had NUM marbles How many more marbles did Ed have than Doug then ? <EOS> 
+
+Test output (91.0-21.0)
+
+Target (30.0-21.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> There are NUM different books and NUM different movies in the ' crazy silly school ' series . If you read NUM of the books and watched NUM of the movies How many more books than movies are there in the ' crazy silly school ' series ? <EOS> 
+
+Test output (19.0-13.0)
+
+Target (16.0-14.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Julia played tag with NUM kids on monday , NUM kids on tuesday and NUM kids on wednesday . How many kids did she play with on tuesday and wednesday ? <EOS> 
+
+Test output (2.0+14.0)
+
+Target (14.0+16.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Dave had NUM files and NUM apps on his phone . After deleting some apps and files he had NUM apps and NUM files left . How many files did he <UNK> ? <EOS> 
+
+Test output (24.0-17.0)
+
+Target (24.0-21.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> There were NUM roses and NUM orchids in the vase . Jessica cut some more roses and orchids from her flower garden . There are now NUM roses and NUM orchids in the vase . How many more orchids than roses are there in the vase now ? <EOS> 
+
+Test output (20.0-7.0)
+
+Target (20.0-11.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> He then went to see the oranges being harvested . He found out that they harvest NUM sacks of unripe oranges and NUM sacks of ripe oranges per day . How many more sacks of ripe oranges than unripe oranges are harvested per day ? <EOS> 
+
+Test output (86.0-86.0)
+
+Target (86.0-41.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> During summer break NUM kids from Lawrence county go to camp and the <UNK> NUM kids stay home . An <UNK> NUM kids from <UNK> the county <UNK> the camp . <UNK> <UNK> many kids are in Lawrence county ? <EOS> 
+
+Test output (610769.0+22.0)
+
+Target (610769.0+590796.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Baker made NUM cakes and NUM pastries . If he sold NUM pastries and NUM cakes How many more pastries than cakes did baker sell ? <EOS> 
+
+Test output (154.0-43.0)
+
+Target (154.0-78.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Paul had NUM books . After selling some in a garage sale he bought NUM new ones . If he has NUM books now How many more books did he buy than he sold ? <EOS> 
+
+Test output (116.0-38.0)
+
+Target (116.0-71.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Ed had NUM more marbles than Doug . Ed lost NUM of his marbles at the <UNK> . If Ed had NUM marbles How many marbles does Doug have now ? <EOS> 
+
+Test output (17.0-20.0)
+
+Target (17.0-12.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Jake has NUM fewer peaches than Steven . Steven has NUM more peaches than Jill . If Jill has NUM peaches How many more peaches does Jake have than Jill ? <EOS> 
+
+Test output (87.0-18.0)
+
+Target (18.0-5.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Matthew gave equal numbers of crackers and cakes to his NUM friends . If he had NUM crackers and NUM cakes initially How many crackers did each <UNK> eat ? <EOS> 
+
+Test output (98.0/4.0)
+
+Target (32.0/4.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> He also had NUM <UNK> for saltwater animals and NUM <UNK> for <UNK> animals . Each <UNK> has NUM animals in it . How many saltwater animals does <UNK> have ? <EOS> 
+
+Test output (56.0*10.0)
+
+Target (56.0*39.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> <UNK> had NUM bags with equal number of cookies . If you had NUM <UNK> and NUM cookies in total How many cookies does each bag have ? <EOS> 
+
+Test output (52.0/15.0)
+
+Target (52.0/26.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Jake has NUM more apples and NUM fewer peaches than Steven . Steven has NUM peaches and NUM apples . How many peaches does Jake have ? <EOS> 
+
+Test output (84.0-10.0)
+
+Target (13.0-10.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Mary is baking a cake . The recipe calls for NUM cups of sugar NUM cups of flour and NUM cups of salt . She already put in NUM cups of flour . How many more cups of flour than cups of salt does she need to add now ? <EOS> 
+
+Test output ((9.0-2.0)-4.0)
+
+Target ((7.0-2.0)-4.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> There are NUM baskets of peaches . Each basket has NUM red peaches and NUM green peaches . How many red peaches are in the baskets altogether ? <EOS> 
+
+Test output (18.0*6.0)
+
+Target (16.0*6.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> A <UNK> had NUM apples and NUM peaches . After making some <UNK> , he had NUM apples left . How many apples did he use ? <EOS> 
+
+Test output (54.0-39.0)
+
+Target (40.0-39.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Allan brought NUM balloons and Jake brought NUM balloons to the park . Allan then bought NUM more balloons at the park . How many balloons did Allan <UNK> to the park ? <EOS> 
+
+Test output (4.0+3.0)
+
+Target (5.0+3.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Katie had NUM <UNK> games and her new friends had NUM games and old friends had NUM games . How many games do her friends have in all ? <EOS> 
+
+Test output (91.0+53.0)
+
+Target (88.0+53.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Danny collects bottle caps and wrappers . He found NUM bottle caps and NUM wrappers at the park . Now he has NUM wrappers and NUM bottle caps in his collection . How many more wrappers than bottle caps does danny have now ? <EOS> 
+
+Test output (67.0-18.0)
+
+Target (67.0-35.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Mary is baking a cake . The recipe calls for NUM cups of sugar and NUM cups of flour . She already put in NUM cups of flour . How many more cups of sugar than cups of flour does she need to add now ? <EOS> 
+
+Test output (14.0-(5.0-11.0))
+
+Target (5.0-(14.0-11.0))
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Because of the decision Sofia asked the students to suggest specific types of food . If NUM students suggested adding bacon NUM suggested adding mashed potatoes to the menu and NUM suggested adding tomatoes How many more students suggested mashed potatoes than those that suggested bacon ? <EOS> 
+
+Test output (330.0-76.0)
+
+Target (330.0-269.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Rebecca wants to split a collection of eggs into groups of NUM . Rebecca has NUM eggs NUM bananas and NUM marbles . How many groups will be <UNK> ? <EOS> 
+
+Test output (66.0/6.0)
+
+Target (18.0/6.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Jack received NUM emails in the morning , NUM emails in the afternoon and NUM emails in the evening . How many emails did Jack receive in the morning and afternoon ? <EOS> 
+
+Test output (5.0+72.0)
+
+Target (5.0+8.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> There are NUM bananas and NUM oranges in Philip 's collection . If the bananas are organized into NUM groups and oranges are organized into NUM groups How big is each group of oranges ? <EOS> 
+
+Test output (356.0/47.0)
+
+Target (356.0/178.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Jack received NUM emails and NUM letters in the morning . He then received NUM emails and NUM letters in the afternoon . How many more emails did Jack receive in the morning than in the afternoon ? <EOS> 
+
+Test output (12.0-3.0)
+
+Target (10.0-3.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> During summer break NUM kids from Lawrence county go to camp and the <UNK> NUM kids <UNK> home . An <UNK> NUM kids from <UNK> the county <UNK> the camp . How many kids in total <UNK> the camp ? <EOS> 
+
+Test output (34044.0+134867.0)
+
+Target (34044.0+424944.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Nell collects cards . She had NUM baseball cards and NUM Ace cards . She gave some of her cards to Jeff and now has NUM baseball cards and Ace cards left . How many more baseball cards than Ace cards does Nell have ? <EOS> 
+
+Test output (415.0-415.0)
+
+Target (415.0-309.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> <UNK> <UNK> NUM <UNK> . Each <UNK> has NUM <UNK> . If there are NUM of <UNK> How many <UNK> of <UNK> are there altogether ? <EOS> 
+
+Test output (25.0*4.0)
+
+Target (17.0*4.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Matthew gave equal numbers of crackers and cakes to his NUM friends . If he had NUM crackers and NUM cakes initially How many cakes did each <UNK> eat ? <EOS> 
+
+Test output (10.0/4.0)
+
+Target (8.0/4.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Rebecca wants to split a collection of eggs into groups of NUM . Rebecca has NUM eggs and NUM marbles . How many more eggs does Rebecca have than marbles ? <EOS> 
+
+Test output (6.0-5.0)
+
+Target (20.0-6.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> In a school there are NUM girls and NUM boys . NUM more girls <UNK> the school . How many more girls than boys does the school have ? <EOS> 
+
+Test output ((410.0+465.0)-632.0)
+
+Target ((632.0+465.0)-410.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Rachel had to complete NUM pages of reading homework , NUM pages of math homework and NUM more pages of biology homework . How many more pages of math homework than reading homework did she have ? <EOS> 
+
+Test output (4.0-7.0)
+
+Target (7.0-4.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Because of the decision Sofia asked the students to suggest specific types of food . If NUM students suggested adding mashed potatoes NUM suggested adding bacon to the menu and NUM suggested adding tomatoes How many more students suggested mashed potatoes than those that suggested bacon ? <EOS> 
+
+Test output (120.0-97.0)
+
+Target (257.0-120.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Julia played tag with NUM kids on monday , NUM kids on tuesday and NUM kids on wednesday . How many kids did she play with on monday and wednesday ? <EOS> 
+
+Test output (5.0+9.0)
+
+Target (5.0+15.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Matthew had NUM crackers and NUM cakes . If Matthew gave equal numbers of crackers and cakes to his NUM friends How many crackers did each <UNK> eat ? <EOS> 
+
+Test output (34.0/11.0)
+
+Target (22.0/11.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> They decided to hold the <UNK> in their backyard . If they have NUM sets of tables and each <UNK> has NUM chairs How many more chairs than tables do they have ? <EOS> 
+
+Test output ((5.0*10.0)-10.0)
+
+Target ((5.0*10.0)-5.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Jake has NUM fewer peaches and NUM more apples than Steven . Steven has NUM apples and NUM peaches . How many more peaches than apples does Steven have ? <EOS> 
+
+Test output (11.0-18.0)
+
+Target (18.0-11.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Paul got a box of some crayons for his birthday . During the school year he gave NUM crayons to his friends while he lost NUM crayons . If he only had NUM crayons left How many crayons had <UNK> lost <UNK> <UNK> away ? <EOS> 
+
+Test output (52.0+492.0)
+
+Target (52.0+535.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Jake has NUM fewer peaches and NUM more apples than Steven . Steven has NUM peaches and NUM apples . How many more apples than peaches does Steven have ? <EOS> 
+
+Test output (12.0-15.0)
+
+Target (15.0-12.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Paul had NUM books and NUM pens . After selling some books and pens in a garage sale he had NUM books and NUM pens left . How many books did he sell in the garage sale ? <EOS> 
+
+Test output (108.0-59.0)
+
+Target (108.0-66.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> In a school there are NUM girls and NUM boys . NUM more girls and NUM more boys <UNK> the school . How many boys are there in the school now ? <EOS> 
+
+Test output (135.0+496.0)
+
+Target (214.0+910.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> NUM birds and NUM storks were sitting on the fence . NUM more birds came to join them . How many more birds than storks are sitting on the fence ? <EOS> 
+
+Test output ((4.0+2.0)-3.0)
+
+Target ((3.0+2.0)-4.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> David did NUM more push-ups but NUM less crunches than Zachary in gym class today . If Zachary did NUM push-ups and NUM crunches How many more push-ups than crunches did Zachary do ? <EOS> 
+
+Test output (33.0-33.0)
+
+Target (58.0-33.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Jack received NUM emails in the morning and NUM emails in the afternoon . How many more emails did Jack receive in the afternoon than in the morning ? <EOS> 
+
+Test output (6.0-6.0)
+
+Target (8.0-6.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Mary is baking a cake . The recipe calls for NUM cups of flour NUM cups of sugar and NUM cups of <UNK> . She already put in NUM cups of flour . How many more cups of flour than cups of sugar does she need to add now ? <EOS> 
+
+Test output ((10.0-7.0)-80.0)
+
+Target ((10.0-7.0)-2.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> The grasshopper and the frog had a jumping contest . The grasshopper jumped NUM inches and the frog jumped NUM inches . How much did they jump altogether ? <EOS> 
+
+Test output (31.0+31.0)
+
+Target (31.0+35.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Debby bought NUM water bottles and NUM soda bottles when they were on sale . If she drank NUM water bottles and NUM soda bottles a day How many days would the soda bottles last ? <EOS> 
+
+Test output (312.0/4.0)
+
+Target (256.0/4.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> NUM birds and NUM storks were sitting on the fence . NUM more storks came to join them . How many storks are sitting on the fence ? <EOS> 
+
+Test output (4.0+2.0)
+
+Target (6.0+2.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Bryan took a look at his books and magazines . If he has NUM books and NUM magazines in each of his NUM bookshelves How many books does he have in total ? <EOS> 
+
+Test output (80.0*23.0)
+
+Target (27.0*23.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> NUM red peaches , NUM yellow peaches and NUM green peaches are in the basket . How many green and yellow peaches are in the basket ? <EOS> 
+
+Test output (5.0+14.0)
+
+Target (6.0+14.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> He also had NUM aquariums for <UNK> animals and NUM aquariums for saltwater animals . Each aquarium has NUM animals in it . How many saltwater animals does <UNK> have ? <EOS> 
+
+Test output (74.0*46.0)
+
+Target (22.0*46.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Debby bought NUM soda bottles and NUM water bottles when they were on sale . If she drank NUM water bottles and NUM soda bottles a day How many days would the soda bottles last ? <EOS> 
+
+Test output (162.0/9.0)
+
+Target (360.0/9.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> NUM red peaches , NUM yellow peaches and NUM green peaches are in the basket . How many red and green peaches are in the basket ? <EOS> 
+
+Test output (6.0+90.0)
+
+Target (6.0+16.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Jerry had some action figures on a shelf in his room . Later he added NUM more action figures to the shelf and <UNK> NUM of the old ones . If there are NUM action figures on his shelf now How many action figures did he have initially on the shelf ? <EOS> 
+
+Test output ((2.0+7.0)-10.0)
+
+Target ((10.0+7.0)-2.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Paco had NUM sweet cookies and NUM salty cookies . He ate NUM sweet cookies and NUM salty cookies . How many salty cookies did Paco have left ? <EOS> 
+
+Test output (9.0-3.0)
+
+Target (6.0-3.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> There are NUM different movies and NUM different books in the ' crazy silly school ' series . If you read NUM of the books and watched NUM of the movies How many more books than movies are there in the ' crazy silly school ' series ? <EOS> 
+
+Test output (14.0-11.0)
+
+Target (15.0-14.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Baker made NUM cakes and NUM pastries . If he sold NUM cakes and NUM pastries How many more pastries than cakes did baker sell ? <EOS> 
+
+Test output (92.0-54.0)
+
+Target (92.0-68.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> He then went to see the oranges being harvested . He found out that they harvest NUM sacks of unripe oranges and NUM sacks of ripe oranges per day . How many sacks of ripe oranges will they have after NUM days of harvest ? <EOS> 
+
+Test output (25.0*73.0)
+
+Target (5.0*73.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> The Razorback shop makes $ NUM dollars off each t-shirt and $ NUM off each jersey . During the Arkansas and Texas tech game they sold NUM t-shirts and NUM jerseys . How much money did they make from selling the t-shirts ? <EOS> 
+
+Test output (99.0*31.0)
+
+Target (62.0*183.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Lewis earns $ NUM every week during the NUM weeks of harvest . If he has to <UNK> $ NUM <UNK> every week How much money does he <UNK> as <UNK> during the harvest <UNK> ? <EOS> 
+
+Test output (368.0*1359.0)
+
+Target (388.0*1359.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Paco had NUM salty cookies and NUM sweet cookies . He ate NUM sweet cookies and NUM salty cookies . How many sweet cookies did Paco have left ? <EOS> 
+
+Test output (97.0-15.0)
+
+Target (34.0-15.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> David did NUM more push-ups but NUM less crunches than Zachary in gym class today . If Zachary did NUM push-ups and NUM crunches How many crunches did David do ? <EOS> 
+
+Test output (34.0-17.0)
+
+Target (62.0-17.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Rachel had to complete NUM pages of math homework , NUM pages of reading homework and NUM more pages of biology homework . How many pages of math and reading homework did she have to complete ? <EOS> 
+
+Test output (11.0+29.0)
+
+Target (9.0+11.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Jerry had NUM action figures and NUM books on a shelf in his room . Later he added NUM more books to the shelf . How many books were on his shelf in all ? <EOS> 
+
+Test output (8.0+10.0)
+
+Target (9.0+10.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Together Adam and Jackie have NUM apples . He has NUM apples more than Adam and Jackie together do . Adam has NUM more apples than Jackie . How many apples does He have ? <EOS> 
+
+Test output (12.0+8.0)
+
+Target (12.0+9.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> An <UNK> machine made NUM shirts yesterday and NUM shirts today . It can make NUM shirts a <UNK> . How many minutes did the machine <UNK> yesterday ? <EOS> 
+
+Test output (44.0/3.0)
+
+Target (9.0/3.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Mary is baking a cake . The recipe calls for NUM cups of sugar NUM cups of flour and NUM cups of <UNK> . She already put in NUM cups of flour . How many more cups of flour than cups of sugar does she need to add now ? <EOS> 
+
+Test output ((14.0-4.0)-40.0)
+
+Target ((14.0-4.0)-9.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Helen the hippo and her friends are preparing for thanksgiving at Helen 's house . Helen baked NUM chocolate chip cookies and NUM raisin cookies yesterday . <UNK> she baked NUM raisin cookies and NUM chocolate chip cookies this morning . How many more raisin cookies did Helen bake yesterday <UNK> to today ? <EOS> 
+
+Test output (519.0-359.0)
+
+Target (300.0-280.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Jack received NUM emails and NUM letters in the morning . He then received NUM emails and NUM letters in the afternoon . How many more letters did Jack receive in the morning than in the afternoon ? <EOS> 
+
+Test output (6.0-2.0)
+
+Target (8.0-7.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> A book has NUM chapters . The first chapter is NUM pages long the second chapter is NUM pages long and the <UNK> chapter is NUM pages long . How many more pages does the first chapter have than the <UNK> chapter ? <EOS> 
+
+Test output (75.0-21.0)
+
+Target (53.0-21.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> <UNK> was <UNK> cans for <UNK> . On monday she had NUM bags of cans . The next day she found NUM more bags of cans and NUM bags of bottles . How many bags of cans did she have altogether ? <EOS> 
+
+Test output (7.0+44.0)
+
+Target (3.0+7.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Last week Fred had NUM dollars and Jason had NUM dollars . They washed cars over the weekend and now Fred has NUM dollars and Jason has NUM dollars . How much money did Jason make over the weekend ? <EOS> 
+
+Test output (114.0-21.0)
+
+Target (78.0-22.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Julia played tag with NUM kids on monday , NUM kids on tuesday and NUM kids on wednesday . How many kids did she play with on monday and tuesday ? <EOS> 
+
+Test output (15.0+97.0)
+
+Target (15.0+18.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Mary is baking a cake . The recipe calls for NUM cups of sugar and NUM cups of flour . She already put in NUM cups of sugar . How many more cups of sugar does she need to add ? <EOS> 
+
+Test output (10.0-4.0)
+
+Target (7.0-4.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Every day Ryan spends NUM hours on learning english and NUM hours on learning chinese . If he <UNK> for NUM days How many hours does he spend on learning english in all ? <EOS> 
+
+Test output (5.0*2.0)
+
+Target (6.0*2.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Paul had NUM books and NUM pens . After selling some books and pens in a garage sale he had NUM books and NUM pens left . How many pens did he sell in the garage sale ? <EOS> 
+
+Test output (51.0-14.0)
+
+Target (106.0-14.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Because of the decision Sofia asked the students to suggest specific types of food . If NUM students suggested adding mashed potatoes NUM suggested adding bacon to the menu and NUM suggested adding tomatoes How many more students suggested mashed potatoes than those that suggested tomatoes ? <EOS> 
+
+Test output (467.0-79.0)
+
+Target (144.0-79.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> There are NUM <UNK> in Steven 's <UNK> collection . Steven also has NUM erasers and NUM <UNK> . If the <UNK> are organized into NUM groups How <UNK> is each group ? <EOS> 
+
+Test output (517.0/8.0)
+
+Target (896.0/8.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Rachel had to complete NUM pages of math homework , NUM pages of reading homework and NUM more pages of biology homework . How many pages of math and biology homework did she have to complete ? <EOS> 
+
+Test output (7.0+3.0)
+
+Target (8.0+3.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> The Razorback shop makes $ NUM dollars off each jersey and $ NUM off each t-shirt . During the Arkansas and Texas tech game they sold NUM t-shirts and NUM jerseys . How much money did they make from selling the jerseys ? <EOS> 
+
+Test output (204.0*2.0)
+
+Target (76.0*2.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Zachary did NUM push-ups and NUM crunches in gym class today . David did NUM more push-ups but NUM less crunches than <UNK> . How many more crunches than push-ups did Zachary do ? <EOS> 
+
+Test output (46.0-38.0)
+
+Target (58.0-46.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> The <UNK> <UNK> game at the carnival made the same amount of money each day . In total in NUM days they <UNK> NUM dollars . Together with game they <UNK> NUM dollars . How much did <UNK> <UNK> game make per day ? <EOS> 
+
+Test output (420.0/22.0)
+
+Target (420.0/30.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> The Ferris wheel in <UNK> park has NUM small seats and NUM large seats . Each small seat can hold NUM people and large seat can hold NUM people . How many people can <UNK> the Ferris wheel on small seats ? <EOS> 
+
+Test output (23.0*14.0)
+
+Target (2.0*14.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Dan has $ NUM . He bought NUM candy bar for $ NUM , each one <UNK> the same amount of money . How much did each candy bar cost ? <EOS> 
+
+Test output (3.0/2.0)
+
+Target (4.0/2.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Paul got a box of NUM crayons and NUM erasers for his birthday . At the end of the school year he only had NUM left while not having lost a <UNK> erasers . How many crayons had <UNK> lost <UNK> <UNK> away ? <EOS> 
+
+Test output (154.0-66.0)
+
+Target (521.0-154.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> NUM red peaches , NUM yellow peaches and NUM green peaches are in the basket . How many more green peaches than red peaches are in the basket ? <EOS> 
+
+Test output (71.0-7.0)
+
+Target (8.0-7.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Baker made NUM cakes . He bought NUM new cakes and sold NUM cakes . How many cakes does baker still have ? <EOS> 
+
+Test output ((173.0-103.0)+86.0)
+
+Target ((173.0-86.0)+103.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> During summer break NUM kids from Lawrence county stayed home and the <UNK> NUM kids went to camp . An <UNK> NUM kids from <UNK> the county <UNK> the camp . How many kids are in Lawrence county ? <EOS> 
+
+Test output (644997.0+78.0)
+
+Target (893835.0+644997.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Debby bought NUM soda bottles and NUM water bottles when they were on sale . If she drank NUM water bottles and NUM soda bottles a day How many days would the water bottles last ? <EOS> 
+
+Test output (95.0/15.0)
+
+Target (180.0/15.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> In a school there are NUM girls and NUM boys . NUM more girls and NUM more boys <UNK> the school . How many girls are there in the school now ? <EOS> 
+
+Test output (761.0+8.0)
+
+Target (732.0+682.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Helen the <UNK> and her friends are <UNK> for <UNK> at Helen 's house . Helen baked NUM chocolate chip cookies and NUM raisin cookies yesterday . <UNK> she baked NUM raisin cookies and NUM chocolate chip cookies <UNK> morning . How many chocolate chip cookies did Helen <UNK> ? <EOS> 
+
+Test output (86.0+554.0)
+
+Target (527.0+554.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Helen the <UNK> and her friends are <UNK> for <UNK> at Helen 's house . Helen baked NUM chocolate chip cookies and NUM raisin cookies yesterday . <UNK> she baked NUM raisin cookies and NUM chocolate chip cookies <UNK> morning . How many raisin cookies did Helen <UNK> ? <EOS> 
+
+Test output (144.0+403.0)
+
+Target (397.0+85.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Allan brought NUM balloons and NUM <UNK> while Jake brought NUM balloons and NUM <UNK> to the park . How many <UNK> did Allan and Jake have in the park ? <EOS> 
+
+Test output (7.0+6.0)
+
+Target (5.0+4.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Baker made NUM cakes and NUM pastries . If he sold NUM cakes and NUM pastries How many more cakes than pastries did baker make ? <EOS> 
+
+Test output (115.0-81.0)
+
+Target (126.0-48.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> <UNK> has NUM nintendo games and NUM <UNK> games . How many <UNK> games does she need to give away <UNK> that she will have NUM <UNK> games left ? <EOS> 
+
+Test output (46.0-31.0)
+
+Target (132.0-31.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Edward spent $ NUM to buy NUM books each book <UNK> him the same amount of money . Now he has $ NUM . How much did each book cost ? <EOS> 
+
+Test output (12.0/2.0)
+
+Target (6.0/2.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Frank was reading through his favorite book . The book had NUM pages equally <UNK> over NUM chapters . It took Frank NUM days to finish the book . How many chapters did he read per day ? <EOS> 
+
+Test output (193.0/15.0)
+
+Target (660.0/15.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> After eating a hearty meal they went to see the Buckingham palace . There , Rachel learned that NUM visitors came to the Buckingham palace that day . If there were NUM visitors the previous day How many more visitors visited the Buckingham palace on that day than on the previous day ? <EOS> 
+
+Test output (295.0-295.0)
+
+Target (317.0-295.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> The school is planning a field trip . The school has NUM classrooms . There are NUM students in the school with each <UNK> having the same number of students . There are NUM seats on each school bus . How many students are in each class ? <EOS> 
+
+Test output (120.0/84.0)
+
+Target (120.0/24.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Adam has NUM more apples than Jackie . Together Adam and Jackie have NUM apples . <UNK> has NUM apples more than Adam and Jackie together do . How many apples does <UNK> have ? <EOS> 
+
+Test output (4.0+6.0)
+
+Target (14.0+6.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Danny collects bottle caps and wrappers . He found NUM bottle caps and NUM wrappers at the park . Now he has NUM bottle caps and NUM wrappers in his collection . How many more wrappers than bottle caps did danny find at the park ? <EOS> 
+
+Test output (68.0-11.0)
+
+Target (28.0-11.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Faye was placing her pencils and crayons into NUM rows with NUM pencils and NUM crayons in each row . How many pencils and crayons does she have altogether ? <EOS> 
+
+Test output ((11.0+31.0)*27.0)
+
+Target ((31.0+27.0)*11.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> At the <UNK> , a <UNK> had NUM snakes and NUM alligators . If NUM alligators were hiding How many alligators were not hiding ? <EOS> 
+
+Test output (93.0-40.0)
+
+Target (97.0-40.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Rachel had to complete NUM pages of math homework , NUM pages of reading homework and NUM more pages of biology homework . How many pages of reading and biology homework did she have to complete ? <EOS> 
+
+Test output (5.0+6.0)
+
+Target (10.0+6.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Matthew had NUM crackers and NUM cakes . If Matthew gave equal numbers of crackers and cakes to his NUM friends How many cakes did each person eat ? <EOS> 
+
+Test output (29.0/2.0)
+
+Target (30.0/2.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Robin has NUM packages of gum and NUM packages of candy . There are NUM pieces in each package . How many pieces of gum does Robin have ? <EOS> 
+
+Test output (13.0*4.0)
+
+Target (28.0*4.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Danny collects bottle caps and wrappers . He found NUM bottle caps and NUM wrappers at the park . Now he has NUM bottle caps and NUM wrappers in his collection . How many wrappers did danny have at first ? <EOS> 
+
+Test output (17.0-22.0)
+
+Target (57.0-30.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Paul had NUM pens and NUM books . After selling some books and pens in a garage sale he had NUM books and NUM pens left . How many books did he sell in the garage sale ? <EOS> 
+
+Test output (95.0-13.0)
+
+Target (153.0-13.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> There are NUM different books and NUM different movies in the ' crazy silly school ' series . If you read NUM of the books and watched NUM of the movies How many more movies do you still have to <UNK> ? <EOS> 
+
+Test output (19.0-7.0)
+
+Target (17.0-7.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Katie had NUM new games and NUM old games . <UNK> friends had NUM new games and NUM old games . How many old games do they have NUM <EOS> 
+
+Test output (62.0+3.0)
+
+Target (80.0+41.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Jack received NUM emails in the morning , NUM emails in the afternoon and NUM emails in the evening . How many more emails did Jack receive in the morning than in the evening ? <EOS> 
+
+Test output (10.0-7.0)
+
+Target (9.0-7.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Danny collects bottle caps and wrappers . He found NUM wrappers and NUM bottle caps at the park . Now he has NUM bottle caps and NUM wrappers in his collection . How many wrappers did danny have at first ? <EOS> 
+
+Test output (16.0-39.0)
+
+Target (68.0-66.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> NUM red peaches , NUM yellow peaches and NUM green peaches are in the basket . How many more green peaches than yellow peaches are in the basket ? <EOS> 
+
+Test output (6.0-2.0)
+
+Target (14.0-6.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Jerry had NUM action figures on a shelf in his room . Later he added some more action figures to the shelf and <UNK> NUM of the old ones . If there are NUM action figures on his shelf now How many action figures did he add to the shelf ? <EOS> 
+
+Test output ((7.0+10.0)-10.0)
+
+Target ((8.0+10.0)-7.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Rachel had to complete NUM pages of math homework , NUM pages of reading homework and NUM more pages of biology homework . How many more pages of math homework than biology homework did she have ? <EOS> 
+
+Test output (11.0-2.0)
+
+Target (11.0-3.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> After eating a hearty meal they went to see the Buckingham palace . There were NUM <UNK> in the Buckingham palace . There , Rachel learned that NUM visitors came to the Buckingham palace that day . If there were NUM visitors the previous day How many more visitors visited the Buckingham palace on that day than on the previous day ? <EOS> 
+
+Test output (600.0-39.0)
+
+Target (661.0-600.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> NUM campers went rowing in the morning NUM campers went rowing in the afternoon and NUM campers went rowing in the evening . How many more campers went rowing in the morning than in the evening ? <EOS> 
+
+Test output (53.0-48.0)
+
+Target (53.0-49.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Rachel had to complete NUM pages of math homework , NUM pages of reading homework and NUM more pages of biology homework . How many more pages of reading homework than biology homework did she have ? <EOS> 
+
+Test output (11.0-7.0)
+
+Target (11.0-8.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> Baker made NUM cakes and NUM pastries . If he sold NUM cakes and NUM pastries How many more pastries than cakes did baker make ? <EOS> 
+
+Test output (88.0-70.0)
+
+Target (131.0-19.0)
+
+Val Acc False
+
+Equation Acc False
+
+Question: <SOS> There were NUM roses and NUM orchids in the vase . Jessica cut some more roses and orchids from her flower garden . There are now NUM orchids and NUM roses in the vase . How many roses did she cut ? <EOS> 
+
+Test output (91.0-13.0)
+
+Target (14.0-13.0)
+
+Val Acc False
+
+Equation Acc False
+

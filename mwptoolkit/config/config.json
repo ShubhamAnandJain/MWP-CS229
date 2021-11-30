@@ -8,6 +8,5 @@
     "supervising_mode": "fully_supervised",
     "rebuild":false,
     "validset_divide":true,
-    "shuffle":false,
-    "test_only":true
+    "shuffle":false
 }

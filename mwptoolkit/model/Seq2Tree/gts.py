@@ -131,7 +131,7 @@ class GTS(nn.Module):
 
         all_output = self.convert_idx2symbol(all_node_output, num_list[0], copy_list(nums_stack[0]))
         targets = self.convert_idx2symbol(target[0], num_list[0], copy_list(nums_stack[0]))
-        return all_output, targets
+        return seq, all_output, targets
 
     def train_tree(self, input_batch, input_length, target_batch, target_length, nums_stack_batch, num_size_batch, generate_nums, num_pos, unk, num_start, english=False):
         # sequence mask for attention
