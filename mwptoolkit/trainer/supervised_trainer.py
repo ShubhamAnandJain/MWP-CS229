@@ -552,8 +552,8 @@ class GTSTrainer(AbstractTrainer):
         
         if self.print_debug:
             for i in range(batch_size):
-                if(val_acc[i] == False):
-                  continue
+                # if(val_acc[i] == False):
+                #   continue
                 print("Question:", act_questions[i])
                 #print("Test output Polish", test_out[i])
                 #print("Target Polish", target[i])
