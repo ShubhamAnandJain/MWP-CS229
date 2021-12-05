@@ -26,7 +26,7 @@ def convert(equation):
 
 	return fin_eq
 
-f = open("mathen_true.txt", "r")
+f = open("groupatt_false.txt", "r")
 lines = f.readlines()
 
 correct_eq = 0
@@ -51,8 +51,6 @@ for i in range(int(len(lines)/5)):
 		print(lines[5*i])
 		print(lines[5*i+1])
 		print(lines[5*i+2])
-		print(lines[5*i+3])
-		print(lines[5*i+4])
 
 # print(correct_eq)
 # print(total_fail)
